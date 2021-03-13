@@ -6,5 +6,5 @@
 - [ ] 01-[gopoc](https://github.com/jjf012/gopoc)@jjf012#重现了xray的poc检测功能
 - [ ] 02-[kscan](https://github.com/lcvvvv/kscan)@lcvvvv#一款轻量级的资产发现工具
 - [ ] 03-[httpx](https://github.com/projectdiscovery/httpx)@projectdiscovery#快速且多功能的HTTP工具
-- [ ] 04-[nuclei]()@projectdiscovery#基于模板的漏洞扫描工具
+- [ ] 04-[nuclei](https://github.com/projectdiscovery/nuclei)@projectdiscovery#基于模板的漏洞扫描工具
 - [ ] 05-[naabu](https://github.com/projectdiscovery/naabu)@projectdiscovery#快速进行端口扫描的工具
