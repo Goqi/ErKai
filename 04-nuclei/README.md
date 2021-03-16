@@ -10,6 +10,7 @@
 
 ## 01-第三方库
 
+- [ ] gopkg.in/yaml.v2 | YAML配置文件处理
 - [ ] github.com/json-iterator/go | json处理库
 - [ ] github.com/julienschmidt/httprouter | 轻量级高性能HTTP请求路由器
 - [ ] github.com/hashicorp/go-retryablehttp | Go中可重试的HTTP客户端
@@ -27,7 +28,7 @@
 - [ ] github.com/miekg/dns | Go中的DNS库
 - [ ] github.com/mitchellh/go-ps | Go的流程列表库
 - [ ] github.com/olekukonko/tablewriter | Golang中的ASCII表
-- [ ] github.com/pkg/errors | 错误处理
+- [ ] github.com/pkg/errors | 错误处理库
 - [ ] github.com/projectdiscovery/clistats | 命令行统计信息显示库
 - [ ] github.com/projectdiscovery/collaborator | BurpSuite标准/私人协作者库
 - [ ] github.com/projectdiscovery/fastdialer | 具有dns缓存+拨号历史记录的拨号程序
@@ -60,7 +61,6 @@
 - [ ] golang.org/x/text
 - [ ] golang.org/x/time
 - [ ] google.golang.org/appengine
-- [ ] gopkg.in/yaml.v2
 
 ## 02-开发设计
 
