@@ -9,4 +9,4 @@
 - [ ] 04-[nuclei](https://github.com/projectdiscovery/nuclei)@projectdiscovery#基于模板的漏洞扫描工具
 - [ ] 05-[naabu](https://github.com/projectdiscovery/naabu)@projectdiscovery#快速进行端口扫描的工具
 - [ ] 06-[Amass](https://github.com/OWASP/Amass)@OWASP#深入的攻击面映射和资产发现工具
-- [ ] 07-[ffuf](https://github.com/ffuf/ffuf)@joohoi#用Golang编写的快速进行模糊测试
+- [ ] 07-[ffuf](https://github.com/ffuf/ffuf)@joohoi#用Go语言编写的快速进行模糊测试工具
