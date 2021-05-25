@@ -11,3 +11,4 @@
 - [ ] 06-[Amass](https://github.com/OWASP/Amass)@OWASP#深入的攻击面映射和资产发现工具
 - [ ] 07-[ffuf](https://github.com/ffuf/ffuf)@joohoi#用Go语言编写的快速进行模糊测试工具
 - [ ] 08-[pocassist](https://github.com/jweny/pocassist)@jweny#一款全新的开源漏洞测试框架
+- [ ] 09-[fscan](https://github.com/shadow1ng/fscan)@shadow1ng#一款内网综合漏洞扫描工具
