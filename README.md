@@ -1,8 +1,9 @@
 # Go语言安全项目代码学习
 本项目用于记录一些优秀的Go语言开发的安全项目代码。这些项目值得我们深入学习理解甚至是参考借鉴，期待自己也可以写出这样优秀的代码。本项目计划寻找100个优秀的项目代码并深入分析学习。
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年1月7日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2022年3月29日。本项目会持续更新，直到海枯石烂！
 
+- [ ] 12-[linglong](https://github.com/LearnGolang/LearnCode/tree/main/12-linglong)@[awake1t](https://github.com/awake1t/linglong)#
 - [ ] 11-[Yasso](https://github.com/0e0w/GolangCode/tree/main/11-Yasso)@[sairson](https://github.com/sairson/Yasso)#强大的内网渗透辅助工具集
 - [ ] 10-[scaninfo](https://github.com/0e0w/GolangCode/tree/main/10-scaninfo)@[redtoolskobe](https://github.com/redtoolskobe/scaninfo)#红队内外网打点扫描器
 - [ ] 09-[fscan](https://github.com/0e0w/GolangCode/tree/main/09-fscan)@[shadow1ng](https://github.com/shadow1ng/fscan)#一款内网综合漏洞扫描工具
