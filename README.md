@@ -1,7 +1,8 @@
-# Go语言安全项目代码学习
-本项目用于记录一些优秀的Go语言开发的安全项目代码。这些项目值得我们深入学习理解甚至是参考借鉴，期待自己也可以写出这样优秀的代码。本项目计划寻找100个优秀的项目代码并深入分析学习。
+# ErKai-开源项目二开计划
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年3月29日。本项目会持续更新，直到海枯石烂！
+本项目计划寻找100个优秀的开源安全项目代码深入分析学习后进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Golang！
+
+本项目创建于2021年3月7日，最近的一次更新时间为2022年11月02日。本项目会持续更新，直到海枯石烂！
 
 - [ ] 12-[linglong](https://github.com/LearnGolang/LearnCode/tree/main/12-linglong)@[awake1t](https://github.com/awake1t/linglong)#一款甲方资产巡航扫描系统
 - [ ] 11-[Yasso](https://github.com/0e0w/GolangCode/tree/main/11-Yasso)@[sairson](https://github.com/sairson/Yasso)#强大的内网渗透辅助工具集
