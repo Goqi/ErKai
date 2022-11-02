@@ -1,6 +1,6 @@
 # ErKai-开源项目二开计划
 
-本项目计划寻找100个优秀的开源安全项目代码深入分析学习后进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Golang！
+本项目计划寻找100个优秀的开源安全项目代码深入分析学习后进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Golang！二开只会新增功能，不会删减功能。代码可能会有很大的变动，也可能变动只是很小。作者：[0e0w](https://github.com/0e0w)
 
 本项目创建于2021年3月7日，最近的一次更新时间为2022年11月02日。本项目会持续更新，直到海枯石烂！
 
@@ -23,8 +23,8 @@
 
 ## 0x03-隧道代理
 
-- [Venom](https://github.com/Goqi/ErKai/tree/main/0x03/Venom)@[Dliv3](https://github.com/Dliv3/Venom)#渗透测试人员的多跳代理
-- [frp](https://github.com/Goqi/ErKai/tree/main/0x03/frp)@[fatedier](https://github.com/fatedier/frp)#专注于内网穿透的高性能的反向代理
+- [rkVenom](https://github.com/Goqi/rkVenom)：[Venom](https://github.com/Goqi/ErKai/tree/main/0x03/Venom)@[Dliv3](https://github.com/Dliv3/Venom)#Go开发的多级代理工具
+- [rkfrp](https://github.com/Goqi/rkfrp)：[frp](https://github.com/Goqi/ErKai/tree/main/0x03/frp)@[fatedier](https://github.com/fatedier/frp)#专注于内网穿透的高性能的反向代理
 
 ## 0x04-病毒免杀
 
