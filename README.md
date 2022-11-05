@@ -16,17 +16,23 @@
 - [scaninfo](https://github.com/Goqi/ErKai/tree/main/0x01/scaninfo)@[redtoolskobe](https://github.com/redtoolskobe/scaninfo)#红队内外网打点扫描器
 - [Yasso](https://github.com/Goqi/ErKai/tree/main/0x01/Yasso)@[sairson](https://github.com/sairson/Yasso)#强大的内网渗透辅助工具集
 - [afrog](https://github.com/Goqi/ErKai/tree/main/0x01/afrog)@[zan8in](https://github.com/zan8in/afrog)#性能卓越快速稳定PoC 可定制化的漏扫
+- https://github.com/cdk-team/CDK
+- https://github.com/teamssix/cf
+- https://github.com/opensec-cn/kunpeng
 
 ## 0x02-资产扫描
 
 - [Amass](https://github.com/Goqi/ErKai/tree/main/0x02/Amass)@[OWASP](https://github.com/OWASP/Amass)#深入的攻击面映射和资产发现工具
 - [subfinder](https://github.com/Goqi/ErKai/tree/main/0x02/subfinder)@[projectdiscovery](https://github.com/projectdiscovery/subfinder)#一个子域发现工具
 - [**Erfofax**](https://github.com/Goqi/Erfofax)：[fofax](https://github.com/Goqi/ErKai/tree/main/0x02/fofax)@[xiecat](https://github.com/xiecat/fofax)#fofa.info API查询信息收集探测
+- https://github.com/redtoolskobe/scaninfo
+- https://github.com/boy-hack/ksubdomain
 
 ## 0x03-隧道代理
 
 - [**ErVenom**](https://github.com/Goqi/ErVenom)：[Venom](https://github.com/Goqi/ErKai/tree/main/0x03/Venom)@[Dliv3](https://github.com/Dliv3/Venom)#Go开发的多级代理工具
 - [**Erfrp**](https://github.com/Goqi/Erfrp)：[frp](https://github.com/Goqi/ErKai/tree/main/0x03/frp)@[fatedier](https://github.com/fatedier/frp)#专注于内网穿透的高性能的反向代理
+- https://github.com/ph4ntonn/Stowaway
 
 ## 0x04-病毒免杀
 
