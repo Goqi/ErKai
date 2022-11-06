@@ -34,6 +34,7 @@
 - [**ErStowaway**](https://github.com/Goqi/ErStowaway)：[Stowaway](https://github.com/Goqi/ErKai/tree/main/0x03/Stowaway)@[ph4ntonn](https://github.com/ph4ntonn/Stowaway)#用于渗透测试者的多跳代理工具
 - [**Ersliver**](https://github.com/Goqi/Ersliver)：[sliver](https://github.com/Goqi/ErKai/tree/main/0x03/sliver)@[BishopFox](https://github.com/BishopFox/sliver)#Adversary Emulation Framework
 - [**Ermerlin**](https://github.com/Goqi/Ermerlin)：[merlin](https://github.com/Goqi/ErKai/tree/main/0x03/merlin)@[Ne0nd0g](https://github.com/Ne0nd0g/merlin)#HTTP命令和控制服务器
+- [**ErCHAOS**](https://github.com/Goqi/ErCHAOS)：[CHAOS](https://github.com/Goqi/ErKai/tree/main/0x03/CHAOS)@[tiagorlampert](https://github.com/tiagorlampert/CHAOS)#免费的开源远程管理工具
 
 ## 0x04-病毒免杀
 
