@@ -25,14 +25,15 @@
 - [Amass](https://github.com/Goqi/ErKai/tree/main/0x02/Amass)@[OWASP](https://github.com/OWASP/Amass)#深入的攻击面映射和资产发现工具
 - [subfinder](https://github.com/Goqi/ErKai/tree/main/0x02/subfinder)@[projectdiscovery](https://github.com/projectdiscovery/subfinder)#一个子域发现工具
 - [**Erfofax**](https://github.com/Goqi/Erfofax)：[fofax](https://github.com/Goqi/ErKai/tree/main/0x02/fofax)@[xiecat](https://github.com/xiecat/fofax)#fofa.info API查询信息收集探测
-- https://github.com/redtoolskobe/scaninfo
 - https://github.com/boy-hack/ksubdomain
 
-## 0x03-隧道代理
+## 0x03-远控隧道
 
 - [**Erfrp**](https://github.com/Goqi/Erfrp)：[frp](https://github.com/Goqi/ErKai/tree/main/0x03/frp)@[fatedier](https://github.com/fatedier/frp)#专注于内网穿透的高性能的反向代理
 - [**ErVenom**](https://github.com/Goqi/ErVenom)：[Venom](https://github.com/Goqi/ErKai/tree/main/0x03/Venom)@[Dliv3](https://github.com/Dliv3/Venom)#Go开发的多级代理工具
 - [**ErStowaway**](https://github.com/Goqi/ErStowaway)：[Stowaway](https://github.com/Goqi/ErKai/tree/main/0x03/Stowaway)@[ph4ntonn](https://github.com/ph4ntonn/Stowaway)#用于渗透测试者的多跳代理工具
+- [**Ersliver**](https://github.com/Goqi/Ersliver)：[sliver](https://github.com/Goqi/ErKai/tree/main/0x03/sliver)@[BishopFox](https://github.com/BishopFox/sliver)#Adversary Emulation Framework
+- [**Ermerlin**](https://github.com/Goqi/Ermerlin)：[merlin](https://github.com/Goqi/ErKai/tree/main/0x03/merlin)@[Ne0nd0g](https://github.com/Ne0nd0g/merlin)#HTTP命令和控制服务器
 
 ## 0x04-病毒免杀
 
