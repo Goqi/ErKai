@@ -16,6 +16,7 @@
 - [scaninfo](https://github.com/Goqi/ErKai/tree/main/0x01/scaninfo)@[redtoolskobe](https://github.com/redtoolskobe/scaninfo)#红队内外网打点扫描器
 - [Yasso](https://github.com/Goqi/ErKai/tree/main/0x01/Yasso)@[sairson](https://github.com/sairson/Yasso)#强大的内网渗透辅助工具集
 - [afrog](https://github.com/Goqi/ErKai/tree/main/0x01/afrog)@[zan8in](https://github.com/zan8in/afrog)#性能卓越快速稳定PoC 可定制化的漏扫
+- [crawlergo](https://github.com/Goqi/ErKai/tree/main/0x01/crawlergo)@[Qianlitp](https://github.com/Qianlitp/crawlergo)#用于Web漏洞扫描程序的强大浏览器爬虫
 - https://github.com/cdk-team/CDK
 - https://github.com/teamssix/cf
 - https://github.com/opensec-cn/kunpeng
