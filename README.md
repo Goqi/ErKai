@@ -7,26 +7,26 @@
 ## 0x01-漏洞扫描
 
 - [**Erfscan**](https://github.com/Goqi/Erfscan)：[fscan](https://github.com/Goqi/ErKai/tree/main/0x01/fscan)@[shadow1ng](https://github.com/shadow1ng/fscan)#一款内网综合漏洞扫描工具
+- [**Erafrog**](https://github.com/Goqi/Erafrog)：[afrog](https://github.com/Goqi/ErKai/tree/main/0x01/afrog)@[zan8in](https://github.com/zan8in/afrog)#性能卓越快速稳定PoC 可定制化的漏扫
+- [**Ernuclei**](https://github.com/Goqi/Ernuclei)：[nuclei](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei)@[projectdiscovery](https://github.com/projectdiscovery/nuclei)#基于模板的漏洞扫描工具
 - [gopoc](https://github.com/Goqi/ErKai/tree/main/0x01/gopoc)@[jjf012](https://github.com/jjf012/gopoc)#重现了xray的poc检测功能
 - [kscan](https://github.com/Goqi/ErKai/tree/main/0x01/kscan)@[lcvvvv](https://github.com/lcvvvv/kscan)#一款轻量级的资产发现工具
 - [httpx](https://github.com/Goqi/ErKai/tree/main/0x01/httpx)@[projectdiscovery](https://github.com/projectdiscovery/httpx)#快速且多功能的HTTP工具
-- [nuclei](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei)@[projectdiscovery](https://github.com/projectdiscovery/nuclei)#基于模板的漏洞扫描工具
 - [naabu](https://github.com/Goqi/ErKai/tree/main/0x01/naabu)@[projectdiscovery](https://github.com/projectdiscovery/naabu)#快速进行端口扫描的工具
 - [ffuf](https://github.com/Goqi/ErKai/tree/main/0x01/ffuf)@[joohoi](https://github.com/ffuf/ffuf)#用Go语言编写的快速进行模糊测试工具
 - [scaninfo](https://github.com/Goqi/ErKai/tree/main/0x01/scaninfo)@[redtoolskobe](https://github.com/redtoolskobe/scaninfo)#红队内外网打点扫描器
 - [Yasso](https://github.com/Goqi/ErKai/tree/main/0x01/Yasso)@[sairson](https://github.com/sairson/Yasso)#强大的内网渗透辅助工具集
-- [afrog](https://github.com/Goqi/ErKai/tree/main/0x01/afrog)@[zan8in](https://github.com/zan8in/afrog)#性能卓越快速稳定PoC 可定制化的漏扫
 - [crawlergo](https://github.com/Goqi/ErKai/tree/main/0x01/crawlergo)@[Qianlitp](https://github.com/Qianlitp/crawlergo)#用于Web漏洞扫描程序的强大浏览器爬虫
-- https://github.com/cdk-team/CDK
-- https://github.com/teamssix/cf
-- https://github.com/opensec-cn/kunpeng
+- [kunpeng](https://github.com/Goqi/ErKai/tree/main/0x01/kunpeng)@[opensec-cn](https://github.com/opensec-cn/kunpeng)#Golang编写的开源POC框架/库
+- [CDK](https://github.com/Goqi/ErKai/tree/main/0x01/CDK)@[opensec-cn](https://github.com/cdk-team/CDK)#简化 K8s/Docker和Containerd的安全测试
+- [cf](https://github.com/Goqi/ErKai/tree/main/0x01/cf)@[teamssix](https://github.com/teamssix/cf)#一个云环境利用框架
 
 ## 0x02-资产扫描
 
+- [**Erfofax**](https://github.com/Goqi/Erfofax)：[fofax](https://github.com/Goqi/ErKai/tree/main/0x02/fofax)@[xiecat](https://github.com/xiecat/fofax)#fofaAPI查询信息收集探测工具
 - [Amass](https://github.com/Goqi/ErKai/tree/main/0x02/Amass)@[OWASP](https://github.com/OWASP/Amass)#深入的攻击面映射和资产发现工具
 - [subfinder](https://github.com/Goqi/ErKai/tree/main/0x02/subfinder)@[projectdiscovery](https://github.com/projectdiscovery/subfinder)#一个子域发现工具
-- [**Erfofax**](https://github.com/Goqi/Erfofax)：[fofax](https://github.com/Goqi/ErKai/tree/main/0x02/fofax)@[xiecat](https://github.com/xiecat/fofax)#fofa.info API查询信息收集探测
-- https://github.com/boy-hack/ksubdomain
+- [ksubdomain](https://github.com/Goqi/ErKai/tree/main/0x02/ksubdomain)@[boy-hack](https://github.com/boy-hack/ksubdomain)#子域枚举工具
 
 ## 0x03-远控隧道
 
@@ -50,7 +50,7 @@
 - [report](https://github.com/Goqi/ErKai/tree/main/0x05/report)@[CTF-MissFeng](https://github.com/CTF-MissFeng/report)#渗透测试报告管理系统
 - [linglong](https://github.com/Goqi/ErKai/tree/main/0x05/linglong)@[awake1t](https://github.com/awake1t/linglong)#一款甲方资产巡航扫描系统
 - [pocassist](https://github.com/Goqi/ErKai/tree/main/0x05/pocassist)@[jweny](https://github.com/jweny/pocassist)#一款全新的开源漏洞测试框架
-- https://github.com/cjphaha/eDefender
+- [eDefender](https://github.com/Goqi/ErKai/tree/main/0x05/eDefender)@[cjphaha](https://github.com/cjphaha/eDefender)#常见安全漏洞检测工具
 
 ## 0x06-代码审计
 
