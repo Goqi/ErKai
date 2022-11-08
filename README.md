@@ -11,12 +11,11 @@
 - [**Ernuclei**](https://github.com/Goqi/Ernuclei)：[nuclei](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei)@[projectdiscovery](https://github.com/projectdiscovery/nuclei)#基于模板的漏洞扫描工具
 - [**Erscaninfo**](https://github.com/Goqi/Erscaninfo)：[scaninfo](https://github.com/Goqi/ErKai/tree/main/0x01/scaninfo)@[redtoolskobe](https://github.com/redtoolskobe/scaninfo)#红队内外网打点扫描器
 - [**ErYasso**](https://github.com/Goqi/ErYasso)：[Yasso](https://github.com/Goqi/ErKai/tree/main/0x01/Yasso)@[sairson](https://github.com/sairson/Yasso)#强大的内网渗透辅助工具集
+- [**Erkscan**](https://github.com/Goqi/Erkscan)：[kscan](https://github.com/Goqi/ErKai/tree/main/0x01/kscan)@[lcvvvv](https://github.com/lcvvvv/kscan)#一款轻量级的资产发现工具
 - [gopoc](https://github.com/Goqi/ErKai/tree/main/0x01/gopoc)@[jjf012](https://github.com/jjf012/gopoc)#重现了xray的poc检测功能
-- [kscan](https://github.com/Goqi/ErKai/tree/main/0x01/kscan)@[lcvvvv](https://github.com/lcvvvv/kscan)#一款轻量级的资产发现工具
 - [httpx](https://github.com/Goqi/ErKai/tree/main/0x01/httpx)@[projectdiscovery](https://github.com/projectdiscovery/httpx)#快速且多功能的HTTP工具
 - [naabu](https://github.com/Goqi/ErKai/tree/main/0x01/naabu)@[projectdiscovery](https://github.com/projectdiscovery/naabu)#快速进行端口扫描的工具
 - [ffuf](https://github.com/Goqi/ErKai/tree/main/0x01/ffuf)@[joohoi](https://github.com/ffuf/ffuf)#用Go语言编写的快速进行模糊测试工具
-- [crawlergo](https://github.com/Goqi/ErKai/tree/main/0x01/crawlergo)@[Qianlitp](https://github.com/Qianlitp/crawlergo)#用于Web漏洞扫描程序的强大浏览器爬虫
 - [kunpeng](https://github.com/Goqi/ErKai/tree/main/0x01/kunpeng)@[opensec-cn](https://github.com/opensec-cn/kunpeng)#Golang编写的开源POC框架/库
 - [CDK](https://github.com/Goqi/ErKai/tree/main/0x01/CDK)@[opensec-cn](https://github.com/cdk-team/CDK)#简化 K8s/Docker和Containerd的安全测试
 - [cf](https://github.com/Goqi/ErKai/tree/main/0x01/cf)@[teamssix](https://github.com/teamssix/cf)#一个云环境利用框架
@@ -53,14 +52,17 @@
 - [pocassist](https://github.com/Goqi/ErKai/tree/main/0x05/pocassist)@[jweny](https://github.com/jweny/pocassist)#一款全新的开源漏洞测试框架
 - [eDefender](https://github.com/Goqi/ErKai/tree/main/0x05/eDefender)@[cjphaha](https://github.com/cjphaha/eDefender)#常见安全漏洞检测工具
 
-## 0x06-代码审计
+## 0x06-被动扫描
 
-- [**Erinsider**](https://github.com/Goqi/Erinsider)：[insider](https://github.com/Goqi/ErKai/tree/main/0x06/insider)@[insidersec](https://github.com/insidersec/insider)#SAST专注于挖掘OWASPTop10漏洞
-- [**Errinjani**](https://github.com/Goqi/Errinjani)：[rinjani](https://github.com/Goqi/ErKai/tree/main/0x06/rinjani)@[wahyuhadi](https://github.com/wahyuhadi/rinjani)#简单的 SAST 工具
+- [crawlergo](https://github.com/Goqi/ErKai/tree/main/0x06/crawlergo)@[Qianlitp](https://github.com/Qianlitp/crawlergo)#用于Web漏洞扫描程序的强大浏览器爬虫
+- [katana](https://github.com/Goqi/ErKai/tree/main/0x06/katana)@[projectdiscovery](https://github.com/projectdiscovery/katana)#下一代爬行和爬虫框架
 
-## 0x07-移动安全
+## 0x07-代码审计
+
+- [**Erinsider**](https://github.com/Goqi/Erinsider)：[insider](https://github.com/Goqi/ErKai/tree/main/0x07/insider)@[insidersec](https://github.com/insidersec/insider)#SAST专注于挖掘OWASPTop10漏洞
+- [**Errinjani**](https://github.com/Goqi/Errinjani)：[rinjani](https://github.com/Goqi/ErKai/tree/main/0x07/rinjani)@[wahyuhadi](https://github.com/wahyuhadi/rinjani)#简单的 SAST 工具
+
+## 0x08-移动安全
 
 - https://github.com/ndelphit/apkurlgrep
 - https://github.com/blacktop/ipsw
-
-## 0x08-应急响应
