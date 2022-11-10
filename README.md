@@ -2,7 +2,7 @@
 
 本项目计划寻找100个优秀的开源安全项目代码深入分析学习后进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Golang！二开只会新增功能，不会删减功能。代码可能会有很大的变动，也可能变动只是很小。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年11月8日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2022年11月11日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
@@ -13,6 +13,7 @@
 - [**ErYasso**](https://github.com/Goqi/ErYasso)：[Yasso](https://github.com/Goqi/ErKai/tree/main/0x01/Yasso)@[sairson](https://github.com/sairson/Yasso)#强大的内网渗透辅助工具集
 - [**Erkscan**](https://github.com/Goqi/Erkscan)：[kscan](https://github.com/Goqi/ErKai/tree/main/0x01/kscan)@[lcvvvv](https://github.com/lcvvvv/kscan)#一款轻量级的资产发现工具
 - [**ErTaichi**](https://github.com/Goqi/ErTaichi)：[Taichi](https://github.com/Goqi/ErKai/tree/main/0x01/Taichi)@[sulab999](https://github.com/sulab999/Taichi)#Go语言实现的交互式渗透测试框架
+- [**Erscan4all**](https://github.com/Goqi/Erscan4all)：[scan4all](https://github.com/Goqi/ErKai/tree/main/0x01/scan4all)@[hktalent](https://github.com/hktalent/scan4all)#漏洞扫描工具的集成
 - [gopoc](https://github.com/Goqi/ErKai/tree/main/0x01/gopoc)@[jjf012](https://github.com/jjf012/gopoc)#重现了xray的poc检测功能
 - [httpx](https://github.com/Goqi/ErKai/tree/main/0x01/httpx)@[projectdiscovery](https://github.com/projectdiscovery/httpx)#快速且多功能的HTTP工具
 - [naabu](https://github.com/Goqi/ErKai/tree/main/0x01/naabu)@[projectdiscovery](https://github.com/projectdiscovery/naabu)#快速进行端口扫描的工具
