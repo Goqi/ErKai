@@ -1,6 +1,6 @@
 # ErKai-开源安全项目二开计划
 
-本项目计划寻找100个优秀的开源安全项目代码深入分析学习后进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Golang！二开只会新增功能，不会删减功能。代码可能会有很大的变动，也可能变动只是很小。作者：[0e0w](https://github.com/0e0w)
+本项目计划寻找100个优秀的开源安全项目代码深入分析学习后进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Golang！作者：[0e0w](https://github.com/0e0w)
 
 本项目创建于2021年3月7日，最近的一次更新时间为2022年11月12日。本项目会持续更新，直到海枯石烂！
 
@@ -10,17 +10,21 @@
 - [**Erafrog**](https://github.com/Goqi/Erafrog)：[afrog](https://github.com/Goqi/ErKai/tree/main/0x01/afrog)@[zan8in](https://github.com/zan8in/afrog)#性能卓越快速稳定PoC 可定制化的漏扫
 - [**Ernuclei**](https://github.com/Goqi/Ernuclei)：[nuclei](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei)@[projectdiscovery](https://github.com/projectdiscovery/nuclei)#基于模板的漏洞扫描工具
 - [**Erffuf**](https://github.com/Goqi/Erffuf)：[ffuf](https://github.com/Goqi/ErKai/tree/main/0x01/ffuf)@[joohoi](https://github.com/ffuf/ffuf)#用Go语言编写的快速进行模糊测试工具
+- [**Erjaeles**](https://github.com/Goqi/Erjaeles)：[jaeles](https://github.com/Goqi/ErKai/tree/main/0x01/jaeles)@[j3ssie](https://github.com/jaeles-project/jaeles)#自动化 Web 应用程序安全测试
+- [**Erosmedeus**](https://github.com/Goqi/Erosmedeus)：[osmedeus](https://github.com/Goqi/ErKai/tree/main/0x01/osmedeus)@[j3ssie](https://github.com/j3ssie/osmedeus)#自进攻性安全的工作流引擎
 - [**Erkscan**](https://github.com/Goqi/Erkscan)：[kscan](https://github.com/Goqi/ErKai/tree/main/0x01/kscan)@[lcvvvv](https://github.com/lcvvvv/kscan)#一款轻量级的资产发现和漏洞扫描工具
 - [**ErYasso**](https://github.com/Goqi/ErYasso)：[Yasso](https://github.com/Goqi/ErKai/tree/main/0x01/Yasso)@[sairson](https://github.com/sairson/Yasso)#强大的内网渗透辅助工具集
 - [**Erscaninfo**](https://github.com/Goqi/Erscaninfo)：[scaninfo](https://github.com/Goqi/ErKai/tree/main/0x01/scaninfo)@[redtoolskobe](https://github.com/redtoolskobe/scaninfo)#红队内外网打点扫描器
 - [**ErTaichi**](https://github.com/Goqi/ErTaichi)：[Taichi](https://github.com/Goqi/ErKai/tree/main/0x01/Taichi)@[sulab999](https://github.com/sulab999/Taichi)#Go语言实现的交互式渗透测试框架
 - [**Erscan4all**](https://github.com/Goqi/Erscan4all)：[scan4all](https://github.com/Goqi/ErKai/tree/main/0x01/scan4all)@[hktalent](https://github.com/hktalent/scan4all)#漏洞扫描工具的集成
+- [**ErLadonGo**](https://github.com/Goqi/ErLadonGo)：[LadonGo](https://github.com/Goqi/ErKai/tree/main/0x01/LadonGo)@[k8gege](https://github.com/k8gege/LadonGo)#全平台渗透扫描器框架
 - [gopoc](https://github.com/Goqi/ErKai/tree/main/0x01/gopoc)@[jjf012](https://github.com/jjf012/gopoc)#重现了xray的poc检测功能
 - [httpx](https://github.com/Goqi/ErKai/tree/main/0x01/httpx)@[projectdiscovery](https://github.com/projectdiscovery/httpx)#快速且多功能的HTTP工具
 - [naabu](https://github.com/Goqi/ErKai/tree/main/0x01/naabu)@[projectdiscovery](https://github.com/projectdiscovery/naabu)#快速进行端口扫描的工具
 - [kunpeng](https://github.com/Goqi/ErKai/tree/main/0x01/kunpeng)@[opensec-cn](https://github.com/opensec-cn/kunpeng)#Golang编写的开源POC框架/库
 - [CDK](https://github.com/Goqi/ErKai/tree/main/0x01/CDK)@[opensec-cn](https://github.com/cdk-team/CDK)#简化 K8s/Docker和Containerd的安全测试
 - [cf](https://github.com/Goqi/ErKai/tree/main/0x01/cf)@[teamssix](https://github.com/teamssix/cf)#一个云环境利用框架
+- [zgrab2](https://github.com/Goqi/ErKai/tree/main/0x01/zgrab2)@[zmap](https://github.com/zmap/zgrab2)#快速Go 应用程序扫描仪
 
 ## 0x02-资产扫描
 
@@ -31,6 +35,7 @@
 - [Amass](https://github.com/Goqi/ErKai/tree/main/0x02/Amass)@[OWASP](https://github.com/OWASP/Amass)#深入的攻击面映射和资产发现工具
 - [subfinder](https://github.com/Goqi/ErKai/tree/main/0x02/subfinder)@[projectdiscovery](https://github.com/projectdiscovery/subfinder)#一个子域发现工具
 - [ksubdomain](https://github.com/Goqi/ErKai/tree/main/0x02/ksubdomain)@[boy-hack](https://github.com/boy-hack/ksubdomain)#子域枚举工具
+- [gobuster](https://github.com/Goqi/ErKai/tree/main/0x01/gobuster)@[OJ](https://github.com/OJ/gobuster)#路径扫描和域名爆破工具
 
 ## 0x03-远控隧道
 
