@@ -4,16 +4,14 @@
 
 本文创建于2022年11月11日，最近的一次更新时间为2022年11月11日。
 
-- [01-官方包库]()
-- [02-第三方库]()
-- [03-开发设计]()
-- [04-代码分析]()
-- [05-不足之处]()
-- [06-二开计划]()
+- [01-官方包库](https://github.com/Goqi/ErKai/tree/main/0x01/afrog#01-%E5%AE%98%E6%96%B9%E5%8C%85%E5%BA%93)
+- [02-第三方库](https://github.com/Goqi/ErKai/tree/main/0x01/afrog#02-%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93)
+- [03-开发设计](https://github.com/Goqi/ErKai/tree/main/0x01/afrog#03-%E5%BC%80%E5%8F%91%E8%AE%BE%E8%AE%A1)
+- [04-代码分析](https://github.com/Goqi/ErKai/tree/main/0x01/afrog#04-%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90)
+- [05-不足之处](https://github.com/Goqi/ErKai/tree/main/0x01/afrog#05-%E4%B8%8D%E8%B6%B3%E4%B9%8B%E5%A4%84)
+- [06-二开计划](https://github.com/Goqi/ErKai/tree/main/0x01/afrog#06-%E4%BA%8C%E5%BC%80%E8%AE%A1%E5%88%92)
 
 ## 01-官方包库
-
-- go list -json
 
 - [ ] [archive/zip](https://pkg.go.dev/archive/zip)
 - [ ] [bufio](https://pkg.go.dev/bufio)
@@ -64,8 +62,6 @@
 
 ## 02-第三方库
 
-- https://github.com/Goqi/Erafrog/blob/main/go.mod
-- https://github.com/Goqi/Erafrog/blob/main/go.sum
 - [ ] https://github.com/axgle/mahonia | Go 中实现的字符集转换库
 - [ ] https://github.com/cavaliergopher/grab | 下载管理器/程序自动更新
 - [ ] https://github.com/dlclark/regexp2 | 全功能正则表达式

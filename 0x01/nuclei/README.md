@@ -4,16 +4,14 @@
 
 本文创建于2021年3月14日，最近的一次更新时间为2022年11月11日。
 
-- [01-官方包库]()
-- [02-第三方库]()
-- [03-开发设计]()
-- [04-代码分析]()
-- [05-不足之处]()
-- [06-二开计划]()
+- [01-官方包库](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei#01-%E5%AE%98%E6%96%B9%E5%8C%85%E5%BA%93)
+- [02-第三方库](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei#02-%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93)
+- [03-开发设计](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei#03-%E5%BC%80%E5%8F%91%E8%AE%BE%E8%AE%A1)
+- [04-代码分析](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei#04-%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90)
+- [05-不足之处](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei#05-%E4%B8%8D%E8%B6%B3%E4%B9%8B%E5%A4%84)
+- [06-二开计划](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei#06-%E4%BA%8C%E5%BC%80%E8%AE%A1%E5%88%92)
 
 ## 01-官方包库
-
-- go list -json
 
 - [ ] [archive/tar](https://pkg.go.dev/archive/tar)
 - [ ] [archive/zip](https://pkg.go.dev/archive/zip)
@@ -80,38 +78,6 @@
 - [ ] [hash/fnv](https://pkg.go.dev/hash/fnv)
 - [ ] [html](https://pkg.go.dev/html)
 - [ ] [html/template](https://pkg.go.dev/html/template)
-- [ ] [image](https://pkg.go.dev/image)
-- [ ] [image/color](https://pkg.go.dev/image/color)
-- [ ] [image/internal/imageutil](https://pkg.go.dev/image/internal/imageutil)
-- [ ] [image/jpeg](https://pkg.go.dev/image/jpeg)
-- [ ] [image/png](https://pkg.go.dev/image/png)
-- [ ] [internal/abi](https://pkg.go.dev/internal/abi)
-- [ ] [internal/buildcfg](https://pkg.go.dev/internal/buildcfg)
-- [ ] [internal/bytealg](https://pkg.go.dev/internal/bytealg)
-- [ ] [internal/cpu](https://pkg.go.dev/internal/cpu)
-- [ ] [internal/fmtsort](https://pkg.go.dev/internal/fmtsort)
-- [ ] [internal/goarch](https://pkg.go.dev/internal/goarch)
-- [ ] [internal/godebug](https://pkg.go.dev/internal/godebug)
-- [ ] [internal/goexperiment](https://pkg.go.dev/internal/goexperiment)
-- [ ] [internal/goos](https://pkg.go.dev/internal/goos)
-- [ ] [internal/goroot](https://pkg.go.dev/internal/goroot)
-- [ ] [internal/goversion](https://pkg.go.dev/internal/goversion)
-- [ ] [internal/intern](https://pkg.go.dev/internal/intern)
-- [ ] [internal/itoa](https://pkg.go.dev/internal/itoa)
-- [ ] [internal/lazyregexp](https://pkg.go.dev/internal/lazyregexp)
-- [ ] [internal/nettrace](https://pkg.go.dev/internal/nettrace)
-- [ ] [internal/oserror](https://pkg.go.dev/internal/oserror)
-- [ ] [internal/poll](https://pkg.go.dev/internal/poll)
-- [ ] [internal/profile](https://pkg.go.dev/internal/profile)
-- [ ] [internal/race](https://pkg.go.dev/internal/race)
-- [ ] [internal/reflectlite](https://pkg.go.dev/internal/reflectlite)
-- [ ] [internal/singleflight](https://pkg.go.dev/internal/singleflight)
-- [ ] [internal/syscall/execenv](https://pkg.go.dev/internal/syscall/execenv)
-- [ ] [internal/syscall/windows](https://pkg.go.dev/internal/syscall/windows)
-- [ ] [internal/syscall/windows/registry](https://pkg.go.dev/internal/syscall/windows/registry)
-- [ ] [internal/syscall/windows/sysdll](https://pkg.go.dev/internal/syscall/windows/sysdll)
-- [ ] [internal/testlog](https://pkg.go.dev/internal/testlog)
-- [ ] [internal/unsafeheader](https://pkg.go.dev/internal/unsafeheader)
 - [ ] [io](https://pkg.go.dev/io)
 - [ ] [io/fs](https://pkg.go.dev/io/fs)
 - [ ] [io/ioutil](https://pkg.go.dev/io/ioutil)
@@ -120,10 +86,6 @@
 - [ ] [math/big](https://pkg.go.dev/math/big)
 - [ ] [math/bits](https://pkg.go.dev/math/bits)
 - [ ] [math/rand](https://pkg.go.dev/math/rand)
-- [ ] [mime](https://pkg.go.dev/mime)
-- [ ] [mime/multipart](https://pkg.go.dev/mime/multipart)
-- [ ] [mime/quotedprintable](https://pkg.go.dev/mime/quotedprintable)
-- [ ] [moul.io/http2curl](https://pkg.go.dev/moul.io/http2curl)
 - [ ] [net](https://pkg.go.dev/net)
 - [ ] [net/http](https://pkg.go.dev/net/http)
 - [ ] [net/http/cookiejar](https://pkg.go.dev/net/http/cookiejar)
@@ -172,16 +134,7 @@
 
 ## 02-第三方库
 
-- [ ] https://git.mills.io/prologic/smtpd
-- [ ] https://github.com/akrylysov/pogreb
-- [ ] https://github.com/akrylysov/pogreb/fs
-- [ ] https://github.com/akrylysov/pogreb/internal/errors
-- [ ] https://github.com/akrylysov/pogreb/internal/hash
-- [ ] https://github.com/alecthomas/jsonschema
-- [ ] https://github.com/alecthomas/template
-- [ ] https://github.com/alecthomas/template/parse
-- [ ] https://github.com/alecthomas/units
-- [ ] https://github.com/AndreasBriese/bbloom
+- [ ] https://github.com/alecthomas/jsonschema | 从 Go 类型生成 JSON 模式
 - [ ] https://github.com/andygrunwald/go-jira
 - [ ] https://github.com/antchfx/htmlquery
 - [ ] https://github.com/antchfx/xmlquery
@@ -189,21 +142,6 @@
 - [ ] https://github.com/apex/log
 - [ ] https://github.com/asaskevich/govalidator
 - [ ] https://github.com/aws/aws-sdk-go/aws
-- [ ] https://github.com/aws/aws-sdk-go/aws/awserr
-- [ ] https://github.com/aws/aws-sdk-go/aws/awsutil
-- [ ] https://github.com/aws/aws-sdk-go/aws/client/metadata
-- [ ] https://github.com/aws/aws-sdk-go/aws/credentials
-- [ ] https://github.com/aws/aws-sdk-go/aws/endpoints
-- [ ] https://github.com/aws/aws-sdk-go/aws/request
-- [ ] https://github.com/aws/aws-sdk-go/aws/signer/v4
-- [ ] https://github.com/aws/aws-sdk-go/internal/ini
-- [ ] https://github.com/aws/aws-sdk-go/internal/sdkio
-- [ ] https://github.com/aws/aws-sdk-go/internal/sdkmath
-- [ ] https://github.com/aws/aws-sdk-go/internal/shareddefaults
-- [ ] https://github.com/aws/aws-sdk-go/internal/strings
-- [ ] https://github.com/aws/aws-sdk-go/internal/sync/singleflight
-- [ ] https://github.com/aws/aws-sdk-go/private/protocol
-- [ ] https://github.com/aws/aws-sdk-go/private/protocol/rest
 - [ ] https://github.com/aymerick/douceur/css
 - [ ] https://github.com/aymerick/douceur/parser
 - [ ] https://github.com/bits-and-blooms/bitset
@@ -215,60 +153,14 @@
 - [ ] https://github.com/cespare/xxhash
 - [ ] https://github.com/cespare/xxhash/v2
 - [ ] https://github.com/cnf/structhash
-- [ ] https://github.com/cockroachdb/errors
-- [ ] https://github.com/cockroachdb/errors/assert
-- [ ] https://github.com/cockroachdb/errors/barriers
-- [ ] https://github.com/cockroachdb/errors/contexttags
-- [ ] https://github.com/cockroachdb/errors/domains
-- [ ] https://github.com/cockroachdb/errors/errbase
-- [ ] https://github.com/cockroachdb/errors/errorspb
-- [ ] https://github.com/cockroachdb/errors/errutil
-- [ ] https://github.com/cockroachdb/errors/hintdetail
-- [ ] https://github.com/cockroachdb/errors/issuelink
-- [ ] https://github.com/cockroachdb/errors/markers
-- [ ] https://github.com/cockroachdb/errors/oserror
-- [ ] https://github.com/cockroachdb/errors/report
-- [ ] https://github.com/cockroachdb/errors/safedetails
-- [ ] https://github.com/cockroachdb/errors/secondary
-- [ ] https://github.com/cockroachdb/errors/stdstrings
-- [ ] https://github.com/cockroachdb/errors/telemetrykeys
-- [ ] https://github.com/cockroachdb/errors/withstack
 - [ ] https://github.com/cockroachdb/logtags
-- [ ] https://github.com/cockroachdb/pebble
-- [ ] https://github.com/cockroachdb/pebble/internal/arenaskl
-- [ ] https://github.com/cockroachdb/pebble/internal/base
-- [ ] https://github.com/cockroachdb/pebble/internal/batchskl
-- [ ] https://github.com/cockroachdb/pebble/internal/bytealloc
-- [ ] https://github.com/cockroachdb/pebble/internal/cache
-- [ ] https://github.com/cockroachdb/pebble/internal/crc
-- [ ] https://github.com/cockroachdb/pebble/internal/fastrand
-- [ ] https://github.com/cockroachdb/pebble/internal/humanize
-- [ ] https://github.com/cockroachdb/pebble/internal/intern
-- [ ] https://github.com/cockroachdb/pebble/internal/invariants
-- [ ] https://github.com/cockroachdb/pebble/internal/manifest
-- [ ] https://github.com/cockroachdb/pebble/internal/manual
-- [ ] https://github.com/cockroachdb/pebble/internal/private
-- [ ] https://github.com/cockroachdb/pebble/internal/rangedel
-- [ ] https://github.com/cockroachdb/pebble/internal/rate
-- [ ] https://github.com/cockroachdb/pebble/internal/rawalloc
-- [ ] https://github.com/cockroachdb/pebble/record
-- [ ] https://github.com/cockroachdb/pebble/sstable
-- [ ] https://github.com/cockroachdb/pebble/vfs
 - [ ] https://github.com/cockroachdb/redact
 - [ ] https://github.com/cockroachdb/redact/internal
 - [ ] https://github.com/cockroachdb/redact/internal/fmtsort
 - [ ] https://github.com/cockroachdb/sentry-go
-- [ ] https://github.com/corpix/uarand
+- [ ] https://github.com/corpix/uarand | 随机生成user-agent
 - [ ] https://github.com/DataDog/gostackparse
 - [ ] https://github.com/DataDog/zstd
-- [ ] https://github.com/dgraph-io/badger
-- [ ] https://github.com/dgraph-io/badger/options
-- [ ] https://github.com/dgraph-io/badger/pb
-- [ ] https://github.com/dgraph-io/badger/skl
-- [ ] https://github.com/dgraph-io/badger/table
-- [ ] https://github.com/dgraph-io/badger/trie
-- [ ] https://github.com/dgraph-io/badger/y
-- [ ] https://github.com/dgraph-io/ristretto/z
 - [ ] https://github.com/dimchansky/utfbom
 - [ ] https://github.com/docker/go-units
 - [ ] https://github.com/dsnet/compress
@@ -304,24 +196,10 @@
 - [ ] https://github.com/go-playground/universal-translator
 - [ ] https://github.com/go-playground/validator/v10
 - [ ] https://github.com/gorilla/css/scanner
-- [ ] https://github.com/go-rod/rod
-- [ ] https://github.com/go-rod/rod/lib/assets
-- [ ] https://github.com/go-rod/rod/lib/cdp
-- [ ] https://github.com/go-rod/rod/lib/defaults
-- [ ] https://github.com/go-rod/rod/lib/devices
-- [ ] https://github.com/go-rod/rod/lib/input
-- [ ] https://github.com/go-rod/rod/lib/js
-- [ ] https://github.com/go-rod/rod/lib/launcher
-- [ ] https://github.com/go-rod/rod/lib/launcher/flags
-- [ ] https://github.com/go-rod/rod/lib/proto
-- [ ] https://github.com/go-rod/rod/lib/utils
 - [ ] https://github.com/gosuri/uilive
 - [ ] https://github.com/gosuri/uiprogress
 - [ ] https://github.com/gosuri/uiprogress/util/strutil
 - [ ] https://github.com/h2non/filetype
-- [ ] https://github.com/h2non/filetype/matchers
-- [ ] https://github.com/h2non/filetype/matchers/isobmff
-- [ ] https://github.com/h2non/filetype/types
 - [ ] https://github.com/hashicorp/go-cleanhttp
 - [ ] https://github.com/hashicorp/go-retryablehttp
 - [ ] https://github.com/hashicorp/go-version
@@ -335,12 +213,12 @@
 - [ ] https://github.com/klauspost/compress/flate
 - [ ] https://github.com/klauspost/cpuid/v2
 - [ ] https://github.com/klauspost/pgzip
-- [ ] https://github.com/Knetic/govaluate
+- [ ] https://github.com/Knetic/govaluate | Golang的任意表达式求值
 - [ ] https://github.com/kr/pretty
 - [ ] https://github.com/kr/text
 - [ ] https://github.com/leodido/go-urn
 - [ ] https://github.com/libdns/libdns
-- [ ] https://github.com/logrusorgru/aurora
+- [ ] https://github.com/logrusorgru/aurora | 命令行颜色处理
 - [ ] https://github.com/lor00x/goldap/message
 - [ ] https://github.com/mattn/go-isatty
 - [ ] https://github.com/mattn/go-runewidth
@@ -376,21 +254,8 @@
 - [ ] https://github.com/projectdiscovery/goflags
 - [ ] https://github.com/projectdiscovery/goflags
 - [ ] https://github.com/projectdiscovery/gologger
-- [ ] https://github.com/projectdiscovery/gologger
-- [ ] https://github.com/projectdiscovery/gologger/formatter
-- [ ] https://github.com/projectdiscovery/gologger/levels
-- [ ] https://github.com/projectdiscovery/gologger/writer
-- [ ] https://github.com/projectdiscovery/hmap/store/cache
-- [ ] https://github.com/projectdiscovery/hmap/store/disk
-- [ ] https://github.com/projectdiscovery/hmap/store/hybrid
-- [ ] https://github.com/projectdiscovery/interactsh/pkg/client
-- [ ] https://github.com/projectdiscovery/interactsh/pkg/client
-- [ ] https://github.com/projectdiscovery/interactsh/pkg/filewatcher
-- [ ] https://github.com/projectdiscovery/interactsh/pkg/options
-- [ ] https://github.com/projectdiscovery/interactsh/pkg/server
-- [ ] https://github.com/projectdiscovery/interactsh/pkg/server/acme
-- [ ] https://github.com/projectdiscovery/interactsh/pkg/settings
-- [ ] https://github.com/projectdiscovery/interactsh/pkg/storage
+- [ ] https://github.com/projectdiscovery/hmap
+- [ ] https://github.com/projectdiscovery/interactsh
 - [ ] https://github.com/projectdiscovery/iputil
 - [ ] https://github.com/projectdiscovery/mapcidr
 - [ ] https://github.com/projectdiscovery/networkpolicy
@@ -421,7 +286,7 @@
 - [ ] https://github.com/remeh/sizedwaitgroup
 - [ ] https://github.com/rivo/uniseg
 - [ ] https://github.com/rogpeppe/go-internal/fmtsort
-- [ ] https://github.com/rs/xid
+- [ ] https://github.com/rs/xid | 全球唯一ID生成器
 - [ ] https://github.com/saintfish/chardet
 - [ ] https://github.com/segmentio/ksuid
 - [ ] https://github.com/shirou/gopsutil/v3/cpu
@@ -432,26 +297,9 @@
 - [ ] https://github.com/spaolacci/murmur3
 - [ ] https://github.com/spf13/cast
 - [ ] https://github.com/syndtr/goleveldb/leveldb
-- [ ] https://github.com/syndtr/goleveldb/leveldb/cache
-- [ ] https://github.com/syndtr/goleveldb/leveldb/comparer
-- [ ] https://github.com/syndtr/goleveldb/leveldb/errors
-- [ ] https://github.com/syndtr/goleveldb/leveldb/filter
-- [ ] https://github.com/syndtr/goleveldb/leveldb/iterator
-- [ ] https://github.com/syndtr/goleveldb/leveldb/journal
-- [ ] https://github.com/syndtr/goleveldb/leveldb/memdb
-- [ ] https://github.com/syndtr/goleveldb/leveldb/opt
-- [ ] https://github.com/syndtr/goleveldb/leveldb/storage
-- [ ] https://github.com/syndtr/goleveldb/leveldb/table
-- [ ] https://github.com/syndtr/goleveldb/leveldb/util
 - [ ] https://github.com/tj/go-update
-- [ ] https://github.com/tj/go-update/progress
-- [ ] https://github.com/tj/go-update/stores/github
 - [ ] https://github.com/trivago/tgo/tcontainer
 - [ ] https://github.com/trivago/tgo/treflect
-- [ ] https://github.com/ulikunitz/xz
-- [ ] https://github.com/ulikunitz/xz/internal/hash
-- [ ] https://github.com/ulikunitz/xz/internal/xlog
-- [ ] https://github.com/ulikunitz/xz/lzma
 - [ ] https://github.com/ulule/deepcopier
 - [ ] https://github.com/valyala/bytebufferpool
 - [ ] https://github.com/valyala/fasttemplate
@@ -493,19 +341,12 @@
 - [ ] https://gopkg.in/corvus-ch/zbase32.v1
 - [ ] https://gopkg.in/yaml.v2 |  YAML配置文件处理
 - [ ] https://gopkg.in/yaml.v3 |  YAML配置文件处理
-
-- [ ] github.com/julienschmidt/httprouter | 轻量级高性能HTTP请求路由器
-- [ ] github.com/hashicorp/go-retryablehttp | Go中可重试的HTTP客户端
-- [ ] github.com/karrick/godirwalk | 快速的进行目录遍历
-- [ ] github.com/Knetic/govaluate | Golang的任意表达式求值
+- [ ] [moul.io/http2curl](https://pkg.go.dev/moul.io/http2curl)
 - [ ] github.com/andygrunwald/go-jira | jira客户端
 - [ ] github.com/blang/semver | 语义版本控制库
-- [ ] github.com/corpix/uarand | 随机生成user-agent
 - [ ] github.com/fatih/structs | 包含各种实用程序结构体
-- [ ] github.com/go-rod/rod | web自动化工具和爬虫
 - [ ] github.com/golang/protobuf | 协议缓冲区的Go绑定
 - [ ] github.com/google/go-github | 用于访问GitHub API的Go库
-- [ ] github.com/logrusorgru/aurora | 命令行颜色处理
 - [ ] github.com/mattn/go-runewidth | 获取固定宽度的字符或字符串
 - [ ] github.com/miekg/dns | Go中的DNS库
 - [ ] github.com/mitchellh/go-ps | Go的流程列表库
@@ -522,7 +363,6 @@
 - [ ] github.com/projectdiscovery/retryablehttp-go | 可重试的HTTP客户端
 - [ ] github.com/remeh/sizedwaitgroup | 协程任务处理
 - [ ] github.com/rivo/uniseg | 处理Unicode文本
-- [ ] github.com/rs/xid | 全球唯一ID生成器
 - [ ] github.com/segmentio/ksuid | 稳定的全局唯一ID
 - [ ] github.com/spaolacci/murmur3 | 本机MurmurHash3 Go实现
 - [ ] github.com/spf13/cast | 安全的进行类型转换
@@ -530,19 +370,6 @@
 - [ ] github.com/syndtr/goleveldb | Go中的LevelDB键/值数据库
 - [ ] github.com/valyala/fasttemplate | Go的简单快速模板引擎
 - [ ] github.com/xanzy/go-gitlab | 一个GitLab API客户端
-- [ ] github.com/hashicorp/go-cleanhttp
-- [ ] github.com/trivago/tgo
-- [ ] go.uber.org/atomic
-- [ ] go.uber.org/multierr
-- [ ] go.uber.org/ratelimit
-- [ ] golang.org/x/crypto
-- [ ] golang.org/x/net
-- [ ] golang.org/x/oauth2
-- [ ] golang.org/x/sync
-- [ ] golang.org/x/sys
-- [ ] golang.org/x/text
-- [ ] golang.org/x/time
-- [ ] google.golang.org/appengine
 
 ## 03-开发设计
 
@@ -555,6 +382,10 @@
 ## 04-代码分析
 
 ## 05-不足之处
+
+- Poc未打包到可执行程序中
+- UA存在规则特征
+- 代码较多
 
 ## 06-二开计划
 

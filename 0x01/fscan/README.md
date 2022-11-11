@@ -4,16 +4,15 @@
 
 本文创建于2022年11月2日，最近的一次更新时间为2022年11月11日。
 
-- [01-官方包库]()
-- [02-第三方库]()
-- [03-开发设计]()
-- [04-代码分析]()
-- [05-不足之处]()
-- [06-二开计划]()
+- [01-官方包库](https://github.com/Goqi/ErKai/tree/main/0x01/fscan#01-%E5%AE%98%E6%96%B9%E5%8C%85%E5%BA%93)
+- [02-第三方库](https://github.com/Goqi/ErKai/tree/main/0x01/fscan#02-%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93)
+- [03-开发设计](https://github.com/Goqi/ErKai/tree/main/0x01/fscan#03-%E5%BC%80%E5%8F%91%E8%AE%BE%E8%AE%A1)
+- [04-代码分析](https://github.com/Goqi/ErKai/tree/main/0x01/fscan#04-%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90)
+- [05-不足之处](https://github.com/Goqi/ErKai/tree/main/0x01/fscan#05-%E4%B8%8D%E8%B6%B3%E4%B9%8B%E5%A4%84)
+- [06-二开计划](https://github.com/Goqi/ErKai/tree/main/0x01/fscan#06-%E4%BA%8C%E5%BC%80%E8%AE%A1%E5%88%92)
 
 ## 01-官方包库
 
-- go list -json
 - [x] [**embed**](https://pkg.go.dev/embed) | 将静态资源打包至二进制文件中
 - [ ] [**context**](https://pkg.go.dev/context) | 上下文-设置截止日期/同步信号/传递请求相关值的结构体
 - [ ] [runtime](https://pkg.go.dev/runtime) | 调度器
@@ -59,8 +58,6 @@
 
 ## 02-第三方库
 
-- https://github.com/Goqi/Erfscan/blob/main/go.mod
-- https://github.com/Goqi/Erfscan/blob/main/go.sum
 - [ ] https://gopkg.in/yaml.v2 | 对 Go 语言的 YAML 支持
 - [ ] https://github.com/antlr/antlr4 | 用于读取和处理结构化文本或二进制文件
 - [ ] https://github.com/denisenkom/go-mssqldb |Microsoft SQL驱动程序
