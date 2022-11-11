@@ -4,14 +4,16 @@
 
 本文创建于2022年11月11日，最近的一次更新时间为2022年11月11日。
 
-- [01-官方包库](https://github.com/Goqi/ErKai/tree/main/0x01/afrog#01-%E5%AE%98%E6%96%B9%E5%8C%85%E5%BA%93)
-- [02-第三方库](https://github.com/Goqi/ErKai/tree/main/0x01/afrog#02-%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93)
-- [03-开发设计](https://github.com/Goqi/ErKai/tree/main/0x01/afrog#03-%E5%BC%80%E5%8F%91%E8%AE%BE%E8%AE%A1)
-- [04-代码分析](https://github.com/Goqi/ErKai/tree/main/0x01/afrog#04-%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90)
-- [05-不足之处](https://github.com/Goqi/ErKai/tree/main/0x01/afrog#05-%E4%B8%8D%E8%B6%B3%E4%B9%8B%E5%A4%84)
-- [06-二开计划](https://github.com/Goqi/ErKai/tree/main/0x01/afrog#06-%E4%BA%8C%E5%BC%80%E8%AE%A1%E5%88%92)
+- [01-项目结构]()
+- [02-官方包库]()
+- [02-第三方库]()
+- [03-代码分析]()
+- [05-不足之处]()
+- [06-二开计划]()
 
-## 01-官方包库
+## 01-项目结构
+
+## 02-官方包库
 
 - [ ] [archive/zip](https://pkg.go.dev/archive/zip)
 - [ ] [bufio](https://pkg.go.dev/bufio)
@@ -60,7 +62,7 @@
 - [ ] [unicode/utf8](https://pkg.go.dev/unicode/utf8)
 - [ ] [unsafe](https://pkg.go.dev/unsafe)
 
-## 02-第三方库
+## 03-第三方库
 
 - [ ] https://github.com/axgle/mahonia | Go 中实现的字符集转换库
 - [ ] https://github.com/cavaliergopher/grab | 下载管理器/程序自动更新
@@ -79,20 +81,19 @@
 - [ ] https://gopkg.in/yaml.v2 | yaml文件解析
 - [ ] https://github.com/spaolacci/murmur3
 
-## 03-开发设计
+## 04-开发设计
 
 本部分尽可能的列举出afrog开发中的一些设计模式、使用到的Go语言技术等。
 
 - [ ] 数据类型
-
 - [ ] 函数方法
 - [ ] 并发协程
 
-## 04-代码分析
+项目亮点：
 
-- Poc更新较快
-- Poc静态资源打包
-- 指纹识别-iconhash计算
+- [ ] Poc更新较快
+- [ ] Poc静态资源打包
+- [ ] 指纹识别-iconhash计算
 
 ## 05-不足之处
 

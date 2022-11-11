@@ -4,14 +4,481 @@
 
 本文创建于2021年3月14日，最近的一次更新时间为2022年11月11日。
 
-- [01-官方包库](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei#01-%E5%AE%98%E6%96%B9%E5%8C%85%E5%BA%93)
-- [02-第三方库](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei#02-%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93)
-- [03-开发设计](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei#03-%E5%BC%80%E5%8F%91%E8%AE%BE%E8%AE%A1)
-- [04-代码分析](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei#04-%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90)
-- [05-不足之处](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei#05-%E4%B8%8D%E8%B6%B3%E4%B9%8B%E5%A4%84)
-- [06-二开计划](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei#06-%E4%BA%8C%E5%BC%80%E8%AE%A1%E5%88%92)
+- [01-项目结构]()
+- [02-官方包库]()
+- [02-第三方库]()
+- [03-代码分析]()
+- [05-不足之处]()
+- [06-二开计划]()
 
-## 01-官方包库
+## 01-项目结构
+
+```
+├─cmd
+│  ├─cve-annotate
+│  │      main.go
+│  │      
+│  ├─docgen
+│  │      docgen.go
+│  │      
+│  ├─functional-test
+│  │      main.go
+│  │      run.sh
+│  │      testcases.txt
+│  │      
+│  ├─integration-test
+│  │      code.go
+│  │      custom-dir.go
+│  │      dns.go
+│  │      file.go
+│  │      headless.go
+│  │      http.go
+│  │      integration-test.go
+│  │      loader.go
+│  │      network.go
+│  │      offline-http.go
+│  │      ssl.go
+│  │      template-dir.go
+│  │      template-path.go
+│  │      websocket.go
+│  │      whois.go
+│  │      workflow.go
+│  │      
+│  └─nuclei
+│          issue-tracker-config.yaml
+│          main.go
+│          
+├─internal
+│  ├─colorizer
+│  │      colorizer.go
+│  │      
+│  └─runner
+│      │  banner.go
+│      │  defaults.go
+│      │  doc.go
+│      │  enumerate.go
+│      │  healthcheck.go
+│      │  options.go
+│      │  proxy.go
+│      │  runner.go
+│      │  runner_test.go
+│      │  templates.go
+│      │  update.go
+│      │  update_test.go
+│      │  update_unix_test.go
+│      │  
+│      └─nucleicloud
+│              cloud.go
+│              types.go
+│              
+└─pkg
+    ├─catalog
+    │  │  catalogue.go
+    │  │  
+    │  ├─config
+    │  │      config.go
+    │  │      
+    │  ├─disk
+    │  │      catalog.go
+    │  │      find.go
+    │  │      path.go
+    │  │      
+    │  └─loader
+    │      │  loader.go
+    │      │  loader_test.go
+    │      │  remote_loader.go
+    │      │  
+    │      └─filter
+    │              path_filter.go
+    │              tag_filter.go
+    │              tag_filter_test.go
+    │              
+    ├─core
+    │  │  engine.go
+    │  │  engine_test.go
+    │  │  execute.go
+    │  │  workflow_execute.go
+    │  │  workflow_execute_test.go
+    │  │  workpool.go
+    │  │  
+    │  └─inputs
+    │      │  inputs.go
+    │      │  
+    │      └─hybrid
+    │              hmap.go
+    │              hmap_test.go
+    │              
+    ├─model
+    │  │  model.go
+    │  │  model_test.go
+    │  │  worflow_loader.go
+    │  │  
+    │  └─types
+    │      ├─severity
+    │      │      severities.go
+    │      │      severity.go
+    │      │      severity_test.go
+    │      │      
+    │      ├─stringslice
+    │      │      stringslice.go
+    │      │      
+    │      └─userAgent
+    │              user_agent.go
+    │              
+    ├─operators
+    │  │  operators.go
+    │  │  operators_test.go
+    │  │  
+    │  ├─common
+    │  │  └─dsl
+    │  │          dsl.go
+    │  │          dsl_test.go
+    │  │          
+    │  ├─extractors
+    │  │      compile.go
+    │  │      doc.go
+    │  │      extract.go
+    │  │      extractors.go
+    │  │      extractor_types.go
+    │  │      extract_test.go
+    │  │      util.go
+    │  │      
+    │  └─matchers
+    │          compile.go
+    │          doc.go
+    │          match.go
+    │          matchers.go
+    │          matchers_types.go
+    │          match_test.go
+    │          validate.go
+    │          validate_test.go
+    │          
+    ├─output
+    │      doc.go
+    │      file_output_writer.go
+    │      format_json.go
+    │      format_screen.go
+    │      output.go
+    │      output_test.go
+    │      
+    ├─parsers
+    │      parser.go
+    │      parser_test.go
+    │      workflow_loader.go
+    │      
+    ├─progress
+    │      doc.go
+    │      progress.go
+    │      
+    ├─projectfile
+    │      httputil.go
+    │      project.go
+    │      
+    ├─protocols
+    │  │  protocols.go
+    │  │  
+    │  ├─common
+    │  │  ├─automaticscan
+    │  │  │      automaticscan.go
+    │  │  │      automaticscan_test.go
+    │  │  │      doc.go
+    │  │  │      
+    │  │  ├─compare
+    │  │  │      compare.go
+    │  │  │      
+    │  │  ├─contextargs
+    │  │  │      args.go
+    │  │  │      contextargs.go
+    │  │  │      doc.go
+    │  │  │      
+    │  │  ├─executer
+    │  │  │      executer.go
+    │  │  │      
+    │  │  ├─expressions
+    │  │  │      expressions.go
+    │  │  │      expressions_test.go
+    │  │  │      variables.go
+    │  │  │      variables_test.go
+    │  │  │      
+    │  │  ├─generators
+    │  │  │      attack_types.go
+    │  │  │      env.go
+    │  │  │      generators.go
+    │  │  │      generators_test.go
+    │  │  │      load.go
+    │  │  │      maps.go
+    │  │  │      maps_test.go
+    │  │  │      options.go
+    │  │  │      slice.go
+    │  │  │      validate.go
+    │  │  │      
+    │  │  ├─helpers
+    │  │  │  ├─deserialization
+    │  │  │  │  │  deserialization.go
+    │  │  │  │  │  helpers.go
+    │  │  │  │  │  java.go
+    │  │  │  │  │  
+    │  │  │  │  └─testdata
+    │  │  │  │          Deserialize.java
+    │  │  │  │          README.md
+    │  │  │  │          ValueObject.java
+    │  │  │  │          
+    │  │  │  ├─eventcreator
+    │  │  │  │      eventcreator.go
+    │  │  │  │      
+    │  │  │  ├─responsehighlighter
+    │  │  │  │      hexdump.go
+    │  │  │  │      response_highlighter.go
+    │  │  │  │      response_highlighter_test.go
+    │  │  │  │      
+    │  │  │  └─writer
+    │  │  │          writer.go
+    │  │  │          
+    │  │  ├─hosterrorscache
+    │  │  │      hosterrorscache.go
+    │  │  │      hosterrorscache_test.go
+    │  │  │      
+    │  │  ├─interactsh
+    │  │  │      interactsh.go
+    │  │  │      
+    │  │  ├─marker
+    │  │  │      marker.go
+    │  │  │      
+    │  │  ├─protocolinit
+    │  │  │      init.go
+    │  │  │      
+    │  │  ├─protocolstate
+    │  │  │      state.go
+    │  │  │      
+    │  │  ├─randomip
+    │  │  │      randomip.go
+    │  │  │      randomip_test.go
+    │  │  │      
+    │  │  ├─replacer
+    │  │  │      replacer.go
+    │  │  │      replacer_test.go
+    │  │  │      
+    │  │  ├─tostring
+    │  │  │      tostring.go
+    │  │  │      
+    │  │  ├─utils
+    │  │  │  ├─excludematchers
+    │  │  │  │      excludematchers.go
+    │  │  │  │      excludematchers_test.go
+    │  │  │  │      
+    │  │  │  └─vardump
+    │  │  │          dump.go
+    │  │  │          
+    │  │  └─variables
+    │  │          variables.go
+    │  │          variables_test.go
+    │  │          
+    │  ├─dns
+    │  │  │  dns.go
+    │  │  │  dns_test.go
+    │  │  │  dns_types.go
+    │  │  │  operators.go
+    │  │  │  operators_test.go
+    │  │  │  request.go
+    │  │  │  request_test.go
+    │  │  │  
+    │  │  └─dnsclientpool
+    │  │          clientpool.go
+    │  │          
+    │  ├─file
+    │  │      file.go
+    │  │      find.go
+    │  │      find_test.go
+    │  │      operators.go
+    │  │      operators_test.go
+    │  │      request.go
+    │  │      request_test.go
+    │  │      
+    │  ├─headless
+    │  │  │  headless.go
+    │  │  │  operators.go
+    │  │  │  operators_test.go
+    │  │  │  request.go
+    │  │  │  
+    │  │  └─engine
+    │  │          action.go
+    │  │          action_types.go
+    │  │          engine.go
+    │  │          http_client.go
+    │  │          instance.go
+    │  │          page.go
+    │  │          page_actions.go
+    │  │          page_actions_test.go
+    │  │          rules.go
+    │  │          util.go
+    │  │          
+    │  ├─http
+    │  │  │  build_request.go
+    │  │  │  build_request_test.go
+    │  │  │  cluster.go
+    │  │  │  cluster_test.go
+    │  │  │  http.go
+    │  │  │  http_method_types.go
+    │  │  │  http_test.go
+    │  │  │  operators.go
+    │  │  │  operators_test.go
+    │  │  │  request.go
+    │  │  │  request_annotations.go
+    │  │  │  request_annotations_test.go
+    │  │  │  request_generator.go
+    │  │  │  request_generator_test.go
+    │  │  │  request_test.go
+    │  │  │  signature.go
+    │  │  │  utils.go
+    │  │  │  validate.go
+    │  │  │  
+    │  │  ├─httpclientpool
+    │  │  │      clientpool.go
+    │  │  │      
+    │  │  ├─race
+    │  │  │      syncedreadcloser.go
+    │  │  │      
+    │  │  ├─raw
+    │  │  │      doc.go
+    │  │  │      raw.go
+    │  │  │      raw_test.go
+    │  │  │      
+    │  │  ├─signer
+    │  │  │      aws.go
+    │  │  │      signer.go
+    │  │  │      
+    │  │  └─signerpool
+    │  │          signerpool.go
+    │  │          
+    │  ├─network
+    │  │  │  network.go
+    │  │  │  network_input_types.go
+    │  │  │  network_test.go
+    │  │  │  operators.go
+    │  │  │  operators_test.go
+    │  │  │  request.go
+    │  │  │  request_test.go
+    │  │  │  
+    │  │  └─networkclientpool
+    │  │          clientpool.go
+    │  │          
+    │  ├─offlinehttp
+    │  │      find.go
+    │  │      find_test.go
+    │  │      offlinehttp.go
+    │  │      operators.go
+    │  │      operators_test.go
+    │  │      read_response.go
+    │  │      read_response_test.go
+    │  │      request.go
+    │  │      
+    │  ├─ssl
+    │  │      ssl.go
+    │  │      ssl_test.go
+    │  │      
+    │  ├─utils
+    │  │      utils.go
+    │  │      
+    │  ├─websocket
+    │  │      websocket.go
+    │  │      
+    │  └─whois
+    │          whois.go
+    │          
+    ├─reporting
+    │  │  reporting.go
+    │  │  
+    │  ├─dedupe
+    │  │      dedupe.go
+    │  │      dedupe_test.go
+    │  │      
+    │  ├─exporters
+    │  │  ├─es
+    │  │  │      elasticsearch.go
+    │  │  │      
+    │  │  ├─markdown
+    │  │  │      markdown.go
+    │  │  │      
+    │  │  └─sarif
+    │  │          sarif.go
+    │  │          
+    │  ├─format
+    │  │      format.go
+    │  │      format_test.go
+    │  │      
+    │  └─trackers
+    │      ├─github
+    │      │      github.go
+    │      │      
+    │      ├─gitlab
+    │      │      gitlab.go
+    │      │      
+    │      └─jira
+    │              jira.go
+    │              
+    ├─templates
+    │  │  cluster.go
+    │  │  compile.go
+    │  │  doc.go
+    │  │  log.go
+    │  │  log_test.go
+    │  │  preprocessors.go
+    │  │  templates.go
+    │  │  templates_doc.go
+    │  │  templates_doc_examples.go
+    │  │  templates_test.go
+    │  │  workflows.go
+    │  │  
+    │  ├─cache
+    │  │      cache.go
+    │  │      cache_test.go
+    │  │      
+    │  └─types
+    │          types.go
+    │          
+    ├─testutils
+    │  │  integration.go
+    │  │  testutils.go
+    │  │  
+    │  └─testheadless
+    │          headless_local.go
+    │          headless_runtime.go
+    │          
+    ├─types
+    │      interfaces.go
+    │      proxy.go
+    │      resume.go
+    │      types.go
+    │      
+    ├─utils
+    │  │  insertion_ordered_map.go
+    │  │  insertion_ordered_map_test.go
+    │  │  template_path.go
+    │  │  utils.go
+    │  │  utils_test.go
+    │  │  
+    │  ├─monitor
+    │  │      monitor.go
+    │  │      monitor_test.go
+    │  │      
+    │  ├─ratelimit
+    │  │      ratelimit.go
+    │  │      ratelimit_test.go
+    │  │      
+    │  ├─stats
+    │  │      doc.go
+    │  │      stats.go
+    │  │      
+    │  └─yaml
+    │          yaml_decode_wrapper.go
+    │          
+    └─workflows
+            doc.go
+            workflows.go
+            workflows_test.go
+```
+
+## 02-官方包库
 
 - [ ] [archive/tar](https://pkg.go.dev/archive/tar)
 - [ ] [archive/zip](https://pkg.go.dev/archive/zip)
@@ -132,7 +599,7 @@
 - [ ] [unicode/utf8](https://pkg.go.dev/unicode/utf8)
 - [ ] [unsafe](https://pkg.go.dev/unsafe)
 
-## 02-第三方库
+## 03-第三方库
 
 - [ ] https://github.com/alecthomas/jsonschema | 从 Go 类型生成 JSON 模式
 - [ ] https://github.com/andygrunwald/go-jira
@@ -371,7 +838,7 @@
 - [ ] github.com/valyala/fasttemplate | Go的简单快速模板引擎
 - [ ] github.com/xanzy/go-gitlab | 一个GitLab API客户端
 
-## 03-开发设计
+## 04-开发设计
 
 本部分尽可能的列举出nuclei开发中的一些设计模式、使用到的Go语言技术等。
 
@@ -379,13 +846,11 @@
 - [ ] 函数方法
 - [ ] 并发协程
 
-## 04-代码分析
-
 ## 05-不足之处
 
 - Poc未打包到可执行程序中
 - UA存在规则特征
-- 代码较多
+  - 代码较多
 
 ## 06-二开计划
 
