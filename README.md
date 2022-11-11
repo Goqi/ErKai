@@ -2,22 +2,22 @@
 
 本项目计划寻找100个优秀的开源安全项目代码深入分析学习后进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Golang！二开只会新增功能，不会删减功能。代码可能会有很大的变动，也可能变动只是很小。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年11月11日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2022年11月12日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
 - [**Erfscan**](https://github.com/Goqi/Erfscan)：[fscan](https://github.com/Goqi/ErKai/tree/main/0x01/fscan)@[shadow1ng](https://github.com/shadow1ng/fscan)#一款内网综合漏洞扫描工具
 - [**Erafrog**](https://github.com/Goqi/Erafrog)：[afrog](https://github.com/Goqi/ErKai/tree/main/0x01/afrog)@[zan8in](https://github.com/zan8in/afrog)#性能卓越快速稳定PoC 可定制化的漏扫
 - [**Ernuclei**](https://github.com/Goqi/Ernuclei)：[nuclei](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei)@[projectdiscovery](https://github.com/projectdiscovery/nuclei)#基于模板的漏洞扫描工具
-- [**Erscaninfo**](https://github.com/Goqi/Erscaninfo)：[scaninfo](https://github.com/Goqi/ErKai/tree/main/0x01/scaninfo)@[redtoolskobe](https://github.com/redtoolskobe/scaninfo)#红队内外网打点扫描器
+- [**Erffuf**](https://github.com/Goqi/Erffuf)：[ffuf](https://github.com/Goqi/ErKai/tree/main/0x01/ffuf)@[joohoi](https://github.com/ffuf/ffuf)#用Go语言编写的快速进行模糊测试工具
+- [**Erkscan**](https://github.com/Goqi/Erkscan)：[kscan](https://github.com/Goqi/ErKai/tree/main/0x01/kscan)@[lcvvvv](https://github.com/lcvvvv/kscan)#一款轻量级的资产发现和漏洞扫描工具
 - [**ErYasso**](https://github.com/Goqi/ErYasso)：[Yasso](https://github.com/Goqi/ErKai/tree/main/0x01/Yasso)@[sairson](https://github.com/sairson/Yasso)#强大的内网渗透辅助工具集
-- [**Erkscan**](https://github.com/Goqi/Erkscan)：[kscan](https://github.com/Goqi/ErKai/tree/main/0x01/kscan)@[lcvvvv](https://github.com/lcvvvv/kscan)#一款轻量级的资产发现工具
+- [**Erscaninfo**](https://github.com/Goqi/Erscaninfo)：[scaninfo](https://github.com/Goqi/ErKai/tree/main/0x01/scaninfo)@[redtoolskobe](https://github.com/redtoolskobe/scaninfo)#红队内外网打点扫描器
 - [**ErTaichi**](https://github.com/Goqi/ErTaichi)：[Taichi](https://github.com/Goqi/ErKai/tree/main/0x01/Taichi)@[sulab999](https://github.com/sulab999/Taichi)#Go语言实现的交互式渗透测试框架
 - [**Erscan4all**](https://github.com/Goqi/Erscan4all)：[scan4all](https://github.com/Goqi/ErKai/tree/main/0x01/scan4all)@[hktalent](https://github.com/hktalent/scan4all)#漏洞扫描工具的集成
 - [gopoc](https://github.com/Goqi/ErKai/tree/main/0x01/gopoc)@[jjf012](https://github.com/jjf012/gopoc)#重现了xray的poc检测功能
 - [httpx](https://github.com/Goqi/ErKai/tree/main/0x01/httpx)@[projectdiscovery](https://github.com/projectdiscovery/httpx)#快速且多功能的HTTP工具
 - [naabu](https://github.com/Goqi/ErKai/tree/main/0x01/naabu)@[projectdiscovery](https://github.com/projectdiscovery/naabu)#快速进行端口扫描的工具
-- [ffuf](https://github.com/Goqi/ErKai/tree/main/0x01/ffuf)@[joohoi](https://github.com/ffuf/ffuf)#用Go语言编写的快速进行模糊测试工具
 - [kunpeng](https://github.com/Goqi/ErKai/tree/main/0x01/kunpeng)@[opensec-cn](https://github.com/opensec-cn/kunpeng)#Golang编写的开源POC框架/库
 - [CDK](https://github.com/Goqi/ErKai/tree/main/0x01/CDK)@[opensec-cn](https://github.com/cdk-team/CDK)#简化 K8s/Docker和Containerd的安全测试
 - [cf](https://github.com/Goqi/ErKai/tree/main/0x01/cf)@[teamssix](https://github.com/teamssix/cf)#一个云环境利用框架
@@ -25,6 +25,8 @@
 ## 0x02-资产扫描
 
 - [**Ernetspy**](https://github.com/Goqi/Ernetspy)：[netspy](https://github.com/Goqi/ErKai/tree/main/0x01/netspy)@[netspy](https://github.com/netspy/netspy)#快速探测内网可达网段工具
+- [**ErEHole**](https://github.com/Goqi/ErEHole)：[EHole](https://github.com/Goqi/ErKai/tree/main/0x02/EHole)@[shihuang](https://github.com/EdgeSecurityTeam/EHole)#红队重点攻击系统指纹探测工具
+- [**ErTXPortMap**](https://github.com/Goqi/ErTXPortMap)：[TXPortMap](https://github.com/Goqi/ErKai/tree/main/0x02/TXPortMap)@[4dogs-cn](https://github.com/4dogs-cn/TXPortMap)#端口扫描和Banner识别
 - [**Erfofax**](https://github.com/Goqi/Erfofax)：[fofax](https://github.com/Goqi/ErKai/tree/main/0x02/fofax)@[xiecat](https://github.com/xiecat/fofax)#fofaAPI查询信息收集探测工具
 - [Amass](https://github.com/Goqi/ErKai/tree/main/0x02/Amass)@[OWASP](https://github.com/OWASP/Amass)#深入的攻击面映射和资产发现工具
 - [subfinder](https://github.com/Goqi/ErKai/tree/main/0x02/subfinder)@[projectdiscovery](https://github.com/projectdiscovery/subfinder)#一个子域发现工具
