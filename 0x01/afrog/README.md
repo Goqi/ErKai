@@ -2,7 +2,7 @@
 
 本文将从代码层面深入分析afrog项目。afrog是zan8in开发的一款性能卓越、快速稳定、PoC 可定制的漏洞扫描工具，PoC 包含 CVE、CNVD、默认口令、信息泄露、指纹识别、未授权访问、任意文件读取、命令执行等多种漏洞类型，帮助网络安全从业者快速验证并及时修复漏洞。。
 
-本文创建于2022年11月11日，最近的一次更新时间为2022年11月11日。
+本文创建于2022年11月11日，最近的一次更新时间为2022年11月12日。
 
 - [01-项目结构]()
 - [02-官方包库]()
@@ -12,6 +12,107 @@
 - [06-二开计划]()
 
 ## 01-项目结构
+
+```
+├─cmd
+│  └─afrog
+│          main.go
+│      
+├─internal
+│  └─runner
+│          banner.go
+│          runner.go
+│          
+├─pkg
+│  ├─catalog
+│  │      catalog.go
+│  │      find.go
+│  │      folder.go
+│  │      path.go
+│  │      
+│  ├─config
+│  │      config.go
+│  │      options.go
+│  │      
+│  ├─core
+│  │      cel.go
+│  │      celcompile.go
+│  │      celprogram.go
+│  │      checker.go
+│  │      engine.go
+│  │      excute.go
+│  │      result.go
+│  │      workpool.go
+│  │      
+│  ├─errors
+│  │      errors.go
+│  │      
+│  ├─fingerprint
+│  │      fingerprint.go
+│  │      web_fingerprint_v3.json
+│  │      
+│  ├─gopoc
+│  │      gopoc.go
+│  │      memcache.go
+│  │      mongodb.go
+│  │      redis.go
+│  │      rsync.go
+│  │      tomcat.go
+│  │      zookeeper.go
+│  │      
+│  ├─html
+│  │      html.go
+│  │      
+│  ├─log
+│  │      color.go
+│  │      zap.go
+│  │      
+│  ├─poc
+│  │      poc.go
+│  │      
+│  ├─proto
+│  │      http.pb.go
+│  │      http.proto
+│  │      
+│  ├─protocols
+│  │  ├─http
+│  │  │      http.go
+│  │  │      
+│  │  └─raw
+│  │          http.go
+│  │          raw.go
+│  │          
+│  ├─scan
+│  │      cdn.go
+│  │      ips.go
+│  │      ports.go
+│  │      scan.go
+│  │      
+│  ├─targets
+│  │      targets.go
+│  │      
+│  ├─upgrade
+│  │      upgrade.go
+│  │      
+│  └─utils
+│          file.go
+│          iconhash.go
+│          rand.go
+│          severity.go
+│          stringslice.go
+│          syncfile.go
+│          targetLive.go
+│          tcp.go
+│          tips.go
+│          unzip.go
+│          utils.go
+│          version.go
+│          
+└─pocs
+    │  poc.go
+    │  
+    ├─afrog-pocs
+```
 
 ## 02-官方包库
 
