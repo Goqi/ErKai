@@ -8,13 +8,13 @@
 
 - [**Erfscan**](https://github.com/Goqi/Erfscan)：[fscan](https://github.com/Goqi/ErKai/tree/main/0x01/fscan)@[shadow1ng](https://github.com/shadow1ng/fscan)#一款内网综合漏洞扫描工具
 - [**Erafrog**](https://github.com/Goqi/Erafrog)：[afrog](https://github.com/Goqi/ErKai/tree/main/0x01/afrog)@[zan8in](https://github.com/zan8in/afrog)#性能卓越快速稳定PoC 可定制化的漏扫
+- [**Erkscan**](https://github.com/Goqi/Erkscan)：[kscan](https://github.com/Goqi/ErKai/tree/main/0x01/kscan)@[lcvvvv](https://github.com/lcvvvv/kscan)#一款轻量级的资产发现和漏洞扫描工具
+- [**ErYasso**](https://github.com/Goqi/ErYasso)：[Yasso](https://github.com/Goqi/ErKai/tree/main/0x01/Yasso)@[sairson](https://github.com/sairson/Yasso)#强大的内网渗透辅助工具集
+- [**Erscaninfo**](https://github.com/Goqi/Erscaninfo)：[scaninfo](https://github.com/Goqi/ErKai/tree/main/0x01/scaninfo)@[redtoolskobe](https://github.com/redtoolskobe/scaninfo)#红队内外网打点扫描器
 - [**Ernuclei**](https://github.com/Goqi/Ernuclei)：[nuclei](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei)@[projectdiscovery](https://github.com/projectdiscovery/nuclei)#基于模板的漏洞扫描工具
 - [**Erffuf**](https://github.com/Goqi/Erffuf)：[ffuf](https://github.com/Goqi/ErKai/tree/main/0x01/ffuf)@[joohoi](https://github.com/ffuf/ffuf)#用Go语言编写的快速进行模糊测试工具
 - [**Erjaeles**](https://github.com/Goqi/Erjaeles)：[jaeles](https://github.com/Goqi/ErKai/tree/main/0x01/jaeles)@[j3ssie](https://github.com/jaeles-project/jaeles)#自动化 Web 应用程序安全测试
 - [**Erosmedeus**](https://github.com/Goqi/Erosmedeus)：[osmedeus](https://github.com/Goqi/ErKai/tree/main/0x01/osmedeus)@[j3ssie](https://github.com/j3ssie/osmedeus)#自进攻性安全的工作流引擎
-- [**Erkscan**](https://github.com/Goqi/Erkscan)：[kscan](https://github.com/Goqi/ErKai/tree/main/0x01/kscan)@[lcvvvv](https://github.com/lcvvvv/kscan)#一款轻量级的资产发现和漏洞扫描工具
-- [**ErYasso**](https://github.com/Goqi/ErYasso)：[Yasso](https://github.com/Goqi/ErKai/tree/main/0x01/Yasso)@[sairson](https://github.com/sairson/Yasso)#强大的内网渗透辅助工具集
-- [**Erscaninfo**](https://github.com/Goqi/Erscaninfo)：[scaninfo](https://github.com/Goqi/ErKai/tree/main/0x01/scaninfo)@[redtoolskobe](https://github.com/redtoolskobe/scaninfo)#红队内外网打点扫描器
 - [**ErTaichi**](https://github.com/Goqi/ErTaichi)：[Taichi](https://github.com/Goqi/ErKai/tree/main/0x01/Taichi)@[sulab999](https://github.com/sulab999/Taichi)#Go语言实现的交互式渗透测试框架
 - [**Erscan4all**](https://github.com/Goqi/Erscan4all)：[scan4all](https://github.com/Goqi/ErKai/tree/main/0x01/scan4all)@[hktalent](https://github.com/hktalent/scan4all)#漏洞扫描工具的集成
 - [**ErLadonGo**](https://github.com/Goqi/ErLadonGo)：[LadonGo](https://github.com/Goqi/ErKai/tree/main/0x01/LadonGo)@[k8gege](https://github.com/k8gege/LadonGo)#全平台渗透扫描器框架
@@ -47,6 +47,7 @@
 - [**Ermerlin**](https://github.com/Goqi/Ermerlin)：[merlin](https://github.com/Goqi/ErKai/tree/main/0x03/merlin)@[Ne0nd0g](https://github.com/Ne0nd0g/merlin)#HTTP命令和控制服务器
 - [**ErCHAOS**](https://github.com/Goqi/ErCHAOS)：[CHAOS](https://github.com/Goqi/ErKai/tree/main/0x03/CHAOS)@[tiagorlampert](https://github.com/tiagorlampert/CHAOS)#免费的开源远程管理工具
 - [**Ergost**](https://github.com/Goqi/Ergost)：[gost](https://github.com/Goqi/ErKai/tree/main/0x03/gost)@[ginuerzh](https://github.com/ginuerzh/gost)#一个用Go语言编写的简单隧道
+- https://github.com/gowsp/wsp
 
 ## 0x04-病毒免杀
 
