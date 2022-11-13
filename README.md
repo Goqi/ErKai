@@ -14,17 +14,17 @@
 - [**Ernuclei**](https://github.com/Goqi/Ernuclei)：[nuclei](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei)@[projectdiscovery](https://github.com/projectdiscovery/nuclei)#基于模板的漏洞扫描工具
 - [**Erffuf**](https://github.com/Goqi/Erffuf)：[ffuf](https://github.com/Goqi/ErKai/tree/main/0x01/ffuf)@[joohoi](https://github.com/ffuf/ffuf)#用Go语言编写的快速进行模糊测试工具
 - [**Erjaeles**](https://github.com/Goqi/Erjaeles)：[jaeles](https://github.com/Goqi/ErKai/tree/main/0x01/jaeles)@[j3ssie](https://github.com/jaeles-project/jaeles)#自动化 Web 应用程序安全测试
-- [**Erosmedeus**](https://github.com/Goqi/Erosmedeus)：[osmedeus](https://github.com/Goqi/ErKai/tree/main/0x01/osmedeus)@[j3ssie](https://github.com/j3ssie/osmedeus)#自进攻性安全的工作流引擎
-- [**ErTaichi**](https://github.com/Goqi/ErTaichi)：[Taichi](https://github.com/Goqi/ErKai/tree/main/0x01/Taichi)@[sulab999](https://github.com/sulab999/Taichi)#Go语言实现的交互式渗透测试框架
 - [**Erscan4all**](https://github.com/Goqi/Erscan4all)：[scan4all](https://github.com/Goqi/ErKai/tree/main/0x01/scan4all)@[hktalent](https://github.com/hktalent/scan4all)#漏洞扫描工具的集成
 - [**ErLadonGo**](https://github.com/Goqi/ErLadonGo)：[LadonGo](https://github.com/Goqi/ErKai/tree/main/0x01/LadonGo)@[k8gege](https://github.com/k8gege/LadonGo)#全平台渗透扫描器框架
-- [gopoc](https://github.com/Goqi/ErKai/tree/main/0x01/gopoc)@[jjf012](https://github.com/jjf012/gopoc)#重现了xray的poc检测功能
+- [**Ergopoc**](https://github.com/Goqi/Ergopoc)：[gopoc](https://github.com/Goqi/ErKai/tree/main/0x01/gopoc)@[jjf012](https://github.com/jjf012/gopoc)#重现了xray的poc检测功能
+- [**ErTaichi**](https://github.com/Goqi/ErTaichi)：[Taichi](https://github.com/Goqi/ErKai/tree/main/0x01/Taichi)@[sulab999](https://github.com/sulab999/Taichi)#Go语言实现的交互式渗透测试框架
 - [httpx](https://github.com/Goqi/ErKai/tree/main/0x01/httpx)@[projectdiscovery](https://github.com/projectdiscovery/httpx)#快速且多功能的HTTP工具
 - [naabu](https://github.com/Goqi/ErKai/tree/main/0x01/naabu)@[projectdiscovery](https://github.com/projectdiscovery/naabu)#快速进行端口扫描的工具
 - [kunpeng](https://github.com/Goqi/ErKai/tree/main/0x01/kunpeng)@[opensec-cn](https://github.com/opensec-cn/kunpeng)#Golang编写的开源POC框架/库
 - [CDK](https://github.com/Goqi/ErKai/tree/main/0x01/CDK)@[opensec-cn](https://github.com/cdk-team/CDK)#简化 K8s/Docker和Containerd的安全测试
 - [cf](https://github.com/Goqi/ErKai/tree/main/0x01/cf)@[teamssix](https://github.com/teamssix/cf)#一个云环境利用框架
 - [zgrab2](https://github.com/Goqi/ErKai/tree/main/0x01/zgrab2)@[zmap](https://github.com/zmap/zgrab2)#快速Go 应用程序扫描仪
+- [**Erosmedeus**](https://github.com/Goqi/Erosmedeus)：[osmedeus](https://github.com/Goqi/ErKai/tree/main/0x01/osmedeus)@[j3ssie](https://github.com/j3ssie/osmedeus)#自进攻性安全的工作流引擎
 
 ## 0x02-资产扫描
 
@@ -32,10 +32,10 @@
 - [**ErEHole**](https://github.com/Goqi/ErEHole)：[EHole](https://github.com/Goqi/ErKai/tree/main/0x02/EHole)@[shihuang](https://github.com/EdgeSecurityTeam/EHole)#红队重点攻击系统指纹探测工具
 - [**ErTXPortMap**](https://github.com/Goqi/ErTXPortMap)：[TXPortMap](https://github.com/Goqi/ErKai/tree/main/0x02/TXPortMap)@[4dogs-cn](https://github.com/4dogs-cn/TXPortMap)#端口扫描和Banner识别
 - [**Erfofax**](https://github.com/Goqi/Erfofax)：[fofax](https://github.com/Goqi/ErKai/tree/main/0x02/fofax)@[xiecat](https://github.com/xiecat/fofax)#fofaAPI查询信息收集探测工具
+- [**Ergobuster**](https://github.com/Goqi/Ergobuster)：[gobuster](https://github.com/Goqi/ErKai/tree/main/0x01/gobuster)@[OJ](https://github.com/OJ/gobuster)#路径扫描和域名爆破工具
 - [Amass](https://github.com/Goqi/ErKai/tree/main/0x02/Amass)@[OWASP](https://github.com/OWASP/Amass)#深入的攻击面映射和资产发现工具
 - [subfinder](https://github.com/Goqi/ErKai/tree/main/0x02/subfinder)@[projectdiscovery](https://github.com/projectdiscovery/subfinder)#一个子域发现工具
 - [ksubdomain](https://github.com/Goqi/ErKai/tree/main/0x02/ksubdomain)@[boy-hack](https://github.com/boy-hack/ksubdomain)#子域枚举工具
-- [gobuster](https://github.com/Goqi/ErKai/tree/main/0x01/gobuster)@[OJ](https://github.com/OJ/gobuster)#路径扫描和域名爆破工具
 
 ## 0x03-远控隧道
 
