@@ -2,7 +2,7 @@
 
 本项目计划寻找100个优秀的开源安全项目代码深入分析学习后进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Golang！作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年11月12日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2022年11月13日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
@@ -25,6 +25,11 @@
 - [cf](https://github.com/Goqi/ErKai/tree/main/0x01/cf)@[teamssix](https://github.com/teamssix/cf)#一个云环境利用框架
 - [zgrab2](https://github.com/Goqi/ErKai/tree/main/0x01/zgrab2)@[zmap](https://github.com/zmap/zgrab2)#快速Go 应用程序扫描仪
 - [**Erosmedeus**](https://github.com/Goqi/Erosmedeus)：[osmedeus](https://github.com/Goqi/ErKai/tree/main/0x01/osmedeus)@[j3ssie](https://github.com/j3ssie/osmedeus)#自进攻性安全的工作流引擎
+- https://github.com/future-architect/vuls
+- https://github.com/hahwul/dalfox
+- https://github.com/chushuai/wscan
+- https://github.com/RedTeamPentesting/monsoon
+- https://github.com/netxfly/x-crack
 
 ## 0x02-资产扫描
 
@@ -33,7 +38,7 @@
 - [**ErTXPortMap**](https://github.com/Goqi/ErTXPortMap)：[TXPortMap](https://github.com/Goqi/ErKai/tree/main/0x02/TXPortMap)@[4dogs-cn](https://github.com/4dogs-cn/TXPortMap)#端口扫描和Banner识别
 - [**Erfofax**](https://github.com/Goqi/Erfofax)：[fofax](https://github.com/Goqi/ErKai/tree/main/0x02/fofax)@[xiecat](https://github.com/xiecat/fofax)#fofaAPI查询信息收集探测工具
 - [**Ergobuster**](https://github.com/Goqi/Ergobuster)：[gobuster](https://github.com/Goqi/ErKai/tree/main/0x01/gobuster)@[OJ](https://github.com/OJ/gobuster)#路径扫描和域名爆破工具
-- [Amass](https://github.com/Goqi/ErKai/tree/main/0x02/Amass)@[OWASP](https://github.com/OWASP/Amass)#深入的攻击面映射和资产发现工具
+- [**ErAmass**](https://github.com/Goqi/ErAmass)：[Amass](https://github.com/Goqi/ErKai/tree/main/0x02/Amass)@[OWASP](https://github.com/OWASP/Amass)#深入的攻击面映射和资产发现工具
 - [subfinder](https://github.com/Goqi/ErKai/tree/main/0x02/subfinder)@[projectdiscovery](https://github.com/projectdiscovery/subfinder)#一个子域发现工具
 - [ksubdomain](https://github.com/Goqi/ErKai/tree/main/0x02/ksubdomain)@[boy-hack](https://github.com/boy-hack/ksubdomain)#子域枚举工具
 
@@ -48,6 +53,7 @@
 - [**ErCHAOS**](https://github.com/Goqi/ErCHAOS)：[CHAOS](https://github.com/Goqi/ErKai/tree/main/0x03/CHAOS)@[tiagorlampert](https://github.com/tiagorlampert/CHAOS)#免费的开源远程管理工具
 - [**Ergost**](https://github.com/Goqi/Ergost)：[gost](https://github.com/Goqi/ErKai/tree/main/0x03/gost)@[ginuerzh](https://github.com/ginuerzh/gost)#一个用Go语言编写的简单隧道
 - https://github.com/gowsp/wsp
+- https://github.com/s0md3v/Smap
 
 ## 0x04-病毒免杀
 
@@ -61,6 +67,7 @@
 - [linglong](https://github.com/Goqi/ErKai/tree/main/0x05/linglong)@[awake1t](https://github.com/awake1t/linglong)#一款甲方资产巡航扫描系统
 - [pocassist](https://github.com/Goqi/ErKai/tree/main/0x05/pocassist)@[jweny](https://github.com/jweny/pocassist)#一款全新的开源漏洞测试框架
 - [eDefender](https://github.com/Goqi/ErKai/tree/main/0x05/eDefender)@[cjphaha](https://github.com/cjphaha/eDefender)#常见安全漏洞检测工具
+- https://github.com/dstotijn/hetty
 
 ## 0x06-被动扫描
 
@@ -76,6 +83,8 @@
 ## 0x08-钓鱼蜜罐
 
 - https://github.com/gophish/gophish
+- https://github.com/C4o/Juggler
+- https://github.com/honeytrap/honeytrap
 
 ## 0x09-移动安全
 
@@ -83,3 +92,8 @@
 - https://github.com/blacktop/ipsw
 
 ## 0x10-其他项目
+
+- https://github.com/moonD4rk/HackBrowserData
+- https://github.com/murphysecurity/murphysec
+- https://github.com/liamg/traitor
+- https://github.com/burrowers/garble
