@@ -285,7 +285,7 @@
 - [ ] https://github.com/mattn/go-runewidth
 - [ ] https://github.com/modern-go/concurrent
 - [ ] https://github.com/modern-go/reflect2
-- [ ] https://github.com/projectdiscovery/cdncheck
+- [ ] https://github.com/projectdiscovery/cdncheck | 检查给定 IP 是否属于已知 CDN 范围
 - [ ] https://github.com/rivo/uniseg
 - [ ] https://github.com/spf13/cobra
 - [ ] https://github.com/spf13/pflag
@@ -308,9 +308,9 @@
 本部分尽可能的列举出Yasso开发中的一些设计模式、使用到的Go语言技术等。
 
 - [ ] 数据类型
-
 - [ ] 函数方法
 - [ ] 并发协程
+  - 本程序大量使用了sync中的同步原语
 
 ## 05-不足之处
 
