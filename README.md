@@ -71,8 +71,15 @@
 
 - [**Erinsider**](https://github.com/Goqi/Erinsider)：[insider](https://github.com/Goqi/ErKai/tree/main/0x07/insider)@[insidersec](https://github.com/insidersec/insider)#SAST专注于挖掘OWASPTop10漏洞
 - [**Errinjani**](https://github.com/Goqi/Errinjani)：[rinjani](https://github.com/Goqi/ErKai/tree/main/0x07/rinjani)@[wahyuhadi](https://github.com/wahyuhadi/rinjani)#简单的 SAST 工具
+- https://github.com/securego/gosec
 
-## 0x08-移动安全
+## 0x08-钓鱼蜜罐
+
+- https://github.com/gophish/gophish
+
+## 0x09-移动安全
 
 - https://github.com/ndelphit/apkurlgrep
 - https://github.com/blacktop/ipsw
+
+## 0x10-其他项目
