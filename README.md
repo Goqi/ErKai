@@ -19,7 +19,8 @@
 - [**Ergopoc**](https://github.com/Goqi/Ergopoc)：[gopoc](https://github.com/Goqi/ErKai/tree/main/0x01/gopoc)@[jjf012](https://github.com/jjf012/gopoc)#重现了xray的poc检测功能
 - [**Erwscan**](https://github.com/Goqi/Erwscan)：[wscan](https://github.com/Goqi/ErKai/tree/main/0x01/wscan)@[chushuai](https://github.com/chushuai/wscan)#一款开源的安全评估工具
 - [**ErTaichi**](https://github.com/Goqi/ErTaichi)：[Taichi](https://github.com/Goqi/ErKai/tree/main/0x01/Taichi)@[sulab999](https://github.com/sulab999/Taichi)#Go语言实现的交互式渗透测试框架
-- [httpx](https://github.com/Goqi/ErKai/tree/main/0x01/httpx)@[projectdiscovery](https://github.com/projectdiscovery/httpx)#快速且多功能的HTTP工具
+- [**Erhttpx**](https://github.com/Goqi/Erhttpx)：[httpx](https://github.com/Goqi/ErKai/tree/main/0x01/httpx)@[projectdiscovery](https://github.com/projectdiscovery/httpx)#快速且多功能的HTTP工具
+- [**Erfingerprintx**](https://github.com/Goqi/Erfingerprintx)：[fingerprintx](https://github.com/Goqi/ErKai/tree/main/0x01/fingerprintx)@[praetorian-inc](https://github.com/praetorian-inc/fingerprintx)#一个端口指纹识别工具
 - [naabu](https://github.com/Goqi/ErKai/tree/main/0x01/naabu)@[projectdiscovery](https://github.com/projectdiscovery/naabu)#快速进行端口扫描的工具
 - [kunpeng](https://github.com/Goqi/ErKai/tree/main/0x01/kunpeng)@[opensec-cn](https://github.com/opensec-cn/kunpeng)#Golang编写的开源POC框架/库
 - [CDK](https://github.com/Goqi/ErKai/tree/main/0x01/CDK)@[opensec-cn](https://github.com/cdk-team/CDK)#简化 K8s/Docker和Containerd的安全测试
@@ -78,6 +79,7 @@
 
 - [**Erinsider**](https://github.com/Goqi/Erinsider)：[insider](https://github.com/Goqi/ErKai/tree/main/0x07/insider)@[insidersec](https://github.com/insidersec/insider)#SAST专注于挖掘OWASPTop10漏洞
 - [**Errinjani**](https://github.com/Goqi/Errinjani)：[rinjani](https://github.com/Goqi/ErKai/tree/main/0x07/rinjani)@[wahyuhadi](https://github.com/wahyuhadi/rinjani)#简单的 SAST 工具
+- [**Ergokart**](https://github.com/Goqi/Ergokart)：[gokart](https://github.com/Goqi/ErKai/tree/main/0x07/gokart)@[praetorian-inc](https://github.com/praetorian-inc/gokart)#Go代码的静态分析工具
 - https://github.com/securego/gosec
 
 ## 0x08-钓鱼蜜罐
