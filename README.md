@@ -2,7 +2,7 @@
 
 本项目计划寻找100个优秀的开源安全项目代码深入分析学习后进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Golang！作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年11月14日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2022年11月15日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
@@ -17,7 +17,9 @@
 - [**Erscan4all**](https://github.com/Goqi/Erscan4all)：[scan4all](https://github.com/Goqi/ErKai/tree/main/0x01/scan4all)@[hktalent](https://github.com/hktalent/scan4all)#漏洞扫描工具的集成
 - [**ErLadonGo**](https://github.com/Goqi/ErLadonGo)：[LadonGo](https://github.com/Goqi/ErKai/tree/main/0x01/LadonGo)@[k8gege](https://github.com/k8gege/LadonGo)#全平台渗透扫描器框架
 - [**Ergopoc**](https://github.com/Goqi/Ergopoc)：[gopoc](https://github.com/Goqi/ErKai/tree/main/0x01/gopoc)@[jjf012](https://github.com/jjf012/gopoc)#重现了xray的poc检测功能
+- [**Ervscan**](https://github.com/Goqi/Ervscan)：[vscan](https://github.com/Goqi/ErKai/tree/main/0x01/vscan)@[veo](https://github.com/veo/vscan)#开源轻量快速网站漏洞扫描工具
 - [**Erwscan**](https://github.com/Goqi/Erwscan)：[wscan](https://github.com/Goqi/ErKai/tree/main/0x01/wscan)@[chushuai](https://github.com/chushuai/wscan)#一款开源的安全评估工具
+- [**Ercube**](https://github.com/Goqi/Ercube)：[cube](https://github.com/Goqi/ErKai/tree/main/0x01/cube)@[JKme](https://github.com/JKme/cube)#开源轻量快速网站漏洞扫描工具
 - [**ErTaichi**](https://github.com/Goqi/ErTaichi)：[Taichi](https://github.com/Goqi/ErKai/tree/main/0x01/Taichi)@[sulab999](https://github.com/sulab999/Taichi)#Go语言实现的交互式渗透测试框架
 - [**Erhttpx**](https://github.com/Goqi/Erhttpx)：[httpx](https://github.com/Goqi/ErKai/tree/main/0x01/httpx)@[projectdiscovery](https://github.com/projectdiscovery/httpx)#快速且多功能的HTTP工具
 - [**Ernaabu**](https://github.com/Goqi/Ernaabu)：[naabu](https://github.com/Goqi/ErKai/tree/main/0x01/naabu)@[projectdiscovery](https://github.com/projectdiscovery/naabu)#快速进行端口扫描的工具
