@@ -2,7 +2,7 @@
 
 本项目计划寻找100个优秀的开源安全项目代码深入分析学习后进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Golang！作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年11月15日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2022年11月16日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
@@ -20,19 +20,19 @@
 - [**Ervscan**](https://github.com/Goqi/Ervscan)：[vscan](https://github.com/Goqi/ErKai/tree/main/0x01/vscan)@[veo](https://github.com/veo/vscan)#开源轻量快速网站漏洞扫描工具
 - [**Erwscan**](https://github.com/Goqi/Erwscan)：[wscan](https://github.com/Goqi/ErKai/tree/main/0x01/wscan)@[chushuai](https://github.com/chushuai/wscan)#一款开源的安全评估工具
 - [**Ercube**](https://github.com/Goqi/Ercube)：[cube](https://github.com/Goqi/ErKai/tree/main/0x01/cube)@[JKme](https://github.com/JKme/cube)#开源轻量快速网站漏洞扫描工具
+- [**Erxcrack**](https://github.com/Goqi/Erxcrack)：[x-crack](https://github.com/Goqi/ErKai/tree/main/0x01/x-crack)@[netxfly](https://github.com/netxfly/x-crack)#年轻人的第一款弱口令扫描器
 - [**ErTaichi**](https://github.com/Goqi/ErTaichi)：[Taichi](https://github.com/Goqi/ErKai/tree/main/0x01/Taichi)@[sulab999](https://github.com/sulab999/Taichi)#Go语言实现的交互式渗透测试框架
+- [**Erdalfox**](https://github.com/Goqi/Erdalfox)：[dalfox](https://github.com/Goqi/ErKai/tree/main/0x01/dalfox)@[hahwul](https://github.com/hahwul/dalfox)#强大的XSS扫描工具和参数分析器
 - [**Erhttpx**](https://github.com/Goqi/Erhttpx)：[httpx](https://github.com/Goqi/ErKai/tree/main/0x01/httpx)@[projectdiscovery](https://github.com/projectdiscovery/httpx)#快速且多功能的HTTP工具
 - [**Ernaabu**](https://github.com/Goqi/Ernaabu)：[naabu](https://github.com/Goqi/ErKai/tree/main/0x01/naabu)@[projectdiscovery](https://github.com/projectdiscovery/naabu)#快速进行端口扫描的工具
 - [**Erfingerprintx**](https://github.com/Goqi/Erfingerprintx)：[fingerprintx](https://github.com/Goqi/ErKai/tree/main/0x01/fingerprintx)@[praetorian-inc](https://github.com/praetorian-inc/fingerprintx)#一个端口指纹识别工具
+- [**Erzgrab2**](https://github.com/Goqi/Erzgrab2)：[zgrab2](https://github.com/Goqi/ErKai/tree/main/0x01/zgrab2)@[zmap](https://github.com/zmap/zgrab2)#快速Go 应用程序扫描仪
 - [kunpeng](https://github.com/Goqi/ErKai/tree/main/0x01/kunpeng)@[opensec-cn](https://github.com/opensec-cn/kunpeng)#Golang编写的开源POC框架/库
 - [CDK](https://github.com/Goqi/ErKai/tree/main/0x01/CDK)@[opensec-cn](https://github.com/cdk-team/CDK)#简化 K8s/Docker和Containerd的安全测试
 - [cf](https://github.com/Goqi/ErKai/tree/main/0x01/cf)@[teamssix](https://github.com/teamssix/cf)#一个云环境利用框架
-- [zgrab2](https://github.com/Goqi/ErKai/tree/main/0x01/zgrab2)@[zmap](https://github.com/zmap/zgrab2)#快速Go 应用程序扫描仪
 - [**Erosmedeus**](https://github.com/Goqi/Erosmedeus)：[osmedeus](https://github.com/Goqi/ErKai/tree/main/0x01/osmedeus)@[j3ssie](https://github.com/j3ssie/osmedeus)#自进攻性安全的工作流引擎
 - https://github.com/future-architect/vuls
-- https://github.com/hahwul/dalfox
 - https://github.com/RedTeamPentesting/monsoon
-- https://github.com/netxfly/x-crack
 - https://github.com/mumu0215/FlamiePaw
 - https://github.com/godspeedcurry/godscan
 
