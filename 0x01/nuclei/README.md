@@ -2,7 +2,7 @@
 
 本文将从代码层面深入分析nuclei项目。nuclei是projectdiscovery项目发布的一款基于简单 YAML 的 DSL 的快速且可定制化的漏洞扫描器。nuclei 可以基于模板向目标发送请求，从而实现零误报，并提供对大量主机的快速扫描。Nuclei 支持各种协议的扫描，包括 TCP、DNS、HTTP、SSL、文件、Whois、Websocket、Headless 等。
 
-本文创建于2021年3月14日，最近的一次更新时间为2022年11月11日。
+本文创建于2021年3月14日，最近的一次更新时间为2022年11月15日。
 
 - [01-项目结构]()
 - [02-官方包库]()
@@ -499,15 +499,6 @@
 - [ ] [crypto/ed25519](https://pkg.go.dev/crypto/ed25519)
 - [ ] [crypto/elliptic](https://pkg.go.dev/crypto/elliptic)
 - [ ] [crypto/hmac](https://pkg.go.dev/crypto/hmac)
-- [ ] [crypto/internal/boring](https://pkg.go.dev/crypto/internal/boring)
-- [ ] [crypto/internal/boring/bbig](https://pkg.go.dev/crypto/internal/boring/bbig)
-- [ ] [crypto/internal/boring/sig](https://pkg.go.dev/crypto/internal/boring/sig)
-- [ ] [crypto/internal/edwards25519](https://pkg.go.dev/crypto/internal/edwards25519)
-- [ ] [crypto/internal/edwards25519/field](https://pkg.go.dev/crypto/internal/edwards25519/field)
-- [ ] [crypto/internal/nistec](https://pkg.go.dev/crypto/internal/nistec)
-- [ ] [crypto/internal/nistec/fiat](https://pkg.go.dev/crypto/internal/nistec/fiat)
-- [ ] [crypto/internal/randutil](https://pkg.go.dev/crypto/internal/randutil)
-- [ ] [crypto/internal/subtle](https://pkg.go.dev/crypto/internal/subtle)
 - [ ] [crypto/md5](https://pkg.go.dev/crypto/md5)
 - [ ] [crypto/rand](https://pkg.go.dev/crypto/rand)
 - [ ] [crypto/rc4](https://pkg.go.dev/crypto/rc4)
@@ -715,7 +706,6 @@
 - [ ] https://github.com/projectdiscovery/cryptoutil
 - [ ] https://github.com/projectdiscovery/fastdialer/fastdialer
 - [ ] https://github.com/projectdiscovery/filekv
-- [ ] https://github.com/projectdiscovery/fileutil
 - [ ] https://github.com/projectdiscovery/fileutil
 - [ ] https://github.com/projectdiscovery/folderutil
 - [ ] https://github.com/projectdiscovery/goflags
