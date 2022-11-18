@@ -133,9 +133,6 @@
 - [ ] https://github.com/satori/go.uuid | Go 的 UUID 包
 - [ ] https://github.com/stacktitan/smb | Go 中的 SMB 库
 - [ ] https://golang.org/x/net/proxy | 支持多种协议来代理网络数据
-- [ ] https://golang.org/x/net/icmp
-- [ ] https://golang.org/x/crypto/ssh
-- [ ] https://golang.org/x/text/encoding/simplifiedchinese
 
 ## 04-开发设计
 

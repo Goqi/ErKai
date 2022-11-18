@@ -371,9 +371,9 @@
 
 ## 03-第三方库
 
-- [ ] https://github.com/inconshreveable/mousetrap
 - [ ] https://github.com/spf13/cobra
 - [ ] https://github.com/spf13/pflag
+- [ ] https://github.com/inconshreveable/mousetrap
 
 ## 04-开发设计
 

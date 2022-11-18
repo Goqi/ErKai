@@ -69,6 +69,7 @@
 
 ## 03-第三方库
 
+- [ ] https://github.com/urfave/cli | 命令控制
 - [ ] https://github.com/antlr/antlr4 | 功能强大的解析器生成器
 - [ ] https://github.com/cpuguy83/go-md2man | 将markdown转换为roff
 - [ ] https://github.com/fatih/colorr | 命令行彩色包装
@@ -81,7 +82,6 @@
 - [ ] https://github.com/russross/blackfriday | Go 的降价处理器
 - [ ] https://github.com/sirupsen/logrus | 日志包
 - [ ] https://github.com/thoas/go-funk | 个基于反射的现代 Go 库
-- [ ] https://github.com/urfave/cli | 命令控制
 - [ ] https://github.com/x-cray/logrus-prefixed-formatter | Logrus前缀日志格式化程序
 - [ ] https://github.com/xrash/smetrics | Go 编写的字符串度量库
 
