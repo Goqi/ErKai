@@ -2,7 +2,7 @@
 
 本文将从代码层面深入分析frp项目。frp是fatedier开发的一款快速反向代理工具，可以将NAT或防火墙后面的本地服务器暴露在互联网上。
 
-本文创建于2022年11月16日，最近的一次更新时间为2022年11月17日。
+本文创建于2022年11月16日，最近的一次更新时间为2022年11月18日。
 
 - [01-项目结构]()
 - [02-官方包库]()
@@ -284,6 +284,8 @@
 
 ## 03-第三方库
 
+- [ ] https://gopkg.in/ini.v1 | ini配置文件
+- [ ] https://github.com/spf13/cobra | 命令行参数
 - [ ] https://github.com/armon/go-socks5 | Golang 中的 SOCKS5 服务器
 - [ ] https://github.com/cespare/xxhash | 64 位 xxHash 算法 (XXH64) 的 Go 实现
 - [ ] https://github.com/coreos/go-oidc | Go OpenID Connect 客户端
@@ -296,8 +298,6 @@
 - [ ] https://github.com/matttproud/golang_protobuf_extensions | Protocol Buffer 功能扩展
 - [ ] https://github.com/pires/go-proxyproto| PROXY 协议版本 1 和 2的 Go 库实现
 - [ ] https://github.com/prometheus/client_golang | Prometheus 检测库
-- [ ] https://github.com/spf13/cobra | 命令行参数
-- [ ] https://gopkg.in/ini.v1 | ini配置文件
 - [ ] https://gopkg.in/square/go-jose.v2| 在 Go 中实现 JOSE 标准（JWE、JWS、JWT）
 
 ## 04-开发设计
@@ -305,7 +305,6 @@
 本部分尽可能的列举出frp开发中的一些设计模式、使用到的Go语言技术等。
 
 - [ ] 数据类型
-
 - [ ] 函数方法
 - [ ] 并发协程
 
