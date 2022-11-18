@@ -284,35 +284,19 @@
 
 ## 03-第三方库
 
-- [ ] https://github.com/armon/go-socks5
-- [ ] https://github.com/Azure/go-ntlmssp
-- [ ] https://github.com/beorn7/perks/quantile
+- [ ] https://github.com/armon/go-socks5 | Golang 中的 SOCKS5 服务器
 - [ ] https://github.com/cespare/xxhash | 64 位 xxHash 算法 (XXH64) 的 Go 实现
-- [ ] https://github.com/coreos/go-oidc
-- [ ] https://github.com/fatedier/beego
-- [ ] https://github.com/fatedier/golib
-- [ ] https://github.com/fatedier/kcp-go
-- [ ] https://github.com/golang/protobuf
-- [ ] https://github.com/golang/snappy
-- [ ] https://github.com/go-playground/locales
-- [ ] https://github.com/go-playground/universal-translator
-- [ ] https://github.com/go-playground/validator
+- [ ] https://github.com/coreos/go-oidc | Go OpenID Connect 客户端
+- [ ] https://github.com/fatedier/beego | 高性能Web 框架
+- [ ] https://github.com/fatedier/golib | 常见的Go包
+- [ ] https://github.com/fatedier/kcp-go | 可靠的UDP包
+- [ ] https://github.com/go-playground/validator | 包验证器
 - [ ] https://github.com/gorilla/mux | HTTP 路由器和 URL 匹配器
-- [ ] https://github.com/hashicorp/yamux
-- [ ] https://github.com/inconshreveable/mousetrap
-- [ ] https://github.com/klauspost/cpuid/v2
-- [ ] https://github.com/klauspost/reedsolomon
+- [ ] https://github.com/hashicorp/yamux | Golang连接复用库
 - [ ] https://github.com/matttproud/golang_protobuf_extensions | Protocol Buffer 功能扩展
 - [ ] https://github.com/pires/go-proxyproto| PROXY 协议版本 1 和 2的 Go 库实现
-- [ ] https://github.com/pquerna/cachecontrol
-- [ ] https://github.com/prometheus/client_golang
-- [ ] https://github.com/prometheus/client_model/go
-- [ ] https://github.com/prometheus/common
-- [ ] https://github.com/rodaine/table
+- [ ] https://github.com/prometheus/client_golang | Prometheus 检测库
 - [ ] https://github.com/spf13/cobra | 命令行参数
-- [ ] https://github.com/templexxx/cpufeat
-- [ ] https://github.com/templexxx/xor
-- [ ] https://github.com/tjfoc/gmsm/sm4pb
 - [ ] https://gopkg.in/ini.v1 | ini配置文件
 - [ ] https://gopkg.in/square/go-jose.v2| 在 Go 中实现 JOSE 标准（JWE、JWS、JWT）
 
@@ -326,6 +310,8 @@
 - [ ] 并发协程
 
 ## 05-不足之处
+
+- socks5第三方包年代比较久远
 
 ## 06-二开计划
 
