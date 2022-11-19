@@ -2,7 +2,7 @@
 
 本项目计划寻找100个优秀的开源安全项目代码深入分析学习后进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Golang！作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年11月16日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2022年11月19日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
@@ -20,6 +20,7 @@
 - [**Ervscan**](https://github.com/Goqi/Ervscan)：[vscan](https://github.com/Goqi/ErKai/tree/main/0x01/vscan)@[veo](https://github.com/veo/vscan)#开源轻量快速网站漏洞扫描工具
 - [**Erwscan**](https://github.com/Goqi/Erwscan)：[wscan](https://github.com/Goqi/ErKai/tree/main/0x01/wscan)@[chushuai](https://github.com/chushuai/wscan)#一款开源的安全评估工具
 - [**Ercube**](https://github.com/Goqi/Ercube)：[cube](https://github.com/Goqi/ErKai/tree/main/0x01/cube)@[JKme](https://github.com/JKme/cube)#开源轻量快速网站漏洞扫描工具
+- [**Ernacs**](https://github.com/Goqi/Ernacs)：[nacs](https://github.com/Goqi/ErKai/tree/main/0x01/nacs)@[u21h2](https://github.com/u21h2/nacs)#事件驱动的渗透测试扫描器
 - [**Erxcrack**](https://github.com/Goqi/Erxcrack)：[x-crack](https://github.com/Goqi/ErKai/tree/main/0x01/x-crack)@[netxfly](https://github.com/netxfly/x-crack)#年轻人的第一款弱口令扫描器
 - [**ErTaichi**](https://github.com/Goqi/ErTaichi)：[Taichi](https://github.com/Goqi/ErKai/tree/main/0x01/Taichi)@[sulab999](https://github.com/sulab999/Taichi)#Go语言实现的交互式渗透测试框架
 - [**Erdalfox**](https://github.com/Goqi/Erdalfox)：[dalfox](https://github.com/Goqi/ErKai/tree/main/0x01/dalfox)@[hahwul](https://github.com/hahwul/dalfox)#强大的XSS扫描工具和参数分析器
@@ -63,6 +64,7 @@
 - [subfinder](https://github.com/Goqi/ErKai/tree/main/0x03/subfinder)@[projectdiscovery](https://github.com/projectdiscovery/subfinder)#一个子域发现工具
 - [ksubdomain](https://github.com/Goqi/ErKai/tree/main/0x03/ksubdomain)@[boy-hack](https://github.com/boy-hack/ksubdomain)#子域枚举工具
 - https://github.com/ffffffff0x/ones
+- https://github.com/wgpsec/ENScan_GO
 
 ## 0x04-远控隧道
 
