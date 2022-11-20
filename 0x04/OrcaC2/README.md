@@ -12,10 +12,9 @@
 
 ## 01-第三方库
 
-- https://github.com/Goqi/ErOrcaC2/blob/main/Orca_Master/go.mod
-- https://github.com/Goqi/ErOrcaC2/blob/main/Orca_Puppet/go.mod
-- https://github.com/Goqi/ErOrcaC2/blob/main/Orca_Server/go.mod
-
+- [ ] https://github.com/Goqi/ErOrcaC2/blob/main/Orca_Master/go.mod
+- [ ] https://github.com/Goqi/ErOrcaC2/blob/main/Orca_Puppet/go.mod
+- [ ] https://github.com/Goqi/ErOrcaC2/blob/main/Orca_Server/go.mod
 - [ ] https://github.com/gorilla/websocket | Go 的快速、经过良好测试和广泛使用的 WebSocket 实现
 - [ ] https://github.com/Binject/debug | pkg/debug 的分支，增加了一些额外的功能
 - [ ] https://github.com/desertbit/closer | 一个简单的、线程安全的关闭器
