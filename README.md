@@ -61,13 +61,13 @@
 - [**Erfofax**](https://github.com/Goqi/Erfofax)：[fofax](https://github.com/Goqi/ErKai/tree/main/0x03/fofax)@[xiecat](https://github.com/xiecat/fofax)#fofaAPI查询信息收集探测工具
 - [**Ergobuster**](https://github.com/Goqi/Ergobuster)：[gobuster](https://github.com/Goqi/ErKai/tree/main/0x03/gobuster)@[OJ](https://github.com/OJ/gobuster)#路径扫描和域名爆破工具
 - [**ErAmass**](https://github.com/Goqi/ErAmass)：[Amass](https://github.com/Goqi/ErKai/tree/main/0x03/Amass)@[OWASP](https://github.com/OWASP/Amass)#深入的攻击面映射和资产发现工具
-- [subfinder](https://github.com/Goqi/ErKai/tree/main/0x03/subfinder)@[projectdiscovery](https://github.com/projectdiscovery/subfinder)#一个子域发现工具
-- [ksubdomain](https://github.com/Goqi/ErKai/tree/main/0x03/ksubdomain)@[boy-hack](https://github.com/boy-hack/ksubdomain)#子域枚举工具
+- [**Ersubfinder**](https://github.com/Goqi/Ersubfinder)：[subfinder](https://github.com/Goqi/ErKai/tree/main/0x03/subfinder)@[projectdiscovery](https://github.com/projectdiscovery/subfinder)#一个子域发现工具
+- [**Eruncover**](https://github.com/Goqi/Eruncover)：[subfinder](https://github.com/Goqi/ErKai/tree/main/0x03/uncover)@[projectdiscovery](https://github.com/projectdiscovery/uncover)#使用搜索引擎发现主机
+- [**Erksubdomain**](https://github.com/Goqi/Erksubdomain)：[ksubdomain](https://github.com/Goqi/ErKai/tree/main/0x03/ksubdomain)@[boy-hack](https://github.com/boy-hack/ksubdomain)#子域枚举工具
+- [**ErCaesar**](https://github.com/Goqi/ErCaesar)：[Caesar](https://github.com/Goqi/ErKai/tree/main/0x03/Caesar)@[thunderbarca](https://github.com/j5s/Caesar)#一个全新的敏感文件发现工具
 - https://github.com/ffffffff0x/ones
 - https://github.com/wgpsec/ENScan_GO
-- https://github.com/projectdiscovery/uncover
 - https://github.com/s0md3v/Smap
-- https://github.com/0ps/Caesar
 
 ## 0x04-远控隧道
 
