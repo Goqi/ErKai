@@ -66,22 +66,29 @@
 - https://github.com/ffffffff0x/ones
 - https://github.com/wgpsec/ENScan_GO
 - https://github.com/projectdiscovery/uncover
+- https://github.com/s0md3v/Smap
+- https://github.com/0ps/Caesar
 
 ## 0x04-远控隧道
 
 - [**Erfrp**](https://github.com/Goqi/Erfrp)：[frp](https://github.com/Goqi/ErKai/tree/main/0x04/frp)@[fatedier](https://github.com/fatedier/frp)#专注于内网穿透的高性能的反向代理
 - [**Ernps**](https://github.com/Goqi/Ernps)：[nps](https://github.com/Goqi/ErKai/tree/main/0x04/nps)@[ehang-io](https://github.com/ehang-io/nps)#功能强大的内网穿透代理服务器
+- [**Ergost**](https://github.com/Goqi/Ergost)：[gost](https://github.com/Goqi/ErKai/tree/main/0x04/gost)@[ginuerzh](https://github.com/ginuerzh/gost)#一个用Go语言编写的简单隧道
 - [**ErVenom**](https://github.com/Goqi/ErVenom)：[Venom](https://github.com/Goqi/ErKai/tree/main/0x04/Venom)@[Dliv3](https://github.com/Dliv3/Venom)#Go开发的多级代理工具
 - [**ErStowaway**](https://github.com/Goqi/ErStowaway)：[Stowaway](https://github.com/Goqi/ErKai/tree/main/0x04/Stowaway)@[ph4ntonn](https://github.com/ph4ntonn/Stowaway)#用于渗透测试者的多跳代理工具
-- [**ErOrcaC2**](https://github.com/Goqi/ErOrcaC2)：[OrcaC2](https://github.com/Goqi/ErKai/tree/main/0x04/OrcaC2)@[Ptkatz](https://github.com/Ptkatz/OrcaC2)#基于Websocket加密通信的多功能C2框架
 - [**Ersliver**](https://github.com/Goqi/Ersliver)：[sliver](https://github.com/Goqi/ErKai/tree/main/0x04/sliver)@[BishopFox](https://github.com/BishopFox/sliver)#Adversary Emulation Framework
 - [**Ermerlin**](https://github.com/Goqi/Ermerlin)：[merlin](https://github.com/Goqi/ErKai/tree/main/0x04/merlin)@[Ne0nd0g](https://github.com/Ne0nd0g/merlin)#HTTP命令和控制服务器
 - [**ErCHAOS**](https://github.com/Goqi/ErCHAOS)：[CHAOS](https://github.com/Goqi/ErKai/tree/main/0x04/CHAOS)@[tiagorlampert](https://github.com/tiagorlampert/CHAOS)#免费的开源远程管理工具
-- [**Ergost**](https://github.com/Goqi/Ergost)：[gost](https://github.com/Goqi/ErKai/tree/main/0x04/gost)@[ginuerzh](https://github.com/ginuerzh/gost)#一个用Go语言编写的简单隧道
-- https://github.com/gowsp/wsp
-- https://github.com/s0md3v/Smap
-- https://github.com/XZB-1248/Spark
+- [**ErMeet**](https://github.com/Goqi/ErMeetC2)：[MeetC2](https://github.com/Goqi/ErKai/tree/main/0x04/MeetC2)@[iammaguire](https://github.com/iammaguire/MeetC2)#Go语言开发的模块化C2框架
+- [**ErDeimos**](https://github.com/Goqi/DeimosC2)：[DeimosC2](https://github.com/Goqi/ErKai/tree/main/0x04/DeimosC2)@[DeimosC2](https://github.com/DeimosC2/DeimosC2)#Go语言开发的命令和控制框架
+- [**ErOrcaC2**](https://github.com/Goqi/ErOrcaC2)：[OrcaC2](https://github.com/Goqi/ErKai/tree/main/0x04/OrcaC2)@[Ptkatz](https://github.com/Ptkatz/OrcaC2)#基于Websocket加密通信的多功能C2框架
+- [**Eremp3r0r**](https://github.com/Goqi/Eremp3r0r)：[emp3r0r](https://github.com/Goqi/ErKai/tree/main/0x04/emp3r0r)@[jm33-m0](https://github.com/jm33-m0/emp3r0r)#Linux/Windows后期开发C2框架
+- [**ErToRat**](https://github.com/Goqi/ErToRat)：[ToRat](https://github.com/Goqi/ErKai/tree/main/0x04/ToRat)@[lu4p](https://github.com/lu4p/ToRat)#C2框架Tor作为传输机制和RPC进行通信
+- [**ErSpark**](https://github.com/Goqi/ErSpark)：[Spark](https://github.com/Goqi/ErKai/tree/main/0x04/Spark)@[XZB-1248](https://github.com/XZB-1248/Spark)#远程控制和监控工具
+- [**Ernatpass**](https://github.com/Goqi/Ernatpass)：[natpass](https://github.com/Goqi/ErKai/tree/main/0x04/natpass)@[lwch](https://github.com/lwch/natpass)#居家办公，远程开发神器
+- [**Erwsh**](https://github.com/Goqi/Erwsh)：[wsh](https://github.com/Goqi/ErKai/tree/main/0x04/wsh)@[EatonChips](https://github.com/EatonChips/wsh)#Webshell的生成和管理
 - https://github.com/xiecat/wsm
+- https://github.com/evilsocket/shellz
 
 
 ## 0x05-病毒免杀
