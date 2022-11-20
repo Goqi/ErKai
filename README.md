@@ -2,7 +2,7 @@
 
 本项目计划寻找100个优秀的开源安全项目代码深入分析学习后进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Golang！作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年11月19日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2022年11月20日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
@@ -65,10 +65,12 @@
 - [ksubdomain](https://github.com/Goqi/ErKai/tree/main/0x03/ksubdomain)@[boy-hack](https://github.com/boy-hack/ksubdomain)#子域枚举工具
 - https://github.com/ffffffff0x/ones
 - https://github.com/wgpsec/ENScan_GO
+- https://github.com/projectdiscovery/uncover
 
 ## 0x04-远控隧道
 
 - [**Erfrp**](https://github.com/Goqi/Erfrp)：[frp](https://github.com/Goqi/ErKai/tree/main/0x04/frp)@[fatedier](https://github.com/fatedier/frp)#专注于内网穿透的高性能的反向代理
+- [**Ernps**](https://github.com/Goqi/Ernps)：[nps](https://github.com/Goqi/ErKai/tree/main/0x04/nps)@[ehang-io](https://github.com/ehang-io/nps)#功能强大的内网穿透代理服务器
 - [**ErVenom**](https://github.com/Goqi/ErVenom)：[Venom](https://github.com/Goqi/ErKai/tree/main/0x04/Venom)@[Dliv3](https://github.com/Dliv3/Venom)#Go开发的多级代理工具
 - [**ErStowaway**](https://github.com/Goqi/ErStowaway)：[Stowaway](https://github.com/Goqi/ErKai/tree/main/0x04/Stowaway)@[ph4ntonn](https://github.com/ph4ntonn/Stowaway)#用于渗透测试者的多跳代理工具
 - [**ErOrcaC2**](https://github.com/Goqi/ErOrcaC2)：[OrcaC2](https://github.com/Goqi/ErKai/tree/main/0x04/OrcaC2)@[Ptkatz](https://github.com/Ptkatz/OrcaC2)#基于Websocket加密通信的多功能C2框架
@@ -78,6 +80,9 @@
 - [**Ergost**](https://github.com/Goqi/Ergost)：[gost](https://github.com/Goqi/ErKai/tree/main/0x04/gost)@[ginuerzh](https://github.com/ginuerzh/gost)#一个用Go语言编写的简单隧道
 - https://github.com/gowsp/wsp
 - https://github.com/s0md3v/Smap
+- https://github.com/XZB-1248/Spark
+- https://github.com/xiecat/wsm
+
 
 ## 0x05-病毒免杀
 
