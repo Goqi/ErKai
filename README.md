@@ -1,8 +1,8 @@
 # ErKai-开源安全项目二开计划
 
-本项目计划寻找100个优秀的开源安全项目代码深入分析学习后进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Golang！作者：[0e0w](https://github.com/0e0w)
+本项目计划寻找100个优秀的Go语言开源安全项目代码，深入分析学习后并进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。通过二开计划，希望能够站在优秀开发者的肩膀上看Go！更希望自己懂安全开发，早日开源自己的安全项目。	如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年11月20日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2022年11月21日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
@@ -79,8 +79,8 @@
 - [**Ersliver**](https://github.com/Goqi/Ersliver)：[sliver](https://github.com/Goqi/ErKai/tree/main/0x04/sliver)@[BishopFox](https://github.com/BishopFox/sliver)#Adversary Emulation Framework
 - [**Ermerlin**](https://github.com/Goqi/Ermerlin)：[merlin](https://github.com/Goqi/ErKai/tree/main/0x04/merlin)@[Ne0nd0g](https://github.com/Ne0nd0g/merlin)#HTTP命令和控制服务器
 - [**ErCHAOS**](https://github.com/Goqi/ErCHAOS)：[CHAOS](https://github.com/Goqi/ErKai/tree/main/0x04/CHAOS)@[tiagorlampert](https://github.com/tiagorlampert/CHAOS)#免费的开源远程管理工具
-- [**ErMeet**](https://github.com/Goqi/ErMeetC2)：[MeetC2](https://github.com/Goqi/ErKai/tree/main/0x04/MeetC2)@[iammaguire](https://github.com/iammaguire/MeetC2)#Go语言开发的模块化C2框架
-- [**ErDeimos**](https://github.com/Goqi/DeimosC2)：[DeimosC2](https://github.com/Goqi/ErKai/tree/main/0x04/DeimosC2)@[DeimosC2](https://github.com/DeimosC2/DeimosC2)#Go语言开发的命令和控制框架
+- [**ErMeet**](https://github.com/Goqi/ErMeet)：[MeetC2](https://github.com/Goqi/ErKai/tree/main/0x04/MeetC2)@[iammaguire](https://github.com/iammaguire/MeetC2)#Go语言开发的模块化C2框架
+- [**ErDeimos**](https://github.com/Goqi/ErDeimos)：[DeimosC2](https://github.com/Goqi/ErKai/tree/main/0x04/DeimosC2)@[DeimosC2](https://github.com/DeimosC2/DeimosC2)#Go语言开发的命令和控制框架
 - [**ErOrcaC2**](https://github.com/Goqi/ErOrcaC2)：[OrcaC2](https://github.com/Goqi/ErKai/tree/main/0x04/OrcaC2)@[Ptkatz](https://github.com/Ptkatz/OrcaC2)#基于Websocket加密通信的多功能C2框架
 - [**Eremp3r0r**](https://github.com/Goqi/Eremp3r0r)：[emp3r0r](https://github.com/Goqi/ErKai/tree/main/0x04/emp3r0r)@[jm33-m0](https://github.com/jm33-m0/emp3r0r)#Linux/Windows后期开发C2框架
 - [**ErToRat**](https://github.com/Goqi/ErToRat)：[ToRat](https://github.com/Goqi/ErKai/tree/main/0x04/ToRat)@[lu4p](https://github.com/lu4p/ToRat)#C2框架Tor作为传输机制和RPC进行通信
@@ -93,8 +93,8 @@
 
 ## 0x05-病毒免杀
 
-- [CuiRi](https://github.com/Goqi/ErKai/tree/main/0x05/CuiRi)@[NyDubh3](https://github.com/NyDubh3/CuiRi)#专注于内网穿透的高性能的反向代理
-- [EDRHunt](https://github.com/Goqi/ErKai/tree/main/0x05/EDRHunt)@[FourCoreLabs](https://github.com/FourCoreLabs/EDRHunt)#在 Windows 上扫描已安装的 EDR 和 AV
+- [CuiRi](https://github.com/Goqi/ErKai/tree/main/0x05/CuiRi)@[NyDubh3](https://github.com/NyDubh3/CuiRi)#一款红队专用免杀木马生成器
+- [EDRHunt](https://github.com/Goqi/ErKai/tree/main/0x05/EDRHunt)@[FourCoreLabs](https://github.com/FourCoreLabs/EDRHunt)#在 Windows上扫描已安装的杀毒
 
 ## 0x06-Web项目
 
