@@ -1,8 +1,8 @@
 # ErKai-开源安全项目二开计划
 
-本项目计划寻找100个优秀的Go语言开源安全项目代码，深入分析学习后并进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。通过二开计划，希望能够站在优秀开发者的肩膀上看Go！更希望自己懂安全开发，早日开源自己的安全项目。	如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
+本项目计划寻找100个优秀的Go语言开源安全项目代码，深入分析学习后并进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己深入学习安全开发，期待早日开源自己的安全项目。如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年11月22日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2022年11月23日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
@@ -32,17 +32,17 @@
 - [**ErCDK**](https://github.com/Goqi/ErCDK)：[CDK](https://github.com/Goqi/ErKai/tree/main/0x01/CDK)@[opensec-cn](https://github.com/cdk-team/CDK)#简化 K8s/Docker和Containerd的安全测试
 - [**Ercf**](https://github.com/Goqi/Ercf)：[cf](https://github.com/Goqi/ErKai/tree/main/0x01/cf)@[teamssix](https://github.com/teamssix/cf)#一个云环境利用框架
 - [**Erosmedeus**](https://github.com/Goqi/Erosmedeus)：[osmedeus](https://github.com/Goqi/ErKai/tree/main/0x01/osmedeus)@[j3ssie](https://github.com/j3ssie/osmedeus)#自进攻性安全的工作流引擎
-- https://github.com/future-architect/vuls
-- https://github.com/RedTeamPentesting/monsoon
-- https://github.com/mumu0215/FlamiePaw
-- https://github.com/godspeedcurry/godscan
+- [**Ervuls**](https://github.com/Goqi/Ervuls)：[vuls](https://github.com/Goqi/ErKai/tree/main/0x01/vuls)@[future-architect](https://github.com/future-architect/vuls)#操作系统漏洞扫描器
+- [**Ermonsoon**](https://github.com/Goqi/Ermonsoon)：[monsoon](https://github.com/Goqi/ErKai/tree/main/0x01/monsoon)@[RedTeamPentesting](https://github.com/RedTeamPentesting/monsoon)#快速的HTTP枚举器目录扫描
+- [**ErFlamiePaw**](https://github.com/Goqi/ErFlamiePaw)：[FlamiePaw](https://github.com/Goqi/ErKai/tree/main/0x01/FlamiePaw)@[mumu0215](https://github.com/mumu0215/FlamiePaw)#crawlergo和xray等安全工具整合
+- [**Ergodscan**](https://github.com/Goqi/Ergodscan)：[godscan](https://github.com/Goqi/ErKai/tree/main/0x01/godscan)@[godspeedcurry](https://github.com/godspeedcurry/godscan)#指纹识别口令爆破漏洞扫描工具
 
 ## 0x02-代码扫描
 
 - [**Erinsider**](https://github.com/Goqi/Erinsider)：[insider](https://github.com/Goqi/ErKai/tree/main/0x02/insider)@[insidersec](https://github.com/insidersec/insider)#SAST专注于挖掘OWASPTop10漏洞
 - [**Errinjani**](https://github.com/Goqi/Errinjani)：[rinjani](https://github.com/Goqi/ErKai/tree/main/0x02/rinjani)@[wahyuhadi](https://github.com/wahyuhadi/rinjani)#简单的 SAST 工具
 - [**Ergokart**](https://github.com/Goqi/Ergokart)：[gokart](https://github.com/Goqi/ErKai/tree/main/0x02/gokart)@[praetorian-inc](https://github.com/praetorian-inc/gokart)#Go代码的静态分析工具
-- https://github.com/securego/gosec
+- [**Ergosec**](https://github.com/Goqi/Ergosec)：[gosec](https://github.com/Goqi/ErKai/tree/main/0x02/gosec)@[securego](https://github.com/securego/gosec)#Go代码安全扫描工具
 - https://github.com/ZupIT/horusec
 - https://github.com/aquasecurity/tfsec
 - https://github.com/anchore/grype
@@ -65,10 +65,11 @@
 - [**Eruncover**](https://github.com/Goqi/Eruncover)：[subfinder](https://github.com/Goqi/ErKai/tree/main/0x03/uncover)@[projectdiscovery](https://github.com/projectdiscovery/uncover)#使用搜索引擎发现主机
 - [**Erksubdomain**](https://github.com/Goqi/Erksubdomain)：[ksubdomain](https://github.com/Goqi/ErKai/tree/main/0x03/ksubdomain)@[boy-hack](https://github.com/boy-hack/ksubdomain)#子域枚举工具
 - [**ErCaesar**](https://github.com/Goqi/ErCaesar)：[Caesar](https://github.com/Goqi/ErKai/tree/main/0x03/Caesar)@[thunderbarca](https://github.com/j5s/Caesar)#一个全新的敏感文件发现工具
-- https://github.com/ffffffff0x/ones
-- https://github.com/wgpsec/ENScan_GO
-- https://github.com/s0md3v/Smap
-- https://github.com/j3ssie/metabigor
+- [**Erones**](https://github.com/Goqi/Erones)：[ones](https://github.com/Goqi/ErKai/tree/main/0x03/ones)@[ffffffff0x](https://github.com/ffffffff0x/ones)#多个网络资产测绘 API 命令行查询工具
+- [**ErENScan**](https://github.com/Goqi/ErENScan)：[ENScan_GO](https://github.com/Goqi/ErKai/tree/main/0x03/ENScan_GO)@[wgpsec](https://github.com/wgpsec/ENScan_GO)#收集国内企业的各种信息
+- [**ErSmap**](https://github.com/Goqi/ErSmap)：[Smap](https://github.com/Goqi/ErKai/tree/main/0x03/Smap)@[s0md3v](https://github.com/s0md3v/Smap)#由shodan.io提供支持的Nmap的直接替代品
+- [**Ermetabigor**](https://github.com/Goqi/Ermetabigor)：[metabigor](https://github.com/Goqi/ErKai/tree/main/0x03/metabigor)@[j3ssie](https://github.com/j3ssie/metabigor)#不使用API密钥执行OSINT任务
+
 
 ## 0x04-远控隧道
 
@@ -88,8 +89,8 @@
 - [**ErSpark**](https://github.com/Goqi/ErSpark)：[Spark](https://github.com/Goqi/ErKai/tree/main/0x04/Spark)@[XZB-1248](https://github.com/XZB-1248/Spark)#远程控制和监控工具
 - [**Ernatpass**](https://github.com/Goqi/Ernatpass)：[natpass](https://github.com/Goqi/ErKai/tree/main/0x04/natpass)@[lwch](https://github.com/lwch/natpass)#居家办公，远程开发神器
 - [**Erwsh**](https://github.com/Goqi/Erwsh)：[wsh](https://github.com/Goqi/ErKai/tree/main/0x04/wsh)@[EatonChips](https://github.com/EatonChips/wsh)#Webshell的生成和管理
-- https://github.com/xiecat/wsm
-- https://github.com/evilsocket/shellz
+- [**Erwsm**](https://github.com/Goqi/Erwsm)：[wsm](https://github.com/Goqi/ErKai/tree/main/0x04/wsm)@[xiecat](https://github.com/xiecat/wsm)#网站管理工具
+- [**Ershellz**](https://github.com/Goqi/Ershellz)：[shellz](https://github.com/Goqi/ErKai/tree/main/0x04/shellz)@[evilsocket](https://github.com/evilsocket/shellz)#管理ssh、telnet、k8s、winrm、web等shell
 
 
 ## 0x05-病毒免杀
@@ -102,20 +103,25 @@
 - [**ErGoScan**](https://github.com/Goqi/ErGoScan)：[GoScan](https://github.com/Goqi/ErKai/tree/main/0x06/GoScan)@[CTF-MissFeng](https://github.com/CTF-MissFeng/GoScan)#渗透测试报告管理系统
 - [**Erreport**](https://github.com/Goqi/Erreport)：[report](https://github.com/Goqi/ErKai/tree/main/0x06/report)@[CTF-MissFeng](https://github.com/CTF-MissFeng/report)#渗透测试报告管理系统
 - [**Erlinglong**](https://github.com/Goqi/Erlinglong)：[linglong](https://github.com/Goqi/ErKai/tree/main/0x06/linglong)@[awake1t](https://github.com/awake1t/linglong)#一款甲方资产巡航扫描系统
-- [pocassist](https://github.com/Goqi/ErKai/tree/main/0x06/pocassist)@[jweny](https://github.com/jweny/pocassist)#一款全新的开源漏洞测试框架
-- [eDefender](https://github.com/Goqi/ErKai/tree/main/0x06/eDefender)@[cjphaha](https://github.com/cjphaha/eDefender)#常见安全漏洞检测工具
-- https://github.com/dstotijn/hetty
+- [**Erpocassist**](https://github.com/Goqi/Erpocassist)：[pocassist](https://github.com/Goqi/ErKai/tree/main/0x06/pocassist)@[jweny](https://github.com/jweny/pocassist)#一款全新的开源漏洞测试框架
+- [**EreDefender**](https://github.com/Goqi/EreDefender)：[eDefender](https://github.com/Goqi/ErKai/tree/main/0x06/eDefender)@[cjphaha](https://github.com/cjphaha/eDefender)#常见安全漏洞检测工具
 
 ## 0x07-被动扫描
 
-- [crawlergo](https://github.com/Goqi/ErKai/tree/main/0x07/crawlergo)@[Qianlitp](https://github.com/Qianlitp/crawlergo)#用于Web漏洞扫描程序的强大浏览器爬虫
-- [katana](https://github.com/Goqi/ErKai/tree/main/0x07/katana)@[projectdiscovery](https://github.com/projectdiscovery/katana)#下一代爬行和爬虫框架
+- [**Ercrawlergo**](https://github.com/Goqi/Ercrawlergo)：[crawlergo](https://github.com/Goqi/ErKai/tree/main/0x07/crawlergo)@[Qianlitp](https://github.com/Qianlitp/crawlergo)#Web漏洞扫描的强大浏览器爬虫
+- [**Erkatana**](https://github.com/Goqi/Erkatana)：[katana](https://github.com/Goqi/ErKai/tree/main/0x07/katana)@[projectdiscovery](https://github.com/projectdiscovery/katana)#下一代爬行和爬虫框架
+- [**Erhetty**](https://github.com/Goqi/Erhetty)：[hetty](https://github.com/Goqi/ErKai/tree/main/0x07/hetty)@[dstotijn](https://github.com/dstotijn/hetty)#用于安全研究的 HTTP 工具包
+- [**Ermitmproxy**](https://github.com/Goqi/Ermitmproxy)：[go-mitmproxy](https://github.com/Goqi/ErKai/tree/main/0x07/go-mitmproxy)@[lqqyt2423](https://github.com/lqqyt2423/go-mitmproxy)#Go语言实现的中间人攻击
+- [**ErModlishka**](https://github.com/Goqi/ErModlishka)：[Modlishka](https://github.com/Goqi/ErKai/tree/main/0x07/Modlishka)@[drk1wi](https://github.com/drk1wi/Modlishka)#强大而灵活的 HTTP 反向代理
 
 ## 0x08-钓鱼蜜罐
 
-- https://github.com/gophish/gophish
-- https://github.com/C4o/Juggler
-- https://github.com/honeytrap/honeytrap
+- [**Ergophish**](https://github.com/Goqi/Ergophish)：[gophish](https://github.com/Goqi/ErKai/tree/main/0x08/gophish)@[gophish](https://github.com/gophish/gophish)#开源网络钓鱼工具包
+- [**ErEhoney**](https://github.com/Goqi/ErEhoney)：[Ehoney](https://github.com/Goqi/ErKai/tree/main/0x08/Ehoney)@[seccome](https://github.com/seccome/Ehoney)#企业级的蜜罐管理系统
+- [**ErHFish**](https://github.com/Goqi/ErHFish)：[HFish](https://github.com/Goqi/ErKai/tree/main/0x08/HFish)@[Gowabby](https://github.com/Gowabby/HFish)#主动攻击型蜜罐钓鱼框架系统
+- [**Erhoneytrap**](https://github.com/Goqi/Erhoneytrap)：[honeytrap](https://github.com/Goqi/ErKai/tree/main/0x08/honeytrap)@[honeytrap](https://github.com/honeytrap/honeytrap)#高级蜜罐框架
+- [**ErJuggler**](https://github.com/Goqi/ErJuggler)：[Juggler](https://github.com/Goqi/ErKai/tree/main/0x08/Juggler)@[C4o](https://github.com/C4o/Juggler)#针对黑客的拟态欺骗系统
+- [**Ergoblin**](https://github.com/Goqi/Ergoblin)：[goblin](https://github.com/Goqi/ErKai/tree/main/0x08/goblin)@[xiecat](https://github.com/xiecat/goblin)#红蓝对抗中的仿真钓鱼系统
 
 ## 0x09-移动安全
 
