@@ -2,7 +2,7 @@
 
 本项目计划寻找100个优秀的Go语言开源安全项目代码，深入分析学习后并进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。通过二开计划，希望能够站在优秀开发者的肩膀上看Go！更希望自己懂安全开发，早日开源自己的安全项目。	如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年11月21日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2022年11月22日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
@@ -28,9 +28,9 @@
 - [**Ernaabu**](https://github.com/Goqi/Ernaabu)：[naabu](https://github.com/Goqi/ErKai/tree/main/0x01/naabu)@[projectdiscovery](https://github.com/projectdiscovery/naabu)#快速进行端口扫描的工具
 - [**Erfingerprintx**](https://github.com/Goqi/Erfingerprintx)：[fingerprintx](https://github.com/Goqi/ErKai/tree/main/0x01/fingerprintx)@[praetorian-inc](https://github.com/praetorian-inc/fingerprintx)#一个端口指纹识别工具
 - [**Erzgrab2**](https://github.com/Goqi/Erzgrab2)：[zgrab2](https://github.com/Goqi/ErKai/tree/main/0x01/zgrab2)@[zmap](https://github.com/zmap/zgrab2)#快速Go 应用程序扫描仪
-- [kunpeng](https://github.com/Goqi/ErKai/tree/main/0x01/kunpeng)@[opensec-cn](https://github.com/opensec-cn/kunpeng)#Golang编写的开源POC框架/库
-- [CDK](https://github.com/Goqi/ErKai/tree/main/0x01/CDK)@[opensec-cn](https://github.com/cdk-team/CDK)#简化 K8s/Docker和Containerd的安全测试
-- [cf](https://github.com/Goqi/ErKai/tree/main/0x01/cf)@[teamssix](https://github.com/teamssix/cf)#一个云环境利用框架
+- [**Erkunpeng**](https://github.com/Goqi/Erkunpeng)：[kunpeng](https://github.com/Goqi/ErKai/tree/main/0x01/kunpeng)@[opensec-cn](https://github.com/opensec-cn/kunpeng)#Golang编写的开源POC框架/库
+- [**ErCDK**](https://github.com/Goqi/ErCDK)：[CDK](https://github.com/Goqi/ErKai/tree/main/0x01/CDK)@[opensec-cn](https://github.com/cdk-team/CDK)#简化 K8s/Docker和Containerd的安全测试
+- [**Ercf**](https://github.com/Goqi/Ercf)：[cf](https://github.com/Goqi/ErKai/tree/main/0x01/cf)@[teamssix](https://github.com/teamssix/cf)#一个云环境利用框架
 - [**Erosmedeus**](https://github.com/Goqi/Erosmedeus)：[osmedeus](https://github.com/Goqi/ErKai/tree/main/0x01/osmedeus)@[j3ssie](https://github.com/j3ssie/osmedeus)#自进攻性安全的工作流引擎
 - https://github.com/future-architect/vuls
 - https://github.com/RedTeamPentesting/monsoon
@@ -68,6 +68,7 @@
 - https://github.com/ffffffff0x/ones
 - https://github.com/wgpsec/ENScan_GO
 - https://github.com/s0md3v/Smap
+- https://github.com/j3ssie/metabigor
 
 ## 0x04-远控隧道
 
@@ -93,14 +94,14 @@
 
 ## 0x05-病毒免杀
 
-- [CuiRi](https://github.com/Goqi/ErKai/tree/main/0x05/CuiRi)@[NyDubh3](https://github.com/NyDubh3/CuiRi)#一款红队专用免杀木马生成器
-- [EDRHunt](https://github.com/Goqi/ErKai/tree/main/0x05/EDRHunt)@[FourCoreLabs](https://github.com/FourCoreLabs/EDRHunt)#在 Windows上扫描已安装的杀毒
+- [**ErCuiRi**](https://github.com/Goqi/ErCuiRi)：[CuiRi](https://github.com/Goqi/ErKai/tree/main/0x05/CuiRi)@[NyDubh3](https://github.com/NyDubh3/CuiRi)#一款红队专用免杀木马生成器
+- [**AvHunt**](https://github.com/Goqi/AvHunt)：[EDRHunt](https://github.com/Goqi/ErKai/tree/main/0x05/EDRHunt)@[FourCoreLabs](https://github.com/FourCoreLabs/EDRHunt)#在 Windows上扫描已安装的杀毒
 
 ## 0x06-Web项目
 
-- [GoScan](https://github.com/Goqi/ErKai/tree/main/0x06/GoScan)@[CTF-MissFeng](https://github.com/CTF-MissFeng/GoScan)#渗透测试报告管理系统
-- [report](https://github.com/Goqi/ErKai/tree/main/0x06/report)@[CTF-MissFeng](https://github.com/CTF-MissFeng/report)#渗透测试报告管理系统
-- [linglong](https://github.com/Goqi/ErKai/tree/main/0x06/linglong)@[awake1t](https://github.com/awake1t/linglong)#一款甲方资产巡航扫描系统
+- [**ErGoScan**](https://github.com/Goqi/ErGoScan)：[GoScan](https://github.com/Goqi/ErKai/tree/main/0x06/GoScan)@[CTF-MissFeng](https://github.com/CTF-MissFeng/GoScan)#渗透测试报告管理系统
+- [**Erreport**](https://github.com/Goqi/Erreport)：[report](https://github.com/Goqi/ErKai/tree/main/0x06/report)@[CTF-MissFeng](https://github.com/CTF-MissFeng/report)#渗透测试报告管理系统
+- [**Erlinglong**](https://github.com/Goqi/Erlinglong)：[linglong](https://github.com/Goqi/ErKai/tree/main/0x06/linglong)@[awake1t](https://github.com/awake1t/linglong)#一款甲方资产巡航扫描系统
 - [pocassist](https://github.com/Goqi/ErKai/tree/main/0x06/pocassist)@[jweny](https://github.com/jweny/pocassist)#一款全新的开源漏洞测试框架
 - [eDefender](https://github.com/Goqi/ErKai/tree/main/0x06/eDefender)@[cjphaha](https://github.com/cjphaha/eDefender)#常见安全漏洞检测工具
 - https://github.com/dstotijn/hetty
