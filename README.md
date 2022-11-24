@@ -2,7 +2,7 @@
 
 本项目计划寻找100个优秀的Go语言开源安全项目代码，深入分析学习后并进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己深入学习安全开发，期待早日开源自己的安全项目。如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年11月23日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2022年11月24日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
@@ -62,7 +62,7 @@
 - [**Ergobuster**](https://github.com/Goqi/Ergobuster)：[gobuster](https://github.com/Goqi/ErKai/tree/main/0x03/gobuster)@[OJ](https://github.com/OJ/gobuster)#路径扫描和域名爆破工具
 - [**ErAmass**](https://github.com/Goqi/ErAmass)：[Amass](https://github.com/Goqi/ErKai/tree/main/0x03/Amass)@[OWASP](https://github.com/OWASP/Amass)#深入的攻击面映射和资产发现工具
 - [**Ersubfinder**](https://github.com/Goqi/Ersubfinder)：[subfinder](https://github.com/Goqi/ErKai/tree/main/0x03/subfinder)@[projectdiscovery](https://github.com/projectdiscovery/subfinder)#一个子域发现工具
-- [**Eruncover**](https://github.com/Goqi/Eruncover)：[subfinder](https://github.com/Goqi/ErKai/tree/main/0x03/uncover)@[projectdiscovery](https://github.com/projectdiscovery/uncover)#使用搜索引擎发现主机
+- [**Eruncover**](https://github.com/Goqi/Eruncover)：[uncover](https://github.com/Goqi/ErKai/tree/main/0x03/uncover)@[projectdiscovery](https://github.com/projectdiscovery/uncover)#使用搜索引擎发现主机
 - [**Erksubdomain**](https://github.com/Goqi/Erksubdomain)：[ksubdomain](https://github.com/Goqi/ErKai/tree/main/0x03/ksubdomain)@[boy-hack](https://github.com/boy-hack/ksubdomain)#子域枚举工具
 - [**ErCaesar**](https://github.com/Goqi/ErCaesar)：[Caesar](https://github.com/Goqi/ErKai/tree/main/0x03/Caesar)@[thunderbarca](https://github.com/j5s/Caesar)#一个全新的敏感文件发现工具
 - [**Erones**](https://github.com/Goqi/Erones)：[ones](https://github.com/Goqi/ErKai/tree/main/0x03/ones)@[ffffffff0x](https://github.com/ffffffff0x/ones)#多个网络资产测绘 API 命令行查询工具
@@ -108,7 +108,7 @@
 
 ## 0x07-被动扫描
 
-- [**Ercrawlergo**](https://github.com/Goqi/Ercrawlergo)：[crawlergo](https://github.com/Goqi/ErKai/tree/main/0x07/crawlergo)@[Qianlitp](https://github.com/Qianlitp/crawlergo)#Web漏洞扫描的强大浏览器爬虫
+- [**Ercrawler**](https://github.com/Goqi/Ercrawler)：[crawlergo](https://github.com/Goqi/ErKai/tree/main/0x07/crawlergo)@[Qianlitp](https://github.com/Qianlitp/crawlergo)#Web漏洞扫描的强大浏览器爬虫
 - [**Erkatana**](https://github.com/Goqi/Erkatana)：[katana](https://github.com/Goqi/ErKai/tree/main/0x07/katana)@[projectdiscovery](https://github.com/projectdiscovery/katana)#下一代爬行和爬虫框架
 - [**Erhetty**](https://github.com/Goqi/Erhetty)：[hetty](https://github.com/Goqi/ErKai/tree/main/0x07/hetty)@[dstotijn](https://github.com/dstotijn/hetty)#用于安全研究的 HTTP 工具包
 - [**Ermitmproxy**](https://github.com/Goqi/Ermitmproxy)：[go-mitmproxy](https://github.com/Goqi/ErKai/tree/main/0x07/go-mitmproxy)@[lqqyt2423](https://github.com/lqqyt2423/go-mitmproxy)#Go语言实现的中间人攻击
@@ -125,8 +125,9 @@
 
 ## 0x09-移动安全
 
+- [**Eripsw**](https://github.com/Goqi/Eripsw)：[ipsw](https://github.com/Goqi/ErKai/tree/main/0x09/ipsw)@[blacktop](https://github.com/blacktop/ipsw)#研究iOS的瑞士军刀
 - https://github.com/ndelphit/apkurlgrep
-- https://github.com/blacktop/ipsw
+- https://github.com/c0618/iOSSniffer
 
 ## 0x10-其他项目
 
