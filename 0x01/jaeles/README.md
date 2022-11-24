@@ -256,4 +256,4 @@
 
 ## 06-二开计划
 
-- https://github.com/Goqi/Erffuf
+- https://github.com/Goqi/Erjaeles
