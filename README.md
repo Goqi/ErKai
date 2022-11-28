@@ -2,7 +2,7 @@
 
 本项目计划寻找100个优秀的Go语言开源安全项目代码，深入分析学习后并进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己深入学习安全开发，期待早日开源自己的安全项目。如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年11月27日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2022年11月28日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
@@ -102,8 +102,10 @@
 
 ## 0x05-病毒免杀
 
-- [**ErCuiRi**](https://github.com/Goqi/ErCuiRi)：[CuiRi](https://github.com/Goqi/ErKai/tree/main/0x05/CuiRi)@[NyDubh3](https://github.com/NyDubh3/CuiRi)#一款红队专用免杀木马生成器
 - [**AvHunt**](https://github.com/Goqi/AvHunt)：[EDRHunt](https://github.com/Goqi/ErKai/tree/main/0x05/EDRHunt)@[FourCoreLabs](https://github.com/FourCoreLabs/EDRHunt)#在 Windows上扫描已安装的杀毒
+- [**ErCuiRi**](https://github.com/Goqi/ErCuiRi)：[CuiRi](https://github.com/Goqi/ErKai/tree/main/0x05/CuiRi)@[NyDubh3](https://github.com/NyDubh3/CuiRi)#一款红队专用免杀木马生成器
+- [**ErAniYa**](https://github.com/Goqi/ErAniYa)：[AniYa](https://github.com/Goqi/ErKai/tree/main/0x05/AniYa)@[piiperxyz](https://github.com/piiperxyz/AniYa)#使用Go语言写的GUI免杀框架
+- [**ErZheTian**](https://github.com/Goqi/ErZheTian)：[ZheTian](https://github.com/Goqi/ErKai/tree/main/0x05/ZheTian)@[yqcs](https://github.com/yqcs/ZheTian)#强大的免杀生成工具Bypass All
 - https://github.com/Ne0nd0g/go-shellcode
 
 ## 0x06-Web项目
