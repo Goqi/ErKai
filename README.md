@@ -2,7 +2,7 @@
 
 本项目计划寻找100个优秀的Go语言开源安全项目代码，深入分析学习后并进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己深入学习安全开发，期待早日开源自己的安全项目。如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年11月29日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2022年11月30日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
@@ -19,6 +19,7 @@
 - [**Ergopoc**](https://github.com/Goqi/Ergopoc)：[gopoc](https://github.com/Goqi/ErKai/tree/main/0x01/gopoc)@[jjf012](https://github.com/jjf012/gopoc)#重现了xray的poc检测功能
 - [**Ervscan**](https://github.com/Goqi/Ervscan)：[vscan](https://github.com/Goqi/ErKai/tree/main/0x01/vscan)@[veo](https://github.com/veo/vscan)#开源轻量快速网站漏洞扫描工具
 - [**Erwscan**](https://github.com/Goqi/Erwscan)：[wscan](https://github.com/Goqi/ErKai/tree/main/0x01/wscan)@[chushuai](https://github.com/chushuai/wscan)#一款开源的安全评估工具
+- [**Erzpscan**](https://github.com/Goqi/Erzpscan)：[zpscan](https://github.com/Goqi/ErKai/tree/main/0x01/zpscan)@[niudaii](https://github.com/niudaii/zpscan)#一个有点好用的信息收集工具
 - [**Ercube**](https://github.com/Goqi/Ercube)：[cube](https://github.com/Goqi/ErKai/tree/main/0x01/cube)@[JKme](https://github.com/JKme/cube)#开源轻量快速网站漏洞扫描工具
 - [**Ernacs**](https://github.com/Goqi/Ernacs)：[nacs](https://github.com/Goqi/ErKai/tree/main/0x01/nacs)@[u21h2](https://github.com/u21h2/nacs)#事件驱动的渗透测试扫描器
 - [**Erxcrack**](https://github.com/Goqi/Erxcrack)：[x-crack](https://github.com/Goqi/ErKai/tree/main/0x01/x-crack)@[netxfly](https://github.com/netxfly/x-crack)#年轻人的第一款弱口令扫描器
@@ -54,6 +55,7 @@
 - https://github.com/VKCOM/noverify
 - https://github.com/tenable/terrascan
 - https://github.com/aquasecurity/trivy
+- https://github.com/golang/vuln
 
 ## 0x03-资产扫描
 
