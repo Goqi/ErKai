@@ -1,8 +1,8 @@
 # ErKai-开源安全项目二开计划
 
-本项目计划寻找100个优秀的Go语言开源安全项目代码，深入分析学习后并进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己深入学习安全开发，期待早日开源自己的安全项目。如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
+本项目计划寻找100个优秀的Go语言开源安全项目代码，深入分析学习后进行二次开发。项目包括包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己深入学习安全开发，期待早日开源自己的安全项目。非常感谢项目作者，如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年11月30日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2022年12月2日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
@@ -60,6 +60,7 @@
 ## 0x03-资产扫描
 
 - [**Ernetspy**](https://github.com/Goqi/Ernetspy)：[netspy](https://github.com/Goqi/ErKai/tree/main/0x03/netspy)@[netspy](https://github.com/netspy/netspy)#快速探测内网可达网段工具
+- [**Erdismap**](https://github.com/Goqi/Erdismap)：[dismap](https://github.com/Goqi/ErKai/tree/main/0x03/dismap)@[zhzyker](https://github.com/zhzyker/dismap)#快速识别指纹和资产信息
 - [**ErEHole**](https://github.com/Goqi/ErEHole)：[EHole](https://github.com/Goqi/ErKai/tree/main/0x03/EHole)@[shihuang](https://github.com/EdgeSecurityTeam/EHole)#红队重点攻击系统指纹探测工具
 - [**ErTXPortMap**](https://github.com/Goqi/ErTXPortMap)：[TXPortMap](https://github.com/Goqi/ErKai/tree/main/0x03/TXPortMap)@[4dogs-cn](https://github.com/4dogs-cn/TXPortMap)#端口扫描和Banner识别
 - [**Erfofax**](https://github.com/Goqi/Erfofax)：[fofax](https://github.com/Goqi/ErKai/tree/main/0x03/fofax)@[xiecat](https://github.com/xiecat/fofax)#fofaAPI查询信息收集探测工具
@@ -75,6 +76,7 @@
 - [**Ermetabigor**](https://github.com/Goqi/Ermetabigor)：[metabigor](https://github.com/Goqi/ErKai/tree/main/0x03/metabigor)@[j3ssie](https://github.com/j3ssie/metabigor)#不使用API密钥执行OSINT任务
 - https://github.com/edoardottt/scilla
 - https://github.com/ATpiu/asset-scan
+- https://github.com/ZhuriLab/Starmap
 
 
 ## 0x04-远控隧道
@@ -118,6 +120,7 @@
 - [**Erpocassist**](https://github.com/Goqi/Erpocassist)：[pocassist](https://github.com/Goqi/ErKai/tree/main/0x06/pocassist)@[jweny](https://github.com/jweny/pocassist)#一款全新的开源漏洞测试框架
 - [**EreDefender**](https://github.com/Goqi/EreDefender)：[eDefender](https://github.com/Goqi/ErKai/tree/main/0x06/eDefender)@[cjphaha](https://github.com/cjphaha/eDefender)#常见安全漏洞检测工具
 - [**Ernemo**](https://github.com/Goqi/Ernemo)：[nemo_go](https://github.com/Goqi/ErKai/tree/main/0x06/nemo_go)@[hanc00l](https://github.com/hanc00l/nemo_go)#一个简单的自动化信息收集平台
+- [**ErBeeScan**](https://github.com/Goqi/ErBeeScan)：[BeeScan](https://github.com/Goqi/ErKai/tree/main/0x06/BeeScan)@[jiaocoll](https://github.com/jiaocoll/BeeScan-scan)#分布式网络空间资产探测扫描平台
 
 ## 0x07-被动扫描
 
@@ -150,3 +153,7 @@
 - https://github.com/burrowers/garble
 - https://github.com/saferwall/saferwall
 - https://github.com/neuvector/neuvector
+- https://github.com/vidar-team/Cardinal
+- https://github.com/CTF-go/CTFgo
+
+[![Stargazers over time](https://starchart.cc//Goqi/ErKai.svg)](https://starchart.cc/Goqi/ErKai)
