@@ -4,7 +4,7 @@
 
 本项目计划寻找100个优秀的Go语言开源安全项目代码，深入分析学习后进行二次开发。项目包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己深入学习安全开发，期待早日开源自己的安全项目。非常感谢项目作者，如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年12月6日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2022年12月7日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
@@ -107,6 +107,7 @@
 - [**Erligolo**](https://github.com/Goqi/Erligolo)：[chisel](https://github.com/Goqi/ErKai/tree/main/0x04/ligolo)@[sysdream](https://github.com/sysdream/ligolo)#反向代理让渗透测试者变得容易
 - https://github.com/herwonowr/slackhell
 - https://github.com/HavocFramework/Havoc
+- https://github.com/projectdiscovery/proxify
 
 
 ## 0x05-病毒免杀
@@ -116,6 +117,7 @@
 - [**ErAniYa**](https://github.com/Goqi/ErAniYa)：[AniYa](https://github.com/Goqi/ErKai/tree/main/0x05/AniYa)@[piiperxyz](https://github.com/piiperxyz/AniYa)#使用Go语言写的GUI免杀框架
 - [**ErZheTian**](https://github.com/Goqi/ErZheTian)：[ZheTian](https://github.com/Goqi/ErKai/tree/main/0x05/ZheTian)@[yqcs](https://github.com/yqcs/ZheTian)#强大的免杀生成工具Bypass All
 - https://github.com/Ne0nd0g/go-shellcode
+- https://github.com/TideSec/GoBypassAV
 
 ## 0x06-Web项目
 
