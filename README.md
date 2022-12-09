@@ -4,7 +4,7 @@
 
 本项目计划寻找100个优秀的Go语言开源安全项目代码，深入分析学习后进行二次开发。项目包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己深入学习安全开发，期待早日开源自己的安全项目。非常感谢项目作者，如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年12月8日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2022年12月9日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
@@ -40,6 +40,7 @@
 - [**ErFlamiePaw**](https://github.com/Goqi/ErFlamiePaw)：[FlamiePaw](https://github.com/Goqi/ErKai/tree/main/0x01/FlamiePaw)@[mumu0215](https://github.com/mumu0215/FlamiePaw)#crawlergo和xray等安全工具整合
 - [**Ergodscan**](https://github.com/Goqi/Ergodscan)：[godscan](https://github.com/Goqi/ErKai/tree/main/0x01/godscan)@[godspeedcurry](https://github.com/godspeedcurry/godscan)#指纹识别口令爆破漏洞扫描工具
 - [**Ergogo**](https://github.com/Goqi/Ergogo)：[gogo](https://github.com/Goqi/ErKai/tree/main/0x01/gogo)@[chainreactors](https://github.com/chainreactors/gogo)#高度可控可拓展的自动化的扫描引擎
+- https://github.com/wrenchonline/glint
 
 ## 0x02-代码扫描
 
@@ -80,6 +81,7 @@
 - [**Erscilla**](https://github.com/Goqi/Erscilla)：[scilla](https://github.com/Goqi/ErKai/tree/main/0x03/scilla)@[edoardottt](https://github.com/edoardottt/scilla)#信息收集工具 - DNS/子域/端口/目录枚举
 - [**ErStarmap**](https://github.com/Goqi/ErStarmap)：[Starmap](https://github.com/Goqi/ErKai/tree/main/0x03/Starmap)@[ZhuriLab](https://github.com/ZhuriLab/Starmap)#融合的子域名收集小工具
 - [**Erassetscan**](https://github.com/Goqi/Erassetscan)：[asset-scan](https://github.com/Goqi/ErKai/tree/main/0x03/asset-scan)@[ATpiu](https://github.com/ATpiu/asset-scan)#外网资产周期性扫描监控系统
+- https://github.com/v-byte-cpu/sx
 
 
 ## 0x04-远控隧道
@@ -108,6 +110,7 @@
 - https://github.com/herwonowr/slackhell
 - https://github.com/HavocFramework/Havoc
 - https://github.com/projectdiscovery/proxify
+- https://github.com/whitehatnote/BlueShell
 
 
 ## 0x05-病毒免杀
