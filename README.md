@@ -86,7 +86,7 @@
 
 ## 0x04-远控隧道
 
-- [x] [**Erfrp**](https://github.com/Goqi/Erfrp)：[frp](https://github.com/Goqi/ErKai/tree/main/0x04/frp)@[fatedier](https://github.com/fatedier/frp)#专注于内网穿透的高性能的反向代理
+- [x] **[Erfrp](https://github.com/Goqi/Erfrp)：[frp](https://github.com/Goqi/ErKai/tree/main/0x04/frp)@[fatedier](https://github.com/fatedier/frp)#专注于内网穿透的高性能的反向代理**
 - [ ] [**Ernps**](https://github.com/Goqi/Ernps)：[nps](https://github.com/Goqi/ErKai/tree/main/0x04/nps)@[ehang-io](https://github.com/ehang-io/nps)#功能强大的内网穿透代理服务器
 - [ ] [**Ergost**](https://github.com/Goqi/Ergost)：[gost](https://github.com/Goqi/ErKai/tree/main/0x04/gost)@[ginuerzh](https://github.com/ginuerzh/gost)#一个用Go语言编写的简单隧道
 - [ ] [**ErVenom**](https://github.com/Goqi/ErVenom)：[Venom](https://github.com/Goqi/ErKai/tree/main/0x04/Venom)@[Dliv3](https://github.com/Dliv3/Venom)#Go开发的多级代理工具
@@ -115,7 +115,7 @@
 
 ## 0x05-病毒免杀
 
-- [x] [**AvHunt**](https://github.com/Goqi/AvHunt)：[EDRHunt](https://github.com/Goqi/ErKai/tree/main/0x05/EDRHunt)@[FourCoreLabs](https://github.com/FourCoreLabs/EDRHunt)#在Windows上扫描已安装的杀毒软件
+- [x] **[AvHunt](https://github.com/Goqi/AvHunt)：[EDRHunt](https://github.com/Goqi/ErKai/tree/main/0x05/EDRHunt)@[FourCoreLabs](https://github.com/FourCoreLabs/EDRHunt)#在Windows上扫描已安装的杀软**
 - [ ] [**ErCuiRi**](https://github.com/Goqi/ErCuiRi)：[CuiRi](https://github.com/Goqi/ErKai/tree/main/0x05/CuiRi)@[NyDubh3](https://github.com/NyDubh3/CuiRi)#一款红队专用免杀木马生成器
 - [ ] [**ErAniYa**](https://github.com/Goqi/ErAniYa)：[AniYa](https://github.com/Goqi/ErKai/tree/main/0x05/AniYa)@[piiperxyz](https://github.com/piiperxyz/AniYa)#使用Go语言写的GUI免杀框架
 - [ ] [**ErZheTian**](https://github.com/Goqi/ErZheTian)：[ZheTian](https://github.com/Goqi/ErKai/tree/main/0x05/ZheTian)@[yqcs](https://github.com/yqcs/ZheTian)#强大的免杀生成工具Bypass All
