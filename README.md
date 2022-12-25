@@ -154,8 +154,9 @@
 ## 0x09-移动安全
 
 - [ ] [**Eripsw**](https://github.com/Goqi/Eripsw)：[ipsw](https://github.com/Goqi/ErKai/tree/main/0x09/ipsw)@[blacktop](https://github.com/blacktop/ipsw)#研究iOS的瑞士军刀
-- [ ] https://github.com/ndelphit/apkurlgrep
+- [ ] [**Erapkurlgrep**](https://github.com/Goqi/Erapkurlgrep)：[apkurlgrep](https://github.com/Goqi/ErKai/tree/main/0x09/apkurlgrep)@[ndelphit](https://github.com/ndelphit/apkurlgrep)#从APK文件中提取网址
 - [ ] https://github.com/c0618/iOSSniffer
+- [ ] https://github.com/majd/ipatool
 
 ## 0x10-其他项目
 
