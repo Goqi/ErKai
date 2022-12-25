@@ -4,16 +4,16 @@
 
 本项目计划寻找100个优秀的Go语言开源安全项目代码，深入分析学习后进行二次开发。项目包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己深入学习安全开发，期待早日开源自己的安全项目。非常感谢项目作者，如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年12月24日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2022年12月25日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
+- [ ] [**Ernuclei**](https://github.com/Goqi/Ernuclei)：[nuclei](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei)@[projectdiscovery](https://github.com/projectdiscovery/nuclei)#基于模板的漏洞扫描工具
 - [ ] [**Erfscan**](https://github.com/Goqi/Erfscan)：[fscan](https://github.com/Goqi/ErKai/tree/main/0x01/fscan)@[shadow1ng](https://github.com/shadow1ng/fscan)#一款内网综合漏洞扫描工具
 - [ ] [**Erafrog**](https://github.com/Goqi/Erafrog)：[afrog](https://github.com/Goqi/ErKai/tree/main/0x01/afrog)@[zan8in](https://github.com/zan8in/afrog)#性能卓越快速稳定PoC 可定制化的漏扫
 - [ ] [**Erkscan**](https://github.com/Goqi/Erkscan)：[kscan](https://github.com/Goqi/ErKai/tree/main/0x01/kscan)@[lcvvvv](https://github.com/lcvvvv/kscan)#一款轻量级的资产发现和漏洞扫描工具
 - [ ] [**ErYasso**](https://github.com/Goqi/ErYasso)：[Yasso](https://github.com/Goqi/ErKai/tree/main/0x01/Yasso)@[sairson](https://github.com/sairson/Yasso)#强大的内网渗透辅助工具集
 - [ ] [**Erscaninfo**](https://github.com/Goqi/Erscaninfo)：[scaninfo](https://github.com/Goqi/ErKai/tree/main/0x01/scaninfo)@[redtoolskobe](https://github.com/redtoolskobe/scaninfo)#红队内外网打点扫描器
-- [ ] [**Ernuclei**](https://github.com/Goqi/Ernuclei)：[nuclei](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei)@[projectdiscovery](https://github.com/projectdiscovery/nuclei)#基于模板的漏洞扫描工具
 - [ ] [**Erffuf**](https://github.com/Goqi/Erffuf)：[ffuf](https://github.com/Goqi/ErKai/tree/main/0x01/ffuf)@[joohoi](https://github.com/ffuf/ffuf)#用Go语言编写的快速进行模糊测试工具
 - [ ] [**Erjaeles**](https://github.com/Goqi/Erjaeles)：[jaeles](https://github.com/Goqi/ErKai/tree/main/0x01/jaeles)@[j3ssie](https://github.com/jaeles-project/jaeles)#自动化 Web 应用程序安全测试
 - [ ] [**Erscan4all**](https://github.com/Goqi/Erscan4all)：[scan4all](https://github.com/Goqi/ErKai/tree/main/0x01/scan4all)@[hktalent](https://github.com/hktalent/scan4all)#漏洞扫描工具的集成
@@ -40,7 +40,7 @@
 - [ ] [**ErFlamiePaw**](https://github.com/Goqi/ErFlamiePaw)：[FlamiePaw](https://github.com/Goqi/ErKai/tree/main/0x01/FlamiePaw)@[mumu0215](https://github.com/mumu0215/FlamiePaw)#crawlergo和xray等安全工具整合
 - [ ] [**Ergodscan**](https://github.com/Goqi/Ergodscan)：[godscan](https://github.com/Goqi/ErKai/tree/main/0x01/godscan)@[godspeedcurry](https://github.com/godspeedcurry/godscan)#指纹识别口令爆破漏洞扫描工具
 - [ ] [**Ergogo**](https://github.com/Goqi/Ergogo)：[gogo](https://github.com/Goqi/ErKai/tree/main/0x01/gogo)@[chainreactors](https://github.com/chainreactors/gogo)#高度可控可拓展的自动化的扫描引擎
-- [ ] [**Erglint**](https://github.com/Goqi/Erglint)：[glint](https://github.com/Goqi/ErKai/tree/main/0x01/glint)@[wrenchonline](https://github.com/wrenchonline/glint)#基于浏览器爬虫的被动扫描器
+- [ ] [**ErDarksteel**](https://github.com/Goqi/ErDarksteel)：[Darksteel](https://github.com/Goqi/ErKai/tree/main/0x01/Darksteel)@[wjlab](https://github.com/wjlab/Darksteel)#Attack Domain Kerberos LDAP
 
 ## 0x02-代码扫描
 
@@ -87,9 +87,9 @@
 ## 0x04-远控隧道
 
 - [x] **[Erfrp](https://github.com/Goqi/Erfrp)：[frp](https://github.com/Goqi/ErKai/tree/main/0x04/frp)@[fatedier](https://github.com/fatedier/frp)#专注于内网穿透的高性能的反向代理**
+- [ ] [**ErVenom**](https://github.com/Goqi/ErVenom)：[Venom](https://github.com/Goqi/ErKai/tree/main/0x04/Venom)@[Dliv3](https://github.com/Dliv3/Venom)#Go开发的多级代理工具
 - [ ] [**Ernps**](https://github.com/Goqi/Ernps)：[nps](https://github.com/Goqi/ErKai/tree/main/0x04/nps)@[ehang-io](https://github.com/ehang-io/nps)#功能强大的内网穿透代理服务器
 - [ ] [**Ergost**](https://github.com/Goqi/Ergost)：[gost](https://github.com/Goqi/ErKai/tree/main/0x04/gost)@[ginuerzh](https://github.com/ginuerzh/gost)#一个用Go语言编写的简单隧道
-- [ ] [**ErVenom**](https://github.com/Goqi/ErVenom)：[Venom](https://github.com/Goqi/ErKai/tree/main/0x04/Venom)@[Dliv3](https://github.com/Dliv3/Venom)#Go开发的多级代理工具
 - [ ] [**ErStowaway**](https://github.com/Goqi/ErStowaway)：[Stowaway](https://github.com/Goqi/ErKai/tree/main/0x04/Stowaway)@[ph4ntonn](https://github.com/ph4ntonn/Stowaway)#用于渗透测试者的多跳代理工具
 - [ ] [**Ersliver**](https://github.com/Goqi/Ersliver)：[sliver](https://github.com/Goqi/ErKai/tree/main/0x04/sliver)@[BishopFox](https://github.com/BishopFox/sliver)#Adversary Emulation Framework
 - [ ] [**Ermerlin**](https://github.com/Goqi/Ermerlin)：[merlin](https://github.com/Goqi/ErKai/tree/main/0x04/merlin)@[Ne0nd0g](https://github.com/Ne0nd0g/merlin)#HTTP命令和控制服务器
@@ -131,7 +131,7 @@
 - [ ] [**EreDefender**](https://github.com/Goqi/EreDefender)：[eDefender](https://github.com/Goqi/ErKai/tree/main/0x06/eDefender)@[cjphaha](https://github.com/cjphaha/eDefender)#常见安全漏洞检测工具
 - [ ] [**Ernemo**](https://github.com/Goqi/Ernemo)：[nemo_go](https://github.com/Goqi/ErKai/tree/main/0x06/nemo_go)@[hanc00l](https://github.com/hanc00l/nemo_go)#一个简单的自动化信息收集平台
 - [ ] [**ErBeeScan**](https://github.com/Goqi/ErBeeScan)：[BeeScan](https://github.com/Goqi/ErKai/tree/main/0x06/BeeScan)@[jiaocoll](https://github.com/jiaocoll/BeeScan-scan)#分布式网络空间资产探测扫描平台
-- [ ] https://github.com/MiSecurity/x-patrol
+- [ ] [**Erxpatrol**](https://github.com/Goqi/Erxpatrol)：[x-patrol](https://github.com/Goqi/ErKai/tree/main/0x06/x-patrol)@[MiSecurity](https://github.com/MiSecurity/x-patrol)#Github泄露扫描系统
 
 ## 0x07-被动扫描
 
@@ -140,6 +140,7 @@
 - [ ] [**Erhetty**](https://github.com/Goqi/Erhetty)：[hetty](https://github.com/Goqi/ErKai/tree/main/0x07/hetty)@[dstotijn](https://github.com/dstotijn/hetty)#用于安全研究的 HTTP 工具包
 - [ ] [**Ermitmproxy**](https://github.com/Goqi/Ermitmproxy)：[go-mitmproxy](https://github.com/Goqi/ErKai/tree/main/0x07/go-mitmproxy)@[lqqyt2423](https://github.com/lqqyt2423/go-mitmproxy)#Go语言实现的中间人攻击
 - [ ] [**ErModlishka**](https://github.com/Goqi/ErModlishka)：[Modlishka](https://github.com/Goqi/ErKai/tree/main/0x07/Modlishka)@[drk1wi](https://github.com/drk1wi/Modlishka)#强大而灵活的 HTTP 反向代理
+- [ ] [**Erglint**](https://github.com/Goqi/Erglint)：[glint](https://github.com/Goqi/ErKai/tree/main/0x01/glint)@[wrenchonline](https://github.com/wrenchonline/glint)#基于浏览器爬虫的被动扫描器
 
 ## 0x08-钓鱼蜜罐
 
