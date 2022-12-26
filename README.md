@@ -4,11 +4,11 @@
 
 本项目计划寻找100个优秀的Go语言开源安全项目代码，深入分析学习后进行二次开发。项目包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己深入学习安全开发，期待早日开源自己的安全项目。非常感谢项目作者，如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年12月25日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2022年12月26日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
-- [ ] [**Ernuclei**](https://github.com/Goqi/Ernuclei)：[nuclei](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei)@[projectdiscovery](https://github.com/projectdiscovery/nuclei)#基于模板的漏洞扫描工具
+- [ ] **[Cell](https://github.com/Goqi/Cell)：[nuclei](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei)@[projectdiscovery](https://github.com/projectdiscovery/nuclei)#基于模板的漏洞扫描工具**
 - [ ] [**Erfscan**](https://github.com/Goqi/Erfscan)：[fscan](https://github.com/Goqi/ErKai/tree/main/0x01/fscan)@[shadow1ng](https://github.com/shadow1ng/fscan)#一款内网综合漏洞扫描工具
 - [ ] [**Erafrog**](https://github.com/Goqi/Erafrog)：[afrog](https://github.com/Goqi/ErKai/tree/main/0x01/afrog)@[zan8in](https://github.com/zan8in/afrog)#性能卓越快速稳定PoC 可定制化的漏扫
 - [ ] [**Erkscan**](https://github.com/Goqi/Erkscan)：[kscan](https://github.com/Goqi/ErKai/tree/main/0x01/kscan)@[lcvvvv](https://github.com/lcvvvv/kscan)#一款轻量级的资产发现和漏洞扫描工具
