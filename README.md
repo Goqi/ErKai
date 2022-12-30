@@ -4,7 +4,7 @@
 
 本项目计划寻找100个优秀的Go语言开源安全项目代码，深入分析学习后进行二次开发。项目包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己深入学习安全开发，期待早日开源自己的安全项目。非常感谢项目作者，如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2022年12月28日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2022年12月30日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
@@ -75,6 +75,7 @@
 - [ ] [**Eruncover**](https://github.com/Goqi/Eruncover)：[uncover](https://github.com/Goqi/ErKai/tree/main/0x03/uncover)@[projectdiscovery](https://github.com/projectdiscovery/uncover)#使用搜索引擎发现主机
 - [ ] [**Erksubdomain**](https://github.com/Goqi/Erksubdomain)：[ksubdomain](https://github.com/Goqi/ErKai/tree/main/0x03/ksubdomain)@[boy-hack](https://github.com/boy-hack/ksubdomain)#子域枚举工具
 - [ ] [**ErCaesar**](https://github.com/Goqi/ErCaesar)：[Caesar](https://github.com/Goqi/ErKai/tree/main/0x03/Caesar)@[thunderbarca](https://github.com/j5s/Caesar)#一个全新的敏感文件发现工具
+- [ ] [**Erfuzzuli**](https://github.com/Goqi/Erfuzzuli)：[fuzzuli](https://github.com/Goqi/ErKai/tree/main/0x03/fuzzuli)@[musana](https://github.com/musana/fuzzuli)#根据域名创建自带进行备份文件扫描
 - [ ] [**Erones**](https://github.com/Goqi/Erones)：[ones](https://github.com/Goqi/ErKai/tree/main/0x03/ones)@[ffffffff0x](https://github.com/ffffffff0x/ones)#多个网络资产测绘 API 命令行查询工具
 - [ ] [**ErENScan**](https://github.com/Goqi/ErENScan)：[ENScan_GO](https://github.com/Goqi/ErKai/tree/main/0x03/ENScan_GO)@[wgpsec](https://github.com/wgpsec/ENScan_GO)#收集国内企业的各种信息
 - [ ] [**ErSmap**](https://github.com/Goqi/ErSmap)：[Smap](https://github.com/Goqi/ErKai/tree/main/0x03/Smap)@[s0md3v](https://github.com/s0md3v/Smap)#由shodan.io提供支持的Nmap的直接替代品
