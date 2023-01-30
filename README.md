@@ -4,7 +4,7 @@
 
 本项目计划寻找100个优秀的Go语言开源安全项目代码，深入分析学习后进行二次开发。项目包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己深入学习安全开发，期待早日开源自己的安全项目。非常感谢项目作者，如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2023年1月9日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2023年1月30日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
@@ -113,6 +113,7 @@
 - [ ] [**ErBlueShell**](https://github.com/Goqi/ErBlueShell)：[BlueShell](https://github.com/Goqi/ErKai/tree/main/0x04/BlueShell)@[whitehatnote](https://github.com/whitehatnote/BlueShell)#红蓝对抗跨平台远控工具
 - [ ] [**Erproxify**](https://github.com/Goqi/Erproxify)：[proxify](https://github.com/Goqi/ErKai/tree/main/0x04/proxify)@[projectdiscovery](https://github.com/projectdiscovery/proxify)#代理工具-捕获操作和重放HTTP流量
 - [ ] [**Ergg**](https://github.com/Goqi/Ergg)：[gg](https://github.com/Goqi/ErKai/tree/main/0x04/gg)@[mzz2017](https://github.com/mzz2017/gg)#一款Linux 命令行代理工具
+- [ ] [**ErKitty**](https://github.com/Goqi/Ergg)：[KittyStager](https://github.com/Goqi/ErKai/tree/main/0x04/KittyStager)@[Enelg52](https://github.com/Enelg52/KittyStager)#一个简单的 stage 0 C2
 - [ ] https://github.com/herwonowr/slackhell
 - [ ] https://github.com/HavocFramework/Havoc
 
