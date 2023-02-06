@@ -4,7 +4,7 @@
 
 本项目计划寻找100个优秀的Go语言开源安全项目代码，深入分析学习后进行二次开发。项目包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己深入学习安全开发，期待早日开源自己的安全项目。非常感谢项目作者，如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2023年1月30日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2023年2月6日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
@@ -165,6 +165,7 @@
 
 ## 0x10-其他项目
 
+- [ ] [Ernotify](https://github.com/Goqi/Ernotify)：[notify](https://github.com/Goqi/ErKai/tree/main/0x10/notify)@[projectdiscovery](https://github.com/projectdiscovery/notify)#全面的消息通知框架
 - [ ] https://github.com/moonD4rk/HackBrowserData
 - [ ] https://github.com/murphysecurity/murphysec
 - [ ] https://github.com/liamg/traitor
