@@ -4,7 +4,7 @@
 
 本项目计划寻找100个优秀的Go语言开源安全项目代码，深入分析学习后进行二次开发。项目包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己深入学习安全开发，期待早日开源自己的安全项目。非常感谢项目作者，如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2023年2月23日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2023年3月7日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
@@ -41,6 +41,7 @@
 - [ ] [**Ergodscan**](https://github.com/Goqi/Ergodscan)：[godscan](https://github.com/Goqi/ErKai/tree/main/0x01/godscan)@[godspeedcurry](https://github.com/godspeedcurry/godscan)#指纹识别口令爆破漏洞扫描工具
 - [ ] [**Ergogo**](https://github.com/Goqi/Ergogo)：[gogo](https://github.com/Goqi/ErKai/tree/main/0x01/gogo)@[chainreactors](https://github.com/chainreactors/gogo)#高度可控可拓展的自动化的扫描引擎
 - [ ] [**ErDarksteel**](https://github.com/Goqi/ErDarksteel)：[Darksteel](https://github.com/Goqi/ErKai/tree/main/0x01/Darksteel)@[wjlab](https://github.com/wjlab/Darksteel)#Attack Domain Kerberos LDAP
+- [ ] https://github.com/yhy0/Jie
 
 ## 0x02-代码扫描
 
@@ -86,6 +87,7 @@
 - [ ] [**Erassetscan**](https://github.com/Goqi/Erassetscan)：[asset-scan](https://github.com/Goqi/ErKai/tree/main/0x03/asset-scan)@[ATpiu](https://github.com/ATpiu/asset-scan)#外网资产周期性扫描监控系统
 - [ ] [**Ersx**](https://github.com/Goqi/Ersx)：[v-byte-cpu](https://github.com/Goqi/ErKai/tree/main/0x03/sx)@[v-byte-cpu](https://github.com/v-byte-cpu/sx)#快速、现代、易于使用的网络扫描仪
 - [ ] [**ErURLFinder**](https://github.com/Goqi/ErURLFinder)：[URLFinder](https://github.com/Goqi/ErKai/tree/main/0x03/URLFinder)@[pingc0y](https://github.com/pingc0y/URLFinder)#提取检测页面中JS与URL的工具
+- [ ] [**ErDirscan**](https://github.com/Goqi/ErDirscan)：[Dirscan](https://github.com/Goqi/ErKai/tree/main/0x03/Dirscan)@[corunb](https://github.com/corunb/Dirscan)#Go编写的高并发的目录扫描器
 - [ ] https://github.com/projectdiscovery/asnmap
 
 
