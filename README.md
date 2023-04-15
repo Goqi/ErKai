@@ -4,7 +4,7 @@
 
 本项目计划寻找100个优秀的Go语言开源安全项目代码，深入分析学习后进行二次开发。项目包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己深入学习安全开发，期待早日开源自己的安全项目。非常感谢项目作者，如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2023年4月13日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2023年4月15日。本项目会持续更新，直到海枯石烂！
 
 ## 0x01-漏洞扫描
 
@@ -65,7 +65,7 @@
 
 ## 0x03-资产扫描
 
-- [x] [**Ernetspy**](https://github.com/Goqi/Ernetspy)：[netspy](https://github.com/Goqi/ErKai/tree/main/0x03/netspy)@[netspy](https://github.com/shmilylty/netspy)#一款快速探测内网可达网段工具
+- [x] [**Ernetspy**](https://github.com/Goqi/Ernetspy)：[netspy](https://github.com/Goqi/ErKai/tree/main/0x03/netspy)@[shmilylty](https://github.com/shmilylty/netspy)#一款快速探测内网可达网段工具
 - [ ] [**Ergospider**](https://github.com/Goqi/Ergospider)：[gospider](https://github.com/Goqi/ErKai/tree/main/0x03/gospider)@[jaeles-project](https://github.com/jaeles-project/gospider)#快速网络爬虫工具
 - [ ] [**Erdismap**](https://github.com/Goqi/Erdismap)：[dismap](https://github.com/Goqi/ErKai/tree/main/0x03/dismap)@[zhzyker](https://github.com/zhzyker/dismap)#快速识别指纹和资产信息
 - [ ] [**ErEHole**](https://github.com/Goqi/ErEHole)：[EHole](https://github.com/Goqi/ErKai/tree/main/0x03/EHole)@[shihuang](https://github.com/EdgeSecurityTeam/EHole)#红队重点攻击系统指纹探测工具
