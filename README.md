@@ -2,9 +2,20 @@
 
 ![ErKai](https://socialify.git.ci/Goqi/ErKai/image?description=0&descriptionEditable=%20&font=Bitter&forks=1&issues=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Light)
 
-本项目计划寻找100个优秀的Go语言开源安全项目代码，深入分析学习后进行二次开发。项目包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己深入学习安全开发，期待早日开源自己的安全项目。非常感谢项目作者，如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
+本项目计划寻找100+个优秀的Go语言开源安全项目代码，深入分析学习后进行二次开发。项目包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己从1开始深入学习安全开发，期待早日开源自己的安全项目。非常感谢项目作者，如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2023年4月15日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2023年5月31日。本项目会持续更新，直到海枯石烂！
+
+- [0x01-漏洞扫描](https://github.com/Goqi/ErKai#0x01-%E6%BC%8F%E6%B4%9E%E6%89%AB%E6%8F%8F)
+- [0x02-代码扫描](https://github.com/Goqi/ErKai#0x02-%E4%BB%A3%E7%A0%81%E6%89%AB%E6%8F%8F)
+- [0x03-资产扫描](https://github.com/Goqi/ErKai#0x03-%E8%B5%84%E4%BA%A7%E6%89%AB%E6%8F%8F)
+- [0x04-远控隧道](https://github.com/Goqi/ErKai#0x04-%E8%BF%9C%E6%8E%A7%E9%9A%A7%E9%81%93)
+- [0x05-病毒免杀](https://github.com/Goqi/ErKai#0x05-%E7%97%85%E6%AF%92%E5%85%8D%E6%9D%80)
+- [0x06-Web项目](https://github.com/Goqi/ErKai#0x06-web%E9%A1%B9%E7%9B%AE)
+- [0x07-被动扫描](https://github.com/Goqi/ErKai#0x07-%E8%A2%AB%E5%8A%A8%E6%89%AB%E6%8F%8F)
+- [0x08-钓鱼蜜罐](https://github.com/Goqi/ErKai#0x08-%E9%92%93%E9%B1%BC%E8%9C%9C%E7%BD%90)
+- [0x09-移动安全](https://github.com/Goqi/ErKai#0x09-%E7%A7%BB%E5%8A%A8%E5%AE%89%E5%85%A8)
+- [0x10-其他项目](https://github.com/Goqi/ErKai#0x10-%E5%85%B6%E4%BB%96%E9%A1%B9%E7%9B%AE)
 
 ## 0x01-漏洞扫描
 
@@ -90,26 +101,28 @@
 - [ ] [**ErDirscan**](https://github.com/Goqi/ErDirscan)：[Dirscan](https://github.com/Goqi/ErKai/tree/main/0x03/Dirscan)@[corunb](https://github.com/corunb/Dirscan)#Go编写的高并发的目录扫描器
 - [ ] https://github.com/projectdiscovery/asnmap
 
-
 ## 0x04-远控隧道
 
 - [x] **[Erfrp](https://github.com/Goqi/Erfrp)：[frp](https://github.com/Goqi/ErKai/tree/main/0x04/frp)@[fatedier](https://github.com/fatedier/frp)#专注于内网穿透的高性能的反向代理**
 - [ ] [**ErVenom**](https://github.com/Goqi/ErVenom)：[Venom](https://github.com/Goqi/ErKai/tree/main/0x04/Venom)@[Dliv3](https://github.com/Dliv3/Venom)#Go开发的多级代理工具
 - [ ] [**Ernps**](https://github.com/Goqi/Ernps)：[nps](https://github.com/Goqi/ErKai/tree/main/0x04/nps)@[ehang-io](https://github.com/ehang-io/nps)#功能强大的内网穿透代理服务器
 - [ ] [**Ergost**](https://github.com/Goqi/Ergost)：[gost](https://github.com/Goqi/ErKai/tree/main/0x04/gost)@[ginuerzh](https://github.com/ginuerzh/gost)#一个用Go语言编写的简单隧道
+- [ ] [**Ersuo5**](https://github.com/Goqi/Ersuo5)：[suo5](https://github.com/Goqi/ErKai/tree/main/0x04/suo5)@[zema1](https://github.com/zema1/suo5)#一款高性能 HTTP 代理隧道工具
+- [x] [**ErCHAOS**](https://github.com/Goqi/ErCHAOS)：[CHAOS](https://github.com/Goqi/ErKai/tree/main/0x04/CHAOS)@[tiagorlampert](https://github.com/tiagorlampert/CHAOS)#免费的开源远程管理工具
+- [ ] [**ErHavoc**](https://github.com/Goqi/ErHavoc)：[Havoc](https://github.com/Goqi/ErKai/tree/main/0x04/Havoc)@[HavocFramework](https://github.com/HavocFramework/Havoc)#现代化可延展的C2框架
 - [ ] [**ErStowaway**](https://github.com/Goqi/ErStowaway)：[Stowaway](https://github.com/Goqi/ErKai/tree/main/0x04/Stowaway)@[ph4ntonn](https://github.com/ph4ntonn/Stowaway)#用于渗透测试者的多跳代理工具
-- [ ] [**Ersliver**](https://github.com/Goqi/Ersliver)：[sliver](https://github.com/Goqi/ErKai/tree/main/0x04/sliver)@[BishopFox](https://github.com/BishopFox/sliver)#Adversary Emulation Framework
+- [ ] [**Ersliver**](https://github.com/Goqi/Ersliver)：[sliver](https://github.com/Goqi/ErKai/tree/main/0x04/sliver)@[BishopFox](https://github.com/BishopFox/sliver)#开源的跨平台对手仿真/红队框架
 - [ ] [**Ermerlin**](https://github.com/Goqi/Ermerlin)：[merlin](https://github.com/Goqi/ErKai/tree/main/0x04/merlin)@[Ne0nd0g](https://github.com/Ne0nd0g/merlin)#HTTP命令和控制服务器
-- [ ] [**ErCHAOS**](https://github.com/Goqi/ErCHAOS)：[CHAOS](https://github.com/Goqi/ErKai/tree/main/0x04/CHAOS)@[tiagorlampert](https://github.com/tiagorlampert/CHAOS)#免费的开源远程管理工具
 - [ ] [**ErMeet**](https://github.com/Goqi/ErMeet)：[MeetC2](https://github.com/Goqi/ErKai/tree/main/0x04/MeetC2)@[iammaguire](https://github.com/iammaguire/MeetC2)#Go语言开发的模块化C2框架
 - [ ] [**ErDeimos**](https://github.com/Goqi/ErDeimos)：[DeimosC2](https://github.com/Goqi/ErKai/tree/main/0x04/DeimosC2)@[DeimosC2](https://github.com/DeimosC2/DeimosC2)#Go语言开发的命令和控制框架
 - [ ] [**ErOrcaC2**](https://github.com/Goqi/ErOrcaC2)：[OrcaC2](https://github.com/Goqi/ErKai/tree/main/0x04/OrcaC2)@[Ptkatz](https://github.com/Ptkatz/OrcaC2)#基于Websocket加密通信的多功能C2框架
-- [ ] [**Eremp3r0r**](https://github.com/Goqi/Eremp3r0r)：[emp3r0r](https://github.com/Goqi/ErKai/tree/main/0x04/emp3r0r)@[jm33-m0](https://github.com/jm33-m0/emp3r0r)#Linux/Windows后期开发C2框架
+- [ ] [**Eremp3r0r**](https://github.com/Goqi/Eremp3r0r)：[emp3r0r](https://github.com/Goqi/ErKai/tree/main/0x04/emp3r0r)@[jm33-m0](https://github.com/jm33-m0/emp3r0r)#Linux/Windows后渗透测试C2框架
 - [ ] [**ErToRat**](https://github.com/Goqi/ErToRat)：[ToRat](https://github.com/Goqi/ErKai/tree/main/0x04/ToRat)@[lu4p](https://github.com/lu4p/ToRat)#C2框架Tor作为传输机制和RPC进行通信
+- [ ] [**Ernoterce**](https://github.com/Goqi/Ernoterce)：[noterce](https://github.com/Goqi/ErKai/tree/main/0x04/noterce)@[xiao-zhu-zhu](https://github.com/xiao-zhu-zhu/noterce)#利用note.ms实现的免杀框架
 - [ ] [**ErSpark**](https://github.com/Goqi/ErSpark)：[Spark](https://github.com/Goqi/ErKai/tree/main/0x04/Spark)@[XZB-1248](https://github.com/XZB-1248/Spark)#远程控制和监控工具
 - [ ] [**Ernatpass**](https://github.com/Goqi/Ernatpass)：[natpass](https://github.com/Goqi/ErKai/tree/main/0x04/natpass)@[lwch](https://github.com/lwch/natpass)#居家办公，远程开发神器
 - [ ] [**Erwsh**](https://github.com/Goqi/Erwsh)：[wsh](https://github.com/Goqi/ErKai/tree/main/0x04/wsh)@[EatonChips](https://github.com/EatonChips/wsh)#Webshell的生成和管理
-- [ ] [**Erwsm**](https://github.com/Goqi/Erwsm)：[wsm](https://github.com/Goqi/ErKai/tree/main/0x04/wsm)@[xiecat](https://github.com/xiecat/wsm)#网站管理工具
+- [ ] [**Erwsm**](https://github.com/Goqi/Erwsm)：[wsm](https://github.com/Goqi/ErKai/tree/main/0x04/wsm)@[xiecat](https://github.com/xiecat/wsm)#网站管理工具的示例库
 - [ ] [**Ershellz**](https://github.com/Goqi/Ershellz)：[shellz](https://github.com/Goqi/ErKai/tree/main/0x04/shellz)@[evilsocket](https://github.com/evilsocket/shellz)#管理ssh、telnet、k8s、winrm、web等shell
 - [ ] [**Eriox**](https://github.com/Goqi/Eriox)：[iox](https://github.com/Goqi/ErKai/tree/main/0x04/iox)@[EddieIvan01](https://github.com/EddieIvan01/iox)#端口转发和内网代理工具
 - [ ] [**Erchisel**](https://github.com/Goqi/Erchisel)：[chisel](https://github.com/Goqi/ErKai/tree/main/0x04/chisel)@[jpillora](https://github.com/jpillora/chisel)#基于 HTTP 的快速 TCP/UDP 隧道
@@ -119,8 +132,6 @@
 - [ ] [**Ergg**](https://github.com/Goqi/Ergg)：[gg](https://github.com/Goqi/ErKai/tree/main/0x04/gg)@[mzz2017](https://github.com/mzz2017/gg)#一款Linux 命令行代理工具
 - [ ] [**ErKitty**](https://github.com/Goqi/Ergg)：[KittyStager](https://github.com/Goqi/ErKai/tree/main/0x04/KittyStager)@[Enelg52](https://github.com/Enelg52/KittyStager)#一个简单的 stage 0 C2
 - [ ] https://github.com/herwonowr/slackhell
-- [ ] https://github.com/HavocFramework/Havoc
-- [ ] https://github.com/zema1/suo5
 
 
 ## 0x05-病毒免杀
