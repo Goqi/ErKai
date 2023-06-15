@@ -4,7 +4,7 @@
 
 本项目计划寻找100+个优秀的Go语言开源安全项目代码，深入分析学习后进行二次开发。项目包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己从1开始深入学习安全开发，期待早日开源自己的安全项目。非常感谢项目作者，如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2023年6月1日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2023年6月15日。本项目会持续更新，直到海枯石烂！
 
 - [0x01-漏洞扫描](https://github.com/Goqi/ErKai#0x01-%E6%BC%8F%E6%B4%9E%E6%89%AB%E6%8F%8F)
 - [0x02-代码扫描](https://github.com/Goqi/ErKai#0x02-%E4%BB%A3%E7%A0%81%E6%89%AB%E6%8F%8F)
@@ -109,13 +109,13 @@
 - [ ] [**Ergost**](https://github.com/Goqi/Ergost)：[gost](https://github.com/Goqi/ErKai/tree/main/0x04/gost)@[ginuerzh](https://github.com/ginuerzh/gost)#一个用Go语言编写的简单隧道
 - [ ] [**Ersuo5**](https://github.com/Goqi/Ersuo5)：[suo5](https://github.com/Goqi/ErKai/tree/main/0x04/suo5)@[zema1](https://github.com/zema1/suo5)#一款高性能 HTTP 代理隧道工具
 - [ ] [**ErStowaway**](https://github.com/Goqi/ErStowaway)：[Stowaway](https://github.com/Goqi/ErKai/tree/main/0x04/Stowaway)@[ph4ntonn](https://github.com/ph4ntonn/Stowaway)#渗透测试的多跳代理工具
+- [x] [**Ersliver**](https://github.com/Goqi/Ersliver)：[sliver](https://github.com/Goqi/ErKai/tree/main/0x04/sliver)@[BishopFox](https://github.com/BishopFox/sliver)#开源的跨平台对手仿真/红队框架
+- [x] [**ErHavoc**](https://github.com/Goqi/ErHavoc)：[Havoc](https://github.com/Goqi/ErKai/tree/main/0x04/Havoc)@[HavocFramework](https://github.com/HavocFramework/Havoc)#现代化可延展的C2框架
+- [x] [**Ermerlin**](https://github.com/Goqi/Ermerlin)：[merlin](https://github.com/Goqi/ErKai/tree/main/0x04/merlin)@[Ne0nd0g](https://github.com/Ne0nd0g/merlin)#HTTP命令和控制服务器
 - [x] [**ErCHAOS**](https://github.com/Goqi/ErCHAOS)：[CHAOS](https://github.com/Goqi/ErKai/tree/main/0x04/CHAOS)@[tiagorlampert](https://github.com/tiagorlampert/CHAOS)#开源的远程管理工具-Web
 - [x] [**ErDeimosC2**](https://github.com/Goqi/ErDeimosC2)：[DeimosC2](https://github.com/Goqi/ErKai/tree/main/0x04/DeimosC2)@[DeimosC2](https://github.com/DeimosC2/DeimosC2)#Go语言开发的命令和控制框架
 - [x] [**ErMeetC2**](https://github.com/Goqi/ErMeetC2)：[MeetC2](https://github.com/Goqi/ErKai/tree/main/0x04/MeetC2)@[iammaguire](https://github.com/iammaguire/MeetC2)#Go语言开发的模块化C2框架
 - [x] [**ErKudzu**](https://github.com/Goqi/ErKudzu)：[Kudzu](https://github.com/Goqi/ErKai/tree/main/0x04/Kudzu)@[TerminalJockey](https://github.com/TerminalJockey/Kudzu)#Go语言开发的可扩展性的C2平台
-- [x] [**ErHavoc**](https://github.com/Goqi/ErHavoc)：[Havoc](https://github.com/Goqi/ErKai/tree/main/0x04/Havoc)@[HavocFramework](https://github.com/HavocFramework/Havoc)#现代化可延展的C2框架
-- [x] [**Ersliver**](https://github.com/Goqi/Ersliver)：[sliver](https://github.com/Goqi/ErKai/tree/main/0x04/sliver)@[BishopFox](https://github.com/BishopFox/sliver)#开源的跨平台对手仿真/红队框架
-- [x] [**Ermerlin**](https://github.com/Goqi/Ermerlin)：[merlin](https://github.com/Goqi/ErKai/tree/main/0x04/merlin)@[Ne0nd0g](https://github.com/Ne0nd0g/merlin)#HTTP命令和控制服务器
 - [ ] [**ErOrcaC2**](https://github.com/Goqi/ErOrcaC2)：[OrcaC2](https://github.com/Goqi/ErKai/tree/main/0x04/OrcaC2)@[Ptkatz](https://github.com/Ptkatz/OrcaC2)#基于Websocket加密通信的多功能C2框架
 - [ ] [**Eremp3r0r**](https://github.com/Goqi/Eremp3r0r)：[emp3r0r](https://github.com/Goqi/ErKai/tree/main/0x04/emp3r0r)@[jm33-m0](https://github.com/jm33-m0/emp3r0r)#Linux/Windows后渗透测试C2框架
 - [ ] [**ErToRat**](https://github.com/Goqi/ErToRat)：[ToRat](https://github.com/Goqi/ErKai/tree/main/0x04/ToRat)@[lu4p](https://github.com/lu4p/ToRat)#C2框架Tor作为传输机制和RPC进行通信
@@ -138,6 +138,7 @@
 - [ ] https://github.com/veo/vshell
 - [ ] https://github.com/Phuong39/sabathe
 - [ ] https://github.com/newbe3three/gotoexec
+- [ ] https://github.com/Mob2003/rakshasa
 
 
 ## 0x05-病毒免杀
