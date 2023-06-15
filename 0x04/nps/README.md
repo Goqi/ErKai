@@ -261,3 +261,5 @@
 ## 06-二开计划
 
 - https://github.com/Goqi/Ernps
+- https://github.com/Q16G/npsmodify
+- https://github.com/yisier/nps
