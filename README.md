@@ -20,11 +20,11 @@
 ## 0x01-漏洞扫描
 
 - [x] **[Cell](https://github.com/Goqi/Cell)：[nuclei](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei)@[projectdiscovery](https://github.com/projectdiscovery/nuclei)#基于模板的漏洞扫描工具**
-- [ ] [**Erfscan**](https://github.com/Goqi/Erfscan)：[fscan](https://github.com/Goqi/ErKai/tree/main/0x01/fscan)@[shadow1ng](https://github.com/shadow1ng/fscan)#一款内网综合漏洞扫描工具
-- [ ] [**Erafrog**](https://github.com/Goqi/Erafrog)：[afrog](https://github.com/Goqi/ErKai/tree/main/0x01/afrog)@[zan8in](https://github.com/zan8in/afrog)#性能卓越快速稳定PoC 可定制化的漏扫
-- [ ] [**Erkscan**](https://github.com/Goqi/Erkscan)：[kscan](https://github.com/Goqi/ErKai/tree/main/0x01/kscan)@[lcvvvv](https://github.com/lcvvvv/kscan)#一款轻量级的资产发现和漏洞扫描工具
+- [x] [**Erfscan**](https://github.com/Goqi/Erfscan)：[fscan](https://github.com/Goqi/ErKai/tree/main/0x01/fscan)@[shadow1ng](https://github.com/shadow1ng/fscan)#一款内网综合漏洞扫描工具
+- [x] [**Erafrog**](https://github.com/Goqi/Erafrog)：[afrog](https://github.com/Goqi/ErKai/tree/main/0x01/afrog)@[zan8in](https://github.com/zan8in/afrog)#性能卓越快速稳定PoC 可定制化的漏扫
+- [x] [**Erkscan**](https://github.com/Goqi/Erkscan)：[kscan](https://github.com/Goqi/ErKai/tree/main/0x01/kscan)@[lcvvvv](https://github.com/lcvvvv/kscan)#一款轻量级的资产发现和漏洞扫描工具
 - [ ] [**ErYasso**](https://github.com/Goqi/ErYasso)：[Yasso](https://github.com/Goqi/ErKai/tree/main/0x01/Yasso)@[sairson](https://github.com/sairson/Yasso)#强大的内网渗透辅助工具集
-- [ ] [**Erscaninfo**](https://github.com/Goqi/Erscaninfo)：[scaninfo](https://github.com/Goqi/ErKai/tree/main/0x01/scaninfo)@[redtoolskobe](https://github.com/redtoolskobe/scaninfo)#红队内外网打点扫描器
+- [x] [**Erscaninfo**](https://github.com/Goqi/Erscaninfo)：[scaninfo](https://github.com/Goqi/ErKai/tree/main/0x01/scaninfo)@[redtoolskobe](https://github.com/redtoolskobe/scaninfo)#红队内外网打点扫描器
 - [ ] [**Erffuf**](https://github.com/Goqi/Erffuf)：[ffuf](https://github.com/Goqi/ErKai/tree/main/0x01/ffuf)@[joohoi](https://github.com/ffuf/ffuf)#用Go语言编写的快速进行模糊测试工具
 - [ ] [**Erjaeles**](https://github.com/Goqi/Erjaeles)：[jaeles](https://github.com/Goqi/ErKai/tree/main/0x01/jaeles)@[j3ssie](https://github.com/jaeles-project/jaeles)#自动化 Web 应用程序安全测试
 - [ ] [**Erscan4all**](https://github.com/Goqi/Erscan4all)：[scan4all](https://github.com/Goqi/ErKai/tree/main/0x01/scan4all)@[hktalent](https://github.com/hktalent/scan4all)#漏洞扫描工具的集成
@@ -78,7 +78,7 @@
 
 - [x] [**Ernetspy**](https://github.com/Goqi/Ernetspy)：[netspy](https://github.com/Goqi/ErKai/tree/main/0x03/netspy)@[shmilylty](https://github.com/shmilylty/netspy)#一款快速探测内网可达网段工具
 - [ ] [**Ergospider**](https://github.com/Goqi/Ergospider)：[gospider](https://github.com/Goqi/ErKai/tree/main/0x03/gospider)@[jaeles-project](https://github.com/jaeles-project/gospider)#快速网络爬虫工具
-- [ ] [**Erdismap**](https://github.com/Goqi/Erdismap)：[dismap](https://github.com/Goqi/ErKai/tree/main/0x03/dismap)@[zhzyker](https://github.com/zhzyker/dismap)#快速识别指纹和资产信息
+- [x] [**Erdismap**](https://github.com/Goqi/Erdismap)：[dismap](https://github.com/Goqi/ErKai/tree/main/0x03/dismap)@[zhzyker](https://github.com/zhzyker/dismap)#快速识别指纹和资产信息
 - [ ] [**ErEHole**](https://github.com/Goqi/ErEHole)：[EHole](https://github.com/Goqi/ErKai/tree/main/0x03/EHole)@[shihuang](https://github.com/EdgeSecurityTeam/EHole)#红队重点攻击系统指纹探测工具
 - [ ] [**ErTXPortMap**](https://github.com/Goqi/ErTXPortMap)：[TXPortMap](https://github.com/Goqi/ErKai/tree/main/0x03/TXPortMap)@[4dogs-cn](https://github.com/4dogs-cn/TXPortMap)#端口扫描和Banner识别
 - [ ] [**Erfofax**](https://github.com/Goqi/Erfofax)：[fofax](https://github.com/Goqi/ErKai/tree/main/0x03/fofax)@[xiecat](https://github.com/xiecat/fofax)#fofaAPI查询信息收集探测工具
