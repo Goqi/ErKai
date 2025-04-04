@@ -6,11 +6,11 @@
 
 本项目创建于2021年3月7日，最近的一次更新时间为2025年4月5日。本项目会持续更新，直到海枯石烂！
 
-- [0x01-漏洞扫描](https://github.com/Goqi/ErKai#0x01-%E6%BC%8F%E6%B4%9E%E6%89%AB%E6%8F%8F)
-- [0x02-代码扫描](https://github.com/Goqi/ErKai#0x02-%E4%BB%A3%E7%A0%81%E6%89%AB%E6%8F%8F)
-- [0x03-资产扫描](https://github.com/Goqi/ErKai#0x03-%E8%B5%84%E4%BA%A7%E6%89%AB%E6%8F%8F)
-- [0x04-远控隧道](https://github.com/Goqi/ErKai#0x04-%E8%BF%9C%E6%8E%A7%E9%9A%A7%E9%81%93)
-- [0x05-病毒免杀](https://github.com/Goqi/ErKai#0x05-%E7%97%85%E6%AF%92%E5%85%8D%E6%9D%80)
+- [0x01-资产扫描](https://github.com/Goqi/ErKai?tab=readme-ov-file#0x01-%E8%B5%84%E4%BA%A7%E6%89%AB%E6%8F%8F)
+- [0x02-漏洞扫描](https://github.com/Goqi/ErKai?tab=readme-ov-file#0x02-%E6%BC%8F%E6%B4%9E%E6%89%AB%E6%8F%8F)
+- [0x03-被动扫描](https://github.com/Goqi/ErKai?tab=readme-ov-file#0x03-%E8%A2%AB%E5%8A%A8%E6%89%AB%E6%8F%8F)
+- [0x04-远控隧道](https://github.com/Goqi/ErKai?tab=readme-ov-file#0x04-%E8%BF%9C%E6%8E%A7%E9%9A%A7%E9%81%933)
+- [0x05-代码扫描](https://github.com/Goqi/ErKai?tab=readme-ov-file#0x05-%E4%BB%A3%E7%A0%81%E6%89%AB%E6%8F%8F)
 - [0x06-Web项目](https://github.com/Goqi/ErKai#0x06-web%E9%A1%B9%E7%9B%AE)
 - [0x07-被动扫描](https://github.com/Goqi/ErKai#0x07-%E8%A2%AB%E5%8A%A8%E6%89%AB%E6%8F%8F)
 - [0x08-钓鱼蜜罐](https://github.com/Goqi/ErKai#0x08-%E9%92%93%E9%B1%BC%E8%9C%9C%E7%BD%90)
@@ -136,7 +136,16 @@
 - [ ] https://github.com/newbe3three/gotoexec
 - [ ] https://github.com/Mob2003/rakshasa
 
-## 0x05-代码扫描
+## 0x05-病毒免杀
+
+- [x] **[AvHunt](https://github.com/Goqi/AvHunt)：[EDRHunt](https://github.com/Goqi/ErKai/tree/main/0x05/EDRHunt)@[FourCoreLabs](https://github.com/FourCoreLabs/EDRHunt)#在Windows上扫描已安装的杀软**
+- [ ] [**ErCuiRi**](https://github.com/Goqi/ErCuiRi)：[CuiRi](https://github.com/Goqi/ErKai/tree/main/0x05/CuiRi)@[NyDubh3](https://github.com/NyDubh3/CuiRi)#一款红队专用免杀木马生成器
+- [ ] [**ErAniYa**](https://github.com/Goqi/ErAniYa)：[AniYa](https://github.com/Goqi/ErKai/tree/main/0x05/AniYa)@[piiperxyz](https://github.com/piiperxyz/AniYa)#使用Go语言写的GUI免杀框架
+- [ ] [**ErZheTian**](https://github.com/Goqi/ErZheTian)：[ZheTian](https://github.com/Goqi/ErKai/tree/main/0x05/ZheTian)@[yqcs](https://github.com/yqcs/ZheTian)#强大的免杀生成工具Bypass All
+- [ ] https://github.com/Ne0nd0g/go-shellcode
+- [ ] https://github.com/TideSec/GoBypassAV
+
+## 0x06-代码扫描
 
 - [ ] [**Erinsider**](https://github.com/Goqi/Erinsider)：[insider](https://github.com/Goqi/ErKai/tree/main/0x02/insider)@[insidersec](https://github.com/insidersec/insider)#SAST专注于挖掘OWASPTop10漏洞
 - [ ] [**Errinjani**](https://github.com/Goqi/Errinjani)：[rinjani](https://github.com/Goqi/ErKai/tree/main/0x02/rinjani)@[wahyuhadi](https://github.com/wahyuhadi/rinjani)#简单的 SAST 工具
@@ -155,15 +164,6 @@
 - [ ] https://github.com/tenable/terrascan
 - [ ] https://github.com/aquasecurity/trivy
 - [ ] https://github.com/golang/vuln
-
-## 0x06-病毒免杀
-
-- [x] **[AvHunt](https://github.com/Goqi/AvHunt)：[EDRHunt](https://github.com/Goqi/ErKai/tree/main/0x05/EDRHunt)@[FourCoreLabs](https://github.com/FourCoreLabs/EDRHunt)#在Windows上扫描已安装的杀软**
-- [ ] [**ErCuiRi**](https://github.com/Goqi/ErCuiRi)：[CuiRi](https://github.com/Goqi/ErKai/tree/main/0x05/CuiRi)@[NyDubh3](https://github.com/NyDubh3/CuiRi)#一款红队专用免杀木马生成器
-- [ ] [**ErAniYa**](https://github.com/Goqi/ErAniYa)：[AniYa](https://github.com/Goqi/ErKai/tree/main/0x05/AniYa)@[piiperxyz](https://github.com/piiperxyz/AniYa)#使用Go语言写的GUI免杀框架
-- [ ] [**ErZheTian**](https://github.com/Goqi/ErZheTian)：[ZheTian](https://github.com/Goqi/ErKai/tree/main/0x05/ZheTian)@[yqcs](https://github.com/yqcs/ZheTian)#强大的免杀生成工具Bypass All
-- [ ] https://github.com/Ne0nd0g/go-shellcode
-- [ ] https://github.com/TideSec/GoBypassAV
 
 ## 0x07-Web项目
 
