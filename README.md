@@ -2,9 +2,9 @@
 
 ![ErKai](https://socialify.git.ci/Goqi/ErKai/image?description=0&descriptionEditable=%20&font=Bitter&forks=1&issues=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Light)
 
-本项目计划寻找100+个优秀的Go语言开源安全项目代码，深入分析学习后进行二次开发。项目包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己从1开始深入学习安全开发，期待早日开源自己的安全项目。非常感谢项目作者，如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
+本项目计划寻找100+个优秀的Go语言开源安全项目代码，深入分析学习后进行二次开发，之后深度融合[Banli](https://github.com/Goqi/Banli)。项目包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己从1开始深入学习安全开发。非常感谢项目作者，如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年3月7日，最近的一次更新时间为2023年6月15日。本项目会持续更新，直到海枯石烂！
+本项目创建于2021年3月7日，最近的一次更新时间为2025年4月5日。本项目会持续更新，直到海枯石烂！
 
 - [0x01-漏洞扫描](https://github.com/Goqi/ErKai#0x01-%E6%BC%8F%E6%B4%9E%E6%89%AB%E6%8F%8F)
 - [0x02-代码扫描](https://github.com/Goqi/ErKai#0x02-%E4%BB%A3%E7%A0%81%E6%89%AB%E6%8F%8F)
@@ -17,7 +17,38 @@
 - [0x09-移动安全](https://github.com/Goqi/ErKai#0x09-%E7%A7%BB%E5%8A%A8%E5%AE%89%E5%85%A8)
 - [0x10-其他项目](https://github.com/Goqi/ErKai#0x10-%E5%85%B6%E4%BB%96%E9%A1%B9%E7%9B%AE)
 
-## 0x01-漏洞扫描
+## 0x01-资产扫描
+
+本部分包括内网及互联网的资产扫描、端口扫描、域名扫描、资产测绘、信息收集等内容。
+
+- [x] [**Ernetspy**](https://github.com/Goqi/Ernetspy)：[netspy](https://github.com/Goqi/ErKai/tree/main/0x03/netspy)@[shmilylty](https://github.com/shmilylty/netspy)#一款快速探测内网可达网段工具
+- [ ] [**Ergospider**](https://github.com/Goqi/Ergospider)：[gospider](https://github.com/Goqi/ErKai/tree/main/0x03/gospider)@[jaeles-project](https://github.com/jaeles-project/gospider)#快速网络爬虫工具
+- [x] [**Erdismap**](https://github.com/Goqi/Erdismap)：[dismap](https://github.com/Goqi/ErKai/tree/main/0x03/dismap)@[zhzyker](https://github.com/zhzyker/dismap)#快速识别指纹和资产信息
+- [ ] [**ErEHole**](https://github.com/Goqi/ErEHole)：[EHole](https://github.com/Goqi/ErKai/tree/main/0x03/EHole)@[shihuang](https://github.com/EdgeSecurityTeam/EHole)#红队重点攻击系统指纹探测工具
+- [ ] [**ErTXPortMap**](https://github.com/Goqi/ErTXPortMap)：[TXPortMap](https://github.com/Goqi/ErKai/tree/main/0x03/TXPortMap)@[4dogs-cn](https://github.com/4dogs-cn/TXPortMap)#端口扫描和Banner识别
+- [ ] [**Erfofax**](https://github.com/Goqi/Erfofax)：[fofax](https://github.com/Goqi/ErKai/tree/main/0x03/fofax)@[xiecat](https://github.com/xiecat/fofax)#fofaAPI查询信息收集探测工具
+- [ ] [**Ergobuster**](https://github.com/Goqi/Ergobuster)：[gobuster](https://github.com/Goqi/ErKai/tree/main/0x03/gobuster)@[OJ](https://github.com/OJ/gobuster)#路径扫描和域名爆破工具
+- [ ] [**ErAmass**](https://github.com/Goqi/ErAmass)：[Amass](https://github.com/Goqi/ErKai/tree/main/0x03/Amass)@[OWASP](https://github.com/OWASP/Amass)#深入的攻击面映射和资产发现工具
+- [ ] [**Ersubfinder**](https://github.com/Goqi/Ersubfinder)：[subfinder](https://github.com/Goqi/ErKai/tree/main/0x03/subfinder)@[projectdiscovery](https://github.com/projectdiscovery/subfinder)#一个子域发现工具
+- [ ] [**Eruncover**](https://github.com/Goqi/Eruncover)：[uncover](https://github.com/Goqi/ErKai/tree/main/0x03/uncover)@[projectdiscovery](https://github.com/projectdiscovery/uncover)#使用搜索引擎发现主机
+- [ ] [**Erksubdomain**](https://github.com/Goqi/Erksubdomain)：[ksubdomain](https://github.com/Goqi/ErKai/tree/main/0x03/ksubdomain)@[boy-hack](https://github.com/boy-hack/ksubdomain)#子域枚举工具
+- [ ] [**ErCaesar**](https://github.com/Goqi/ErCaesar)：[Caesar](https://github.com/Goqi/ErKai/tree/main/0x03/Caesar)@[thunderbarca](https://github.com/j5s/Caesar)#一个全新的敏感文件发现工具
+- [ ] [**Erfuzzuli**](https://github.com/Goqi/Erfuzzuli)：[fuzzuli](https://github.com/Goqi/ErKai/tree/main/0x03/fuzzuli)@[musana](https://github.com/musana/fuzzuli)#根据域名创建自带进行备份文件扫描
+- [ ] [**Erones**](https://github.com/Goqi/Erones)：[ones](https://github.com/Goqi/ErKai/tree/main/0x03/ones)@[ffffffff0x](https://github.com/ffffffff0x/ones)#多个网络资产测绘 API 命令行查询工具
+- [ ] [**ErENScan**](https://github.com/Goqi/ErENScan)：[ENScan_GO](https://github.com/Goqi/ErKai/tree/main/0x03/ENScan_GO)@[wgpsec](https://github.com/wgpsec/ENScan_GO)#收集国内企业的各种信息
+- [ ] [**ErSmap**](https://github.com/Goqi/ErSmap)：[Smap](https://github.com/Goqi/ErKai/tree/main/0x03/Smap)@[s0md3v](https://github.com/s0md3v/Smap)#由shodan.io提供支持的Nmap的直接替代品
+- [ ] [**Ermetabigor**](https://github.com/Goqi/Ermetabigor)：[metabigor](https://github.com/Goqi/ErKai/tree/main/0x03/metabigor)@[j3ssie](https://github.com/j3ssie/metabigor)#不使用API密钥执行OSINT任务
+- [ ] [**Erscilla**](https://github.com/Goqi/Erscilla)：[scilla](https://github.com/Goqi/ErKai/tree/main/0x03/scilla)@[edoardottt](https://github.com/edoardottt/scilla)#信息收集工具 - DNS/子域/端口/目录枚举
+- [ ] [**ErStarmap**](https://github.com/Goqi/ErStarmap)：[Starmap](https://github.com/Goqi/ErKai/tree/main/0x03/Starmap)@[ZhuriLab](https://github.com/ZhuriLab/Starmap)#融合的子域名收集小工具
+- [ ] [**Erassetscan**](https://github.com/Goqi/Erassetscan)：[asset-scan](https://github.com/Goqi/ErKai/tree/main/0x03/asset-scan)@[ATpiu](https://github.com/ATpiu/asset-scan)#外网资产周期性扫描监控系统
+- [ ] [**Ersx**](https://github.com/Goqi/Ersx)：[v-byte-cpu](https://github.com/Goqi/ErKai/tree/main/0x03/sx)@[v-byte-cpu](https://github.com/v-byte-cpu/sx)#快速、现代、易于使用的网络扫描仪
+- [ ] [**ErURLFinder**](https://github.com/Goqi/ErURLFinder)：[URLFinder](https://github.com/Goqi/ErKai/tree/main/0x03/URLFinder)@[pingc0y](https://github.com/pingc0y/URLFinder)#提取检测页面中JS与URL的工具
+- [ ] [**ErDirscan**](https://github.com/Goqi/ErDirscan)：[Dirscan](https://github.com/Goqi/ErKai/tree/main/0x03/Dirscan)@[corunb](https://github.com/corunb/Dirscan)#Go编写的高并发的目录扫描器
+- [ ] https://github.com/projectdiscovery/asnmap
+
+## 0x02-漏洞扫描
+
+本部分包括漏洞扫描、账号密码爆破、目录扫描等内容。
 
 - [x] **[Cell](https://github.com/Goqi/Cell)：[nuclei](https://github.com/Goqi/ErKai/tree/main/0x01/nuclei)@[projectdiscovery](https://github.com/projectdiscovery/nuclei)#基于模板的漏洞扫描工具**
 - [x] [**Erfscan**](https://github.com/Goqi/Erfscan)：[fscan](https://github.com/Goqi/ErKai/tree/main/0x01/fscan)@[shadow1ng](https://github.com/shadow1ng/fscan)#一款内网综合漏洞扫描工具
@@ -54,52 +85,17 @@
 - [ ] [**ErDarksteel**](https://github.com/Goqi/ErDarksteel)：[Darksteel](https://github.com/Goqi/ErKai/tree/main/0x01/Darksteel)@[wjlab](https://github.com/wjlab/Darksteel)#Attack Domain Kerberos LDAP
 - [ ] https://github.com/yhy0/Jie
 
-## 0x02-代码扫描
+## 0x03-被动扫描
 
-- [ ] [**Erinsider**](https://github.com/Goqi/Erinsider)：[insider](https://github.com/Goqi/ErKai/tree/main/0x02/insider)@[insidersec](https://github.com/insidersec/insider)#SAST专注于挖掘OWASPTop10漏洞
-- [ ] [**Errinjani**](https://github.com/Goqi/Errinjani)：[rinjani](https://github.com/Goqi/ErKai/tree/main/0x02/rinjani)@[wahyuhadi](https://github.com/wahyuhadi/rinjani)#简单的 SAST 工具
-- [ ] [**Ergokart**](https://github.com/Goqi/Ergokart)：[gokart](https://github.com/Goqi/ErKai/tree/main/0x02/gokart)@[praetorian-inc](https://github.com/praetorian-inc/gokart)#Go代码的静态分析工具
-- [ ] [**Ergosec**](https://github.com/Goqi/Ergosec)：[gosec](https://github.com/Goqi/ErKai/tree/main/0x02/gosec)@[securego](https://github.com/securego/gosec)#Go代码安全扫描工具
-- [ ] [**ErYi**](https://github.com/Goqi/ErYi)：[Yi](https://github.com/Goqi/ErKai/tree/main/0x02/Yi)@[ZhuriLab](https://github.com/ZhuriLab/Yi)#项目监控工具以及Codeql自动运行
-- [ ] https://github.com/ZupIT/horusec
-- [ ] https://github.com/aquasecurity/tfsec
-- [ ] https://github.com/anchore/grype
-- [ ] https://github.com/ofabry/go-callvis
-- [ ] https://github.com/mgechev/revive
-- [ ] https://github.com/anchore/syft
-- [ ] https://github.com/quasilyte/go-ruleguard
-- [ ] https://github.com/globocom/huskyCI
-- [ ] https://github.com/VKCOM/noverify
-- [ ] https://github.com/tenable/terrascan
-- [ ] https://github.com/aquasecurity/trivy
-- [ ] https://github.com/golang/vuln
+本部分包括资产爬虫及被动扫描等内容。
 
-## 0x03-资产扫描
-
-- [x] [**Ernetspy**](https://github.com/Goqi/Ernetspy)：[netspy](https://github.com/Goqi/ErKai/tree/main/0x03/netspy)@[shmilylty](https://github.com/shmilylty/netspy)#一款快速探测内网可达网段工具
-- [ ] [**Ergospider**](https://github.com/Goqi/Ergospider)：[gospider](https://github.com/Goqi/ErKai/tree/main/0x03/gospider)@[jaeles-project](https://github.com/jaeles-project/gospider)#快速网络爬虫工具
-- [x] [**Erdismap**](https://github.com/Goqi/Erdismap)：[dismap](https://github.com/Goqi/ErKai/tree/main/0x03/dismap)@[zhzyker](https://github.com/zhzyker/dismap)#快速识别指纹和资产信息
-- [ ] [**ErEHole**](https://github.com/Goqi/ErEHole)：[EHole](https://github.com/Goqi/ErKai/tree/main/0x03/EHole)@[shihuang](https://github.com/EdgeSecurityTeam/EHole)#红队重点攻击系统指纹探测工具
-- [ ] [**ErTXPortMap**](https://github.com/Goqi/ErTXPortMap)：[TXPortMap](https://github.com/Goqi/ErKai/tree/main/0x03/TXPortMap)@[4dogs-cn](https://github.com/4dogs-cn/TXPortMap)#端口扫描和Banner识别
-- [ ] [**Erfofax**](https://github.com/Goqi/Erfofax)：[fofax](https://github.com/Goqi/ErKai/tree/main/0x03/fofax)@[xiecat](https://github.com/xiecat/fofax)#fofaAPI查询信息收集探测工具
-- [ ] [**Ergobuster**](https://github.com/Goqi/Ergobuster)：[gobuster](https://github.com/Goqi/ErKai/tree/main/0x03/gobuster)@[OJ](https://github.com/OJ/gobuster)#路径扫描和域名爆破工具
-- [ ] [**ErAmass**](https://github.com/Goqi/ErAmass)：[Amass](https://github.com/Goqi/ErKai/tree/main/0x03/Amass)@[OWASP](https://github.com/OWASP/Amass)#深入的攻击面映射和资产发现工具
-- [ ] [**Ersubfinder**](https://github.com/Goqi/Ersubfinder)：[subfinder](https://github.com/Goqi/ErKai/tree/main/0x03/subfinder)@[projectdiscovery](https://github.com/projectdiscovery/subfinder)#一个子域发现工具
-- [ ] [**Eruncover**](https://github.com/Goqi/Eruncover)：[uncover](https://github.com/Goqi/ErKai/tree/main/0x03/uncover)@[projectdiscovery](https://github.com/projectdiscovery/uncover)#使用搜索引擎发现主机
-- [ ] [**Erksubdomain**](https://github.com/Goqi/Erksubdomain)：[ksubdomain](https://github.com/Goqi/ErKai/tree/main/0x03/ksubdomain)@[boy-hack](https://github.com/boy-hack/ksubdomain)#子域枚举工具
-- [ ] [**ErCaesar**](https://github.com/Goqi/ErCaesar)：[Caesar](https://github.com/Goqi/ErKai/tree/main/0x03/Caesar)@[thunderbarca](https://github.com/j5s/Caesar)#一个全新的敏感文件发现工具
-- [ ] [**Erfuzzuli**](https://github.com/Goqi/Erfuzzuli)：[fuzzuli](https://github.com/Goqi/ErKai/tree/main/0x03/fuzzuli)@[musana](https://github.com/musana/fuzzuli)#根据域名创建自带进行备份文件扫描
-- [ ] [**Erones**](https://github.com/Goqi/Erones)：[ones](https://github.com/Goqi/ErKai/tree/main/0x03/ones)@[ffffffff0x](https://github.com/ffffffff0x/ones)#多个网络资产测绘 API 命令行查询工具
-- [ ] [**ErENScan**](https://github.com/Goqi/ErENScan)：[ENScan_GO](https://github.com/Goqi/ErKai/tree/main/0x03/ENScan_GO)@[wgpsec](https://github.com/wgpsec/ENScan_GO)#收集国内企业的各种信息
-- [ ] [**ErSmap**](https://github.com/Goqi/ErSmap)：[Smap](https://github.com/Goqi/ErKai/tree/main/0x03/Smap)@[s0md3v](https://github.com/s0md3v/Smap)#由shodan.io提供支持的Nmap的直接替代品
-- [ ] [**Ermetabigor**](https://github.com/Goqi/Ermetabigor)：[metabigor](https://github.com/Goqi/ErKai/tree/main/0x03/metabigor)@[j3ssie](https://github.com/j3ssie/metabigor)#不使用API密钥执行OSINT任务
-- [ ] [**Erscilla**](https://github.com/Goqi/Erscilla)：[scilla](https://github.com/Goqi/ErKai/tree/main/0x03/scilla)@[edoardottt](https://github.com/edoardottt/scilla)#信息收集工具 - DNS/子域/端口/目录枚举
-- [ ] [**ErStarmap**](https://github.com/Goqi/ErStarmap)：[Starmap](https://github.com/Goqi/ErKai/tree/main/0x03/Starmap)@[ZhuriLab](https://github.com/ZhuriLab/Starmap)#融合的子域名收集小工具
-- [ ] [**Erassetscan**](https://github.com/Goqi/Erassetscan)：[asset-scan](https://github.com/Goqi/ErKai/tree/main/0x03/asset-scan)@[ATpiu](https://github.com/ATpiu/asset-scan)#外网资产周期性扫描监控系统
-- [ ] [**Ersx**](https://github.com/Goqi/Ersx)：[v-byte-cpu](https://github.com/Goqi/ErKai/tree/main/0x03/sx)@[v-byte-cpu](https://github.com/v-byte-cpu/sx)#快速、现代、易于使用的网络扫描仪
-- [ ] [**ErURLFinder**](https://github.com/Goqi/ErURLFinder)：[URLFinder](https://github.com/Goqi/ErKai/tree/main/0x03/URLFinder)@[pingc0y](https://github.com/pingc0y/URLFinder)#提取检测页面中JS与URL的工具
-- [ ] [**ErDirscan**](https://github.com/Goqi/ErDirscan)：[Dirscan](https://github.com/Goqi/ErKai/tree/main/0x03/Dirscan)@[corunb](https://github.com/corunb/Dirscan)#Go编写的高并发的目录扫描器
-- [ ] https://github.com/projectdiscovery/asnmap
+- [ ] [**Ercrawler**](https://github.com/Goqi/Ercrawler)：[crawlergo](https://github.com/Goqi/ErKai/tree/main/0x07/crawlergo)@[Qianlitp](https://github.com/Qianlitp/crawlergo)#Web漏洞扫描的强大浏览器爬虫
+- [ ] [**Erkatana**](https://github.com/Goqi/Erkatana)：[katana](https://github.com/Goqi/ErKai/tree/main/0x07/katana)@[projectdiscovery](https://github.com/projectdiscovery/katana)#下一代爬行和爬虫框架
+- [ ] [**Erhetty**](https://github.com/Goqi/Erhetty)：[hetty](https://github.com/Goqi/ErKai/tree/main/0x07/hetty)@[dstotijn](https://github.com/dstotijn/hetty)#用于安全研究的 HTTP 工具包
+- [ ] [**Ermitmproxy**](https://github.com/Goqi/Ermitmproxy)：[go-mitmproxy](https://github.com/Goqi/ErKai/tree/main/0x07/go-mitmproxy)@[lqqyt2423](https://github.com/lqqyt2423/go-mitmproxy)#Go语言实现的中间人攻击
+- [ ] [**ErModlishka**](https://github.com/Goqi/ErModlishka)：[Modlishka](https://github.com/Goqi/ErKai/tree/main/0x07/Modlishka)@[drk1wi](https://github.com/drk1wi/Modlishka)#强大而灵活的 HTTP 反向代理
+- [ ] [**Erglint**](https://github.com/Goqi/Erglint)：[glint](https://github.com/Goqi/ErKai/tree/main/0x01/glint)@[wrenchonline](https://github.com/wrenchonline/glint)#基于浏览器爬虫的被动扫描器
+- [ ] https://github.com/sairson/crawlergo-plus
 
 ## 0x04-远控隧道
 
@@ -140,8 +136,27 @@
 - [ ] https://github.com/newbe3three/gotoexec
 - [ ] https://github.com/Mob2003/rakshasa
 
+## 0x05-代码扫描
 
-## 0x05-病毒免杀
+- [ ] [**Erinsider**](https://github.com/Goqi/Erinsider)：[insider](https://github.com/Goqi/ErKai/tree/main/0x02/insider)@[insidersec](https://github.com/insidersec/insider)#SAST专注于挖掘OWASPTop10漏洞
+- [ ] [**Errinjani**](https://github.com/Goqi/Errinjani)：[rinjani](https://github.com/Goqi/ErKai/tree/main/0x02/rinjani)@[wahyuhadi](https://github.com/wahyuhadi/rinjani)#简单的 SAST 工具
+- [ ] [**Ergokart**](https://github.com/Goqi/Ergokart)：[gokart](https://github.com/Goqi/ErKai/tree/main/0x02/gokart)@[praetorian-inc](https://github.com/praetorian-inc/gokart)#Go代码的静态分析工具
+- [ ] [**Ergosec**](https://github.com/Goqi/Ergosec)：[gosec](https://github.com/Goqi/ErKai/tree/main/0x02/gosec)@[securego](https://github.com/securego/gosec)#Go代码安全扫描工具
+- [ ] [**ErYi**](https://github.com/Goqi/ErYi)：[Yi](https://github.com/Goqi/ErKai/tree/main/0x02/Yi)@[ZhuriLab](https://github.com/ZhuriLab/Yi)#项目监控工具以及Codeql自动运行
+- [ ] https://github.com/ZupIT/horusec
+- [ ] https://github.com/aquasecurity/tfsec
+- [ ] https://github.com/anchore/grype
+- [ ] https://github.com/ofabry/go-callvis
+- [ ] https://github.com/mgechev/revive
+- [ ] https://github.com/anchore/syft
+- [ ] https://github.com/quasilyte/go-ruleguard
+- [ ] https://github.com/globocom/huskyCI
+- [ ] https://github.com/VKCOM/noverify
+- [ ] https://github.com/tenable/terrascan
+- [ ] https://github.com/aquasecurity/trivy
+- [ ] https://github.com/golang/vuln
+
+## 0x06-病毒免杀
 
 - [x] **[AvHunt](https://github.com/Goqi/AvHunt)：[EDRHunt](https://github.com/Goqi/ErKai/tree/main/0x05/EDRHunt)@[FourCoreLabs](https://github.com/FourCoreLabs/EDRHunt)#在Windows上扫描已安装的杀软**
 - [ ] [**ErCuiRi**](https://github.com/Goqi/ErCuiRi)：[CuiRi](https://github.com/Goqi/ErKai/tree/main/0x05/CuiRi)@[NyDubh3](https://github.com/NyDubh3/CuiRi)#一款红队专用免杀木马生成器
@@ -150,7 +165,7 @@
 - [ ] https://github.com/Ne0nd0g/go-shellcode
 - [ ] https://github.com/TideSec/GoBypassAV
 
-## 0x06-Web项目
+## 0x07-Web项目
 
 - [ ] [**ErGoScan**](https://github.com/Goqi/ErGoScan)：[GoScan](https://github.com/Goqi/ErKai/tree/main/0x06/GoScan)@[CTF-MissFeng](https://github.com/CTF-MissFeng/GoScan)#渗透测试报告管理系统
 - [ ] [**Erreport**](https://github.com/Goqi/Erreport)：[report](https://github.com/Goqi/ErKai/tree/main/0x06/report)@[CTF-MissFeng](https://github.com/CTF-MissFeng/report)#渗透测试报告管理系统
@@ -160,16 +175,6 @@
 - [ ] [**Ernemo**](https://github.com/Goqi/Ernemo)：[nemo_go](https://github.com/Goqi/ErKai/tree/main/0x06/nemo_go)@[hanc00l](https://github.com/hanc00l/nemo_go)#一个简单的自动化信息收集平台
 - [ ] [**ErBeeScan**](https://github.com/Goqi/ErBeeScan)：[BeeScan](https://github.com/Goqi/ErKai/tree/main/0x06/BeeScan)@[jiaocoll](https://github.com/jiaocoll/BeeScan-scan)#分布式网络空间资产探测扫描平台
 - [ ] [**Erxpatrol**](https://github.com/Goqi/Erxpatrol)：[x-patrol](https://github.com/Goqi/ErKai/tree/main/0x06/x-patrol)@[MiSecurity](https://github.com/MiSecurity/x-patrol)#Github泄露扫描系统
-
-## 0x07-被动扫描
-
-- [ ] [**Ercrawler**](https://github.com/Goqi/Ercrawler)：[crawlergo](https://github.com/Goqi/ErKai/tree/main/0x07/crawlergo)@[Qianlitp](https://github.com/Qianlitp/crawlergo)#Web漏洞扫描的强大浏览器爬虫
-- [ ] [**Erkatana**](https://github.com/Goqi/Erkatana)：[katana](https://github.com/Goqi/ErKai/tree/main/0x07/katana)@[projectdiscovery](https://github.com/projectdiscovery/katana)#下一代爬行和爬虫框架
-- [ ] [**Erhetty**](https://github.com/Goqi/Erhetty)：[hetty](https://github.com/Goqi/ErKai/tree/main/0x07/hetty)@[dstotijn](https://github.com/dstotijn/hetty)#用于安全研究的 HTTP 工具包
-- [ ] [**Ermitmproxy**](https://github.com/Goqi/Ermitmproxy)：[go-mitmproxy](https://github.com/Goqi/ErKai/tree/main/0x07/go-mitmproxy)@[lqqyt2423](https://github.com/lqqyt2423/go-mitmproxy)#Go语言实现的中间人攻击
-- [ ] [**ErModlishka**](https://github.com/Goqi/ErModlishka)：[Modlishka](https://github.com/Goqi/ErKai/tree/main/0x07/Modlishka)@[drk1wi](https://github.com/drk1wi/Modlishka)#强大而灵活的 HTTP 反向代理
-- [ ] [**Erglint**](https://github.com/Goqi/Erglint)：[glint](https://github.com/Goqi/ErKai/tree/main/0x01/glint)@[wrenchonline](https://github.com/wrenchonline/glint)#基于浏览器爬虫的被动扫描器
-- [ ] https://github.com/sairson/crawlergo-plus
 
 ## 0x08-钓鱼蜜罐
 
