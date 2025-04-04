@@ -9,13 +9,13 @@
 - [0x01-资产扫描](https://github.com/Goqi/ErKai?tab=readme-ov-file#0x01-%E8%B5%84%E4%BA%A7%E6%89%AB%E6%8F%8F)
 - [0x02-漏洞扫描](https://github.com/Goqi/ErKai?tab=readme-ov-file#0x02-%E6%BC%8F%E6%B4%9E%E6%89%AB%E6%8F%8F)
 - [0x03-被动扫描](https://github.com/Goqi/ErKai?tab=readme-ov-file#0x03-%E8%A2%AB%E5%8A%A8%E6%89%AB%E6%8F%8F)
-- [0x04-远控隧道](https://github.com/Goqi/ErKai?tab=readme-ov-file#0x04-%E8%BF%9C%E6%8E%A7%E9%9A%A7%E9%81%933)
-- [0x05-代码扫描](https://github.com/Goqi/ErKai?tab=readme-ov-file#0x05-%E4%BB%A3%E7%A0%81%E6%89%AB%E6%8F%8F)
-- [0x06-Web项目](https://github.com/Goqi/ErKai#0x06-web%E9%A1%B9%E7%9B%AE)
-- [0x07-被动扫描](https://github.com/Goqi/ErKai#0x07-%E8%A2%AB%E5%8A%A8%E6%89%AB%E6%8F%8F)
-- [0x08-钓鱼蜜罐](https://github.com/Goqi/ErKai#0x08-%E9%92%93%E9%B1%BC%E8%9C%9C%E7%BD%90)
-- [0x09-移动安全](https://github.com/Goqi/ErKai#0x09-%E7%A7%BB%E5%8A%A8%E5%AE%89%E5%85%A8)
-- [0x10-其他项目](https://github.com/Goqi/ErKai#0x10-%E5%85%B6%E4%BB%96%E9%A1%B9%E7%9B%AE)
+- [0x04-远控隧道](https://github.com/Goqi/ErKai?tab=readme-ov-file#0x04-%E8%BF%9C%E6%8E%A7%E9%9A%A7%E9%81%93)
+- [0x05-病毒免杀](https://github.com/Goqi/ErKai?tab=readme-ov-file#0x05-%E7%97%85%E6%AF%92%E5%85%8D%E6%9D%80)
+- [0x06-代码扫描](https://github.com/Goqi/ErKai?tab=readme-ov-file#0x06-%E4%BB%A3%E7%A0%81%E6%89%AB%E6%8F%8F)
+- [0x07-Web项目](https://github.com/Goqi/ErKai?tab=readme-ov-file#0x07-web%E9%A1%B9%E7%9B%AE)
+- [0x08-钓鱼蜜罐](https://github.com/Goqi/ErKai?tab=readme-ov-file#0x08-%E9%92%93%E9%B1%BC%E8%9C%9C%E7%BD%90)
+- [0x09-移动安全](https://github.com/Goqi/ErKai?tab=readme-ov-file#0x09-%E7%A7%BB%E5%8A%A8%E5%AE%89%E5%85%A8)
+- [0x10-其他项目](https://github.com/Goqi/ErKai?tab=readme-ov-file#0x10-%E5%85%B6%E4%BB%96%E9%A1%B9%E7%9B%AE)
 
 ## 0x01-资产扫描
 
