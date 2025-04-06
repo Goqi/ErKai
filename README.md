@@ -1,8 +1,11 @@
+- [ ] [**Ernaabu**](https://github.com/Goqi/Ernaabu)：[naabu](https://github.com/Goqi/ErKai/tree/main/0x01/naabu)@[projectdiscovery](https://github.com/projectdiscovery/naabu)#快速进行端口扫描的工具
+- [ ] [**Erfinger**](https://github.com/Goqi/Erfinger)：[fingerprintx](https://github.com/Goqi/ErKai/tree/main/0x01/fingerprintx)@[praetorian-inc](https://github.com/praetorian-inc/fingerprintx)#一个端口指纹识别工具
+
 # ErKai-开源安全项目二开计划
 
 ![ErKai](https://socialify.git.ci/Goqi/ErKai/image?description=0&descriptionEditable=%20&font=Bitter&forks=1&issues=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Light)
 
-本项目计划寻找100+个优秀的Go语言开源安全项目代码，深入分析学习后进行二次开发，之后深度融合[Banli](https://github.com/Goqi/Banli)。项目包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己从1开始深入学习安全开发。非常感谢项目作者，如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
+本项目计划寻找100+个优秀的Go语言开源安全项目代码，深入分析学习后进行二次开发之后深度融合[Banli](https://github.com/Goqi/Banli)。项目包括优秀的安全工具代码或优秀的安全项目框架等。希望通过二开计划，能够站在优秀开发者的肩膀上看Go！更希望自己从1开始深入学习安全开发。非常感谢项目作者，如有侵权，请联系。作者：[0e0w](https://github.com/0e0w)
 
 本项目创建于2021年3月7日，最近的一次更新时间为2025年4月5日。本项目会持续更新，直到海枯石烂！
 
@@ -22,7 +25,6 @@
 本部分包括内网及互联网的资产扫描、端口扫描、域名扫描、资产测绘、信息收集等内容。
 
 - [x] [**Ernetspy**](https://github.com/Goqi/Ernetspy)：[netspy](https://github.com/Goqi/ErKai/tree/main/0x03/netspy)@[shmilylty](https://github.com/shmilylty/netspy)#一款快速探测内网可达网段工具
-- [ ] [**Ergospider**](https://github.com/Goqi/Ergospider)：[gospider](https://github.com/Goqi/ErKai/tree/main/0x03/gospider)@[jaeles-project](https://github.com/jaeles-project/gospider)#快速网络爬虫工具
 - [x] [**Erdismap**](https://github.com/Goqi/Erdismap)：[dismap](https://github.com/Goqi/ErKai/tree/main/0x03/dismap)@[zhzyker](https://github.com/zhzyker/dismap)#快速识别指纹和资产信息
 - [ ] [**ErEHole**](https://github.com/Goqi/ErEHole)：[EHole](https://github.com/Goqi/ErKai/tree/main/0x03/EHole)@[shihuang](https://github.com/EdgeSecurityTeam/EHole)#红队重点攻击系统指纹探测工具
 - [ ] [**ErTXPortMap**](https://github.com/Goqi/ErTXPortMap)：[TXPortMap](https://github.com/Goqi/ErKai/tree/main/0x03/TXPortMap)@[4dogs-cn](https://github.com/4dogs-cn/TXPortMap)#端口扫描和Banner识别
@@ -44,6 +46,9 @@
 - [ ] [**Ersx**](https://github.com/Goqi/Ersx)：[v-byte-cpu](https://github.com/Goqi/ErKai/tree/main/0x03/sx)@[v-byte-cpu](https://github.com/v-byte-cpu/sx)#快速、现代、易于使用的网络扫描仪
 - [ ] [**ErURLFinder**](https://github.com/Goqi/ErURLFinder)：[URLFinder](https://github.com/Goqi/ErKai/tree/main/0x03/URLFinder)@[pingc0y](https://github.com/pingc0y/URLFinder)#提取检测页面中JS与URL的工具
 - [ ] [**ErDirscan**](https://github.com/Goqi/ErDirscan)：[Dirscan](https://github.com/Goqi/ErKai/tree/main/0x03/Dirscan)@[corunb](https://github.com/corunb/Dirscan)#Go编写的高并发的目录扫描器
+- [ ] [**Erhttpx**](https://github.com/Goqi/Erhttpx)：[httpx](https://github.com/Goqi/ErKai/tree/main/0x01/httpx)@[projectdiscovery](https://github.com/projectdiscovery/httpx)#快速且多功能的HTTP工具
+- [ ] [**Ernaabu**](https://github.com/Goqi/Ernaabu)：[naabu](https://github.com/Goqi/ErKai/tree/main/0x01/naabu)@[projectdiscovery](https://github.com/projectdiscovery/naabu)#快速进行端口扫描的工具
+- [ ] [**Erfinger**](https://github.com/Goqi/Erfinger)：[fingerprintx](https://github.com/Goqi/ErKai/tree/main/0x01/fingerprintx)@[praetorian-inc](https://github.com/praetorian-inc/fingerprintx)#一个端口指纹识别工具
 - [ ] https://github.com/projectdiscovery/asnmap
 
 ## 0x02-漏洞扫描
@@ -69,9 +74,6 @@
 - [ ] [**Erxcrack**](https://github.com/Goqi/Erxcrack)：[x-crack](https://github.com/Goqi/ErKai/tree/main/0x01/x-crack)@[netxfly](https://github.com/netxfly/x-crack)#年轻人的第一款弱口令扫描器
 - [ ] [**ErTaichi**](https://github.com/Goqi/ErTaichi)：[Taichi](https://github.com/Goqi/ErKai/tree/main/0x01/Taichi)@[sulab999](https://github.com/sulab999/Taichi)#Go语言实现的交互式渗透测试框架
 - [ ] [**Erdalfox**](https://github.com/Goqi/Erdalfox)：[dalfox](https://github.com/Goqi/ErKai/tree/main/0x01/dalfox)@[hahwul](https://github.com/hahwul/dalfox)#强大的XSS扫描工具和参数分析器
-- [ ] [**Erhttpx**](https://github.com/Goqi/Erhttpx)：[httpx](https://github.com/Goqi/ErKai/tree/main/0x01/httpx)@[projectdiscovery](https://github.com/projectdiscovery/httpx)#快速且多功能的HTTP工具
-- [ ] [**Ernaabu**](https://github.com/Goqi/Ernaabu)：[naabu](https://github.com/Goqi/ErKai/tree/main/0x01/naabu)@[projectdiscovery](https://github.com/projectdiscovery/naabu)#快速进行端口扫描的工具
-- [ ] [**Erfinger**](https://github.com/Goqi/Erfinger)：[fingerprintx](https://github.com/Goqi/ErKai/tree/main/0x01/fingerprintx)@[praetorian-inc](https://github.com/praetorian-inc/fingerprintx)#一个端口指纹识别工具
 - [ ] [**Erzgrab2**](https://github.com/Goqi/Erzgrab2)：[zgrab2](https://github.com/Goqi/ErKai/tree/main/0x01/zgrab2)@[zmap](https://github.com/zmap/zgrab2)#快速Go 应用程序扫描仪
 - [ ] [**Erkunpeng**](https://github.com/Goqi/Erkunpeng)：[kunpeng](https://github.com/Goqi/ErKai/tree/main/0x01/kunpeng)@[opensec-cn](https://github.com/opensec-cn/kunpeng)#Golang编写的开源POC框架/库
 - [ ] [**ErCDK**](https://github.com/Goqi/ErCDK)：[CDK](https://github.com/Goqi/ErKai/tree/main/0x01/CDK)@[opensec-cn](https://github.com/cdk-team/CDK)#简化 K8s/Docker和Containerd的安全测试
@@ -95,6 +97,7 @@
 - [ ] [**Ermitmproxy**](https://github.com/Goqi/Ermitmproxy)：[go-mitmproxy](https://github.com/Goqi/ErKai/tree/main/0x07/go-mitmproxy)@[lqqyt2423](https://github.com/lqqyt2423/go-mitmproxy)#Go语言实现的中间人攻击
 - [ ] [**ErModlishka**](https://github.com/Goqi/ErModlishka)：[Modlishka](https://github.com/Goqi/ErKai/tree/main/0x07/Modlishka)@[drk1wi](https://github.com/drk1wi/Modlishka)#强大而灵活的 HTTP 反向代理
 - [ ] [**Erglint**](https://github.com/Goqi/Erglint)：[glint](https://github.com/Goqi/ErKai/tree/main/0x01/glint)@[wrenchonline](https://github.com/wrenchonline/glint)#基于浏览器爬虫的被动扫描器
+- [ ] [**Ergospider**](https://github.com/Goqi/Ergospider)：[gospider](https://github.com/Goqi/ErKai/tree/main/0x03/gospider)@[jaeles-project](https://github.com/jaeles-project/gospider)#快速网络爬虫工具
 - [ ] https://github.com/sairson/crawlergo-plus
 
 ## 0x04-远控隧道
