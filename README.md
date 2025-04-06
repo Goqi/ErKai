@@ -1,6 +1,3 @@
-- [ ] [**Ernaabu**](https://github.com/Goqi/Ernaabu)：[naabu](https://github.com/Goqi/ErKai/tree/main/0x01/naabu)@[projectdiscovery](https://github.com/projectdiscovery/naabu)#快速进行端口扫描的工具
-- [ ] [**Erfinger**](https://github.com/Goqi/Erfinger)：[fingerprintx](https://github.com/Goqi/ErKai/tree/main/0x01/fingerprintx)@[praetorian-inc](https://github.com/praetorian-inc/fingerprintx)#一个端口指纹识别工具
-
 # ErKai-开源安全项目二开计划
 
 ![ErKai](https://socialify.git.ci/Goqi/ErKai/image?description=0&descriptionEditable=%20&font=Bitter&forks=1&issues=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Light)
